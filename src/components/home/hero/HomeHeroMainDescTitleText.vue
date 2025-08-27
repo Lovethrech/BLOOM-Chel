@@ -5,3 +5,9 @@
         </h1>
     </div>
 </template>
+
+<style scoped>
+h1 .home-hero-main-desc-title-text-main-ctn-name{
+    
+}
+</style>

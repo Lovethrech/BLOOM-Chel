@@ -12,8 +12,8 @@ const {navMenuActiveIcon}=defineProps(['navMenuActiveIcon']);
 .nav-menu-img-ctn{
     margin:auto 0;
 }
-.nav-menu-img-ctn i{
+.nav-menu-img-ctn{
     font-size: 26px;
-    color: #A54dea;
+    color: #594edc;
 }
 </style>
