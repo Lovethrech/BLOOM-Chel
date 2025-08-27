@@ -1,11 +1,15 @@
 <script setup>
 import NavHeader from '@/components/nav/NavHeader.vue';
+import NavLink from '@/components/nav/NavLink.vue';
 </script>
 
 <template>
     <section class="home-hero-main-ctn">
         <div class="home-hero-mini-ctn">
             <NavHeader></NavHeader>
+            <div class="home-hero-mini-ctn-nav">
+                <NavLink></NavLink>
+            </div>
         </div>
     </section>
 </template>
