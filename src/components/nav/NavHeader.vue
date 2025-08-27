@@ -47,12 +47,17 @@ const navMenuDisplayMenu=()=>{
                 :tryFreeBtnColor="tryFreeBtnColor"
             >
             </TryFreeBtn>
-            <NavMenu class="mobile-nav-menu"
+            <NavMenu 
+                class="mobile-nav-menu"
                 :navMenuActiveIcon="navMenuActiveIcon"
                 @click="navMenuDisplayMenu"
             >
             </NavMenu>
-            <NavMenuMobileListCtn class="mobile-nav" :style="{display:displayNavMenuMobileListCtn}"></NavMenuMobileListCtn>
+            <NavMenuMobileListCtn 
+                class="mobile-nav" 
+                :style="{display:displayNavMenuMobileListCtn}"
+            >
+            </NavMenuMobileListCtn>
         </div>
     </section>
 </template>
@@ -81,7 +86,7 @@ const navMenuDisplayMenu=()=>{
     .desktop-nav, .nav-header-try-free{
         display:none;
     }
-    .mobile-nav, .mobile-nav-menu{
+    .mobile-nav-menu{
         display:block;
     }
 }
