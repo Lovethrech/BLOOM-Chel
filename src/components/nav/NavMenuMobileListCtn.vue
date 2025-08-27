@@ -37,7 +37,7 @@ const tryFreeBtnColor=ref("#ffffff");
 <style scoped>
 .nav-menu-mobile-list-ctn-main-ctn{
     position:absolute;
-    top:8.2vh;
+    top:8vh;
     right:0;
     padding: 0 6vw;
     background-color: transparent;

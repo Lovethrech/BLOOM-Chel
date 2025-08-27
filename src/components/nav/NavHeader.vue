@@ -11,6 +11,7 @@ const navLinkColor=ref("#ffffff");
 const navLinkFontSize=ref("16px");
 const tryFreeBtnBgColor=ref("#ffffff");
 const tryFreeBtnColor=ref("#A54dea");
+const displayNavMenuMobileListCtn=ref("none");
 const navMenuActiveIcon=ref("<i class='fi fi-tc-menu-burger'></i>");
 
 const navMenuDisplayMenu=()=>{
@@ -49,7 +50,7 @@ const navMenuDisplayMenu=()=>{
                 @click="navMenuDisplayMenu"
             >
             </NavMenu>
-            <NavMenuMobileListCtn class="mobile-nav"></NavMenuMobileListCtn>
+            <NavMenuMobileListCtn class="mobile-nav" :style="{display:displayNavMenuMobileListCtn}"></NavMenuMobileListCtn>
         </div>
     </section>
 </template>
@@ -66,7 +67,7 @@ const navMenuDisplayMenu=()=>{
 .nav-header-main-ctn-nav{
     gap:20px;
 }
-.mobile-nav, .mobile-nav-menu{
+.mobile-nav-menu{
     display:none;
 }
 

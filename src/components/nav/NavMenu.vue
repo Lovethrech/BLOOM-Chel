@@ -12,6 +12,9 @@ const {navMenuActiveIcon}=defineProps(['navMenuActiveIcon']);
 </template>
 
 <style scoped>
+.nav-menu-img-ctn{
+    margin:auto 0;
+}
 .nav-menu-img-ctn i{
     font-size: 26px;
 }
