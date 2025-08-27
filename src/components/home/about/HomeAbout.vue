@@ -16,6 +16,6 @@ import HomeAboutTitle from './HomeAboutTitle.vue';
     padding:0 80px;
     background-color: aquamarine;
     width:100%;
-    height:80vh;
+    height:100vh;
 }
 </style>
