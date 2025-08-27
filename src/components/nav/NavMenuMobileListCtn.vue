@@ -2,9 +2,12 @@
 import {ref} from "vue";
 import NavHeaderDetails from "@/data/nav-header-details.json";
 import NavLink from "./NavLink.vue";
+import TryFreeBtn from "../TryFreeBtn.vue";
 
 const navLinkColor=ref("#000000");
 const navLinkFontSize=ref("41px");
+const tryFreeBtnBgColor=ref("#ffffff");
+const tryFreeBtnColor=ref("#A54dea");
 </script>
 
 <template>

@@ -9,7 +9,7 @@ import TryFreeBtn from "../TryFreeBtn.vue";
 
 const navLinkColor=ref("#ffffff");
 const navLinkFontSize=ref("16px");
-const tryFreeBtnBgColor=ref(#ffffff);
+const tryFreeBtnBgColor=ref("#ffffff");
 const tryFreeBtnColor=ref("#A54dea");
 </script>
 
