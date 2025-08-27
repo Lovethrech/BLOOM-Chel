@@ -16,7 +16,9 @@ import NavLink from '@/components/nav/NavLink.vue';
                 :link="NavHeaderDetail.link"
             >
             </NavLink>
-            <div class="mobile-nav"></div>
+            <div class="mobile-nav">
+                
+            </div>
         </div>
     </section>
 </template>
