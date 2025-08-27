@@ -1,4 +1,5 @@
 <script setup>
+import NavHeaderDetails from "@/data/nav-header-details.json";
 import NavHeader from '@/components/nav/NavHeader.vue';
 import NavLink from '@/components/nav/NavLink.vue';
 </script>

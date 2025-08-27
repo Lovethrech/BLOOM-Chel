@@ -7,3 +7,9 @@
         </RouterLink>
     </div>
 </template>
+
+<style scoped>
+.nav-link-main-ctn-desc{
+    color: #ffffff;
+}
+</style>
