@@ -1,13 +1,17 @@
+<!-- <script setup>
+import 
+</script> -->
+
 <template>
-    <div class="home-hero-main-desc-paragraph-arrow-main-ctn" @click="toggleContent">
-        <a href="">
+    <div class="home-hero-main-desc-paragraph-arrow-main-ctn">
+        <a href="#about" class="link">
             <i class="fi fi-tr-arrow-down"></i> 
         </a>        
     </div>
 </template>
 
 <style scoped>
-.home-hero-main-desc-paragraph-arrow-main-ctn{
+.home-hero-main-desc-paragraph-arrow-main-ctn i{
     font-size: 70px;
     color:#fff;
 }

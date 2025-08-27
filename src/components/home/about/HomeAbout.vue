@@ -3,7 +3,7 @@ import HomeAboutTitle from './HomeAboutTitle.vue';
 </script>
 
 <template>
-    <section class="home-about-main-ctn">
+    <section id="about" class="home-about-main-ctn">
         <div class="home-about-mini-ctn">
             <HomeAboutTitle></HomeAboutTitle>
         </div>
