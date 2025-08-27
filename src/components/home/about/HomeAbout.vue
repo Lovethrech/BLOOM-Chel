@@ -1,6 +1,7 @@
 <script setup>
 import HomeAboutTitle from './HomeAboutTitle.vue';
 import HomeAboutDesc from './HomeAboutDesc.vue';
+import TryFreeBtn from '@/components/TryFreeBtn.vue';
 import HomeAboutImg from './HomeAboutImg.vue';
 </script>
 
@@ -9,6 +10,7 @@ import HomeAboutImg from './HomeAboutImg.vue';
         <div class="home-about-mini-ctn">
             <HomeAboutTitle></HomeAboutTitle>
             <HomeAboutDesc></HomeAboutDesc>
+            <TryFreeBtn></TryFreeBtn>
             <HomeAboutImg></HomeAboutImg>
         </div>
     </section>
