@@ -11,6 +11,7 @@ const navLinkColor=ref("#ffffff");
 const navLinkFontSize=ref("16px");
 const tryFreeBtnBgColor=ref("#ffffff");
 const tryFreeBtnColor=ref("#A54dea");
+const navMenuActiveIcon=ref("<i class='fi fi-tc-menu-burger'></i>");
 </script>
 
 <template>
