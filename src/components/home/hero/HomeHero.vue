@@ -1,12 +1,13 @@
 <script setup>
 import NavHeader from '@/components/nav/NavHeader.vue';
-import NavLink from '@/components/nav/NavLink.vue';
+import HomeHeroMainDesc from './HomeHeroMainDesc.vue';
 </script>
 
 <template>
     <section class="home-hero-main-ctn">
         <div class="home-hero-mini-ctn">
             <NavHeader></NavHeader>
+            <HomeHeroMainDesc></HomeHeroMainDesc>
         </div>
     </section>
 </template>
@@ -20,5 +21,7 @@ import NavLink from '@/components/nav/NavLink.vue';
 }  
 .home-hero-mini-ctn{
     width:inherit;
+    display:flex;
+    flex-direction: column;
 }
 </style>
