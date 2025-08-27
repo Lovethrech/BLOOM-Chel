@@ -6,9 +6,9 @@ const {name, link}=defineProps(['name', 'link']);
 
 <template>
     <div class="nav-link-main-ctn">
-        <RouterLink to="" class="link">
+        <RouterLink :to="link" class="link">
             <p class="nav-link-main-ctn-desc">
-                About
+                {{name}}
             </p>
         </RouterLink>
     </div>
