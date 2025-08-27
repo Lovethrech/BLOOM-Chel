@@ -1,7 +1,6 @@
 <script setup>
 const navToAboutComponent=()=>{
     const target=document.getElementById('about');
-    console.log(target);
     if (!target) return;
     target.scrollIntoView({ behavior: 'smooth' });
 }
