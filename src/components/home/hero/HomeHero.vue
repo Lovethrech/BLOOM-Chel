@@ -9,7 +9,11 @@ import NavLink from '@/components/nav/NavLink.vue';
         <div class="home-hero-mini-ctn">
             <NavHeader></NavHeader>
             <div class="home-hero-mini-ctn-nav">
-                <NavLink></NavLink>
+                <NavLink
+                    v-for="NavHeaderDetail in NavHeaderDetails"
+                    :key="NavHeaderDetail.id"
+                >
+                </NavLink>
             </div>
         </div>
     </section>
