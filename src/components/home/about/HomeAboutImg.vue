@@ -6,6 +6,11 @@
 
 <style scoped>
 .home-about-img-main-ctn{
-    width:340px;
+    background-color:blue;
+    width:100%;
+    height: 100%;
+}
+.home-about-img-main-ctn img{
+    width:fit-content;
 }
 </style>
