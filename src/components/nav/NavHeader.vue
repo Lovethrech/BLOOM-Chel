@@ -12,6 +12,15 @@ const navLinkFontSize=ref("16px");
 const tryFreeBtnBgColor=ref("#ffffff");
 const tryFreeBtnColor=ref("#A54dea");
 const navMenuActiveIcon=ref("<i class='fi fi-tc-menu-burger'></i>");
+
+const navMenuDisplayMenu=()=>{
+    if (navMenuActiveIcon.value==="<i class='fi fi-tc-menu-burger'></i>"){
+        navMenuActiveIcon.value="<i class='fi fi-br-cross-small'></i>"
+    }
+    else{
+        navMenuActiveIcon.value="<i class='fi fi-tc-menu-burger'></i>";
+    }
+}
 </script>
 
 <template>
@@ -37,6 +46,7 @@ const navMenuActiveIcon=ref("<i class='fi fi-tc-menu-burger'></i>");
             </TryFreeBtn>
             <NavMenu class="mobile-nav-menu"
                 :navMenuActiveIcon="navMenuActiveIcon"
+                @click="navMenuDisplayMenu"
             >
             </NavMenu>
             <NavMenuMobileListCtn class="mobile-nav"></NavMenuMobileListCtn>
