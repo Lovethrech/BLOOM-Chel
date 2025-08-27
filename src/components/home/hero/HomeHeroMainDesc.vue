@@ -5,8 +5,10 @@ import HomeHeroMainDescParagraphMainCtn from './HomeHeroMainDescParagraphMainCtn
 
 <template>
     <section class="home-hero-main-desc-main-ctn">
-        <HomeHeroMainDescTitleText></HomeHeroMainDescTitleText>
-        <HomeHeroMainDescParagraphMainCtn></HomeHeroMainDescParagraphMainCtn>
+        <div class="home-hero-main-desc-mini-ctn">
+            <HomeHeroMainDescTitleText></HomeHeroMainDescTitleText>
+            <HomeHeroMainDescParagraphMainCtn></HomeHeroMainDescParagraphMainCtn>
+        </div>
         <!-- <i class="fi fi-tr-arrow-down"></i> -->
     </section>
 </template>
