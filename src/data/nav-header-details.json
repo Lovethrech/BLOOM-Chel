@@ -1,22 +1,22 @@
 [
     {
         "id":"1",
-        "name":""
+        "name":"about"
     },
     {
         "id":"2",
-        "name":""
+        "name":"blog"
     },
     {
         "id":"3",
-        "name":""
+        "name":"contact"
     },
     {
         "id":"4",
-        "name":""
+        "name":"pricing"
     },
     {
         "id":"5",
-        "name":""
+        "name":"Try for free"
     }
 ]
