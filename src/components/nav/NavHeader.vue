@@ -1,9 +1,12 @@
 <script setup>
+import {ref} from "vue";
 import NavHeaderDetails from "@/data/nav-header-details.json";
 import NavLogo from './NavLogo.vue';
 import NavLink from '@/components/nav/NavLink.vue';
 import NavMenu from "./NavMenu.vue";
 import NavMenuMobileListCtn from "./NavMenuMobileListCtn.vue";
+
+const navLinkColor=ref("#ffffff");
 </script>
 
 <template>
@@ -16,6 +19,7 @@ import NavMenuMobileListCtn from "./NavMenuMobileListCtn.vue";
                 :key="NavHeaderDetail.id"
                 :name="NavHeaderDetail.name"
                 :link="NavHeaderDetail.link"
+                :color="navLinkColor"
             >
             </NavLink>
             <NavMenu class="mobile-nav-menu"></NavMenu>
