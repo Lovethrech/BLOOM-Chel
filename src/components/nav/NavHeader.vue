@@ -7,7 +7,7 @@ import NavLink from '@/components/nav/NavLink.vue';
 <template>
     <section class="nav-header-main-ctn">
         <NavLogo></NavLogo>
-        <div class="home-hero-mini-ctn-nav-desktop">
+        <div class="nav-header-main-ctn-nav-desktop">
             <NavLink
                 v-for="NavHeaderDetail in NavHeaderDetails"
                 :key="NavHeaderDetail.id"
@@ -16,8 +16,22 @@ import NavLink from '@/components/nav/NavLink.vue';
             >
             </NavLink>
         </div>
-        <div class="home-hero-mini-ctn-nav-mobile">
+        <!-- <div class="home-hero-mini-ctn-nav-mobile">
             
-        </div>
+        </div> -->
     </section>
 </template>
+
+<style scoped>
+.nav-header-main-ctn, .nav-header-main-ctn-nav-desktop{
+    display:flex;
+    flex-direction: row;
+}
+.nav-header-main-ctn{
+    width:100%;
+    justify-content: space-between;
+}
+.nav-header-main-ctn-nav-desktop{
+    gap:20px;
+}
+</style>
