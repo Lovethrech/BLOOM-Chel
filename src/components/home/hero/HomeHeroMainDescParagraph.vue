@@ -12,6 +12,9 @@
 </template>
 
 <style scoped>
+.home-hero-main-desc-paragraph-main-ctn{
+    margin:auto 0;
+}
 .home-hero-main-desc-paragraph-main-ctn p{
     font-size:16px;
     color: #fff;
