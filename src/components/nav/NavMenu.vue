@@ -5,10 +5,7 @@ const {navMenuActiveIcon}=defineProps(['navMenuActiveIcon']);
 </script>
 
 <template>
-    <div class="nav-menu-img-ctn" v-html="navMenuActiveIcon">
-    </div>
-    <!-- <i class="fi fi-tc-menu-burger"></i> -->
-        <!-- <i class="fi fi-br-cross-small"></i> -->
+    <div class="nav-menu-img-ctn" v-html="navMenuActiveIcon"></div>
 </template>
 
 <style scoped>
@@ -17,5 +14,6 @@ const {navMenuActiveIcon}=defineProps(['navMenuActiveIcon']);
 }
 .nav-menu-img-ctn i{
     font-size: 26px;
+    color: #A54dea;
 }
 </style>

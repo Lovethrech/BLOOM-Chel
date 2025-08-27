@@ -16,10 +16,12 @@ const navMenuActiveIcon=ref("<i class='fi fi-tc-menu-burger'></i>");
 
 const navMenuDisplayMenu=()=>{
     if (navMenuActiveIcon.value==="<i class='fi fi-tc-menu-burger'></i>"){
-        navMenuActiveIcon.value="<i class='fi fi-br-cross-small'></i>"
+        navMenuActiveIcon.value="<i class='fi fi-br-cross-small'></i>";
+        displayNavMenuMobileListCtn.value="block";
     }
     else{
         navMenuActiveIcon.value="<i class='fi fi-tc-menu-burger'></i>";
+        displayNavMenuMobileListCtn.value="none";
     }
 }
 </script>
