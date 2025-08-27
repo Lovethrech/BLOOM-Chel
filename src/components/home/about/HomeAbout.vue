@@ -1,8 +1,5 @@
 <script setup>
-// import { useHomeHeroArrowSlideStore } from '@/stores/homeHeroArrowSlide';
 import HomeAboutTitle from './HomeAboutTitle.vue';
-
-// const {isOpen}=useHomeHeroArrowSlideStore();
 </script>
 
 <template>
@@ -27,6 +24,6 @@ import HomeAboutTitle from './HomeAboutTitle.vue';
     transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .home-about-main-ctn.open .home-about-mini-ctn{
-    max-height: 500px;
+    max-height: 50000px;
 }
 </style>
