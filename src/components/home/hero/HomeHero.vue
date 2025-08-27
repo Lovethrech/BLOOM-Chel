@@ -8,7 +8,6 @@ import HomeHeroMainDesc from './HomeHeroMainDesc.vue';
         <div class="home-hero-mini-ctn">
             <NavHeader></NavHeader>
             <HomeHeroMainDesc></HomeHeroMainDesc>
-            <!-- is 20MHz enough as my mifi bandwidth?... is it advisable to activate the dhcp server of my wifi?. if yes, what should the dhcp ip range from, e.g, 100 to 200, and what should my dhcp lease time be? -->
         </div>
     </section>
 </template>
