@@ -1,6 +1,7 @@
 <template>
     <div class="nav-menu-img-ctn">
-        <img src="@/components/icons/IconMobileNavHeader.svg" alt="Navigation Mobile Icon">
+        <i class="fi fi-tc-menu-burger"></i>
+        <i class="fi fi-tr-cross-small"></i>
     </div>
 </template>
 
