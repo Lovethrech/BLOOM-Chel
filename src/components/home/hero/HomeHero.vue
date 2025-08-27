@@ -4,7 +4,9 @@ import NavHeader from '@/components/nav/NavHeader.vue';
 
 <template>
     <section class="home-hero-main-ctn">
-        <NavHeader></NavHeader>
+        <div class="home-hero-mini-ctn">
+            <NavHeader></NavHeader>
+        </div>
     </section>
 </template>
 
