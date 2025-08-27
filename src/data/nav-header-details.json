@@ -2,26 +2,26 @@
     {
         "id":"1",
         "name":"about",
-        "link":""
+        "link":"/"
     },
     {
         "id":"2",
         "name":"blog",
-        "link":""
+        "link":"/"
     },
     {
         "id":"3",
         "name":"contact",
-        "link":""
+        "link":"/"
     },
     {
         "id":"4",
         "name":"pricing",
-        "link":""
+        "link":"/"
     },
     {
         "id":"5",
         "name":"Try for free",
-        "link":""
+        "link":"/"
     }
 ]
