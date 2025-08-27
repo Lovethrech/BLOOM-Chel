@@ -35,15 +35,20 @@ const navLinkFontSize=ref("41px");
     background-color: transparent;
     height:80vh;
 }
-.nav-menu-mobile-list-ctn-main-ctn, .nav-menu-mobile-list-ctn-mini-ctn{
+.nav-menu-mobile-list-ctn-main-ctn, .nav-menu-mobile-list-ctn-mini-ctn, .nav-menu-mobile-list-ctn-mini-ctn-nav-link{
     width:100%;
 }
 .nav-menu-mobile-list-ctn-mini-ctn{
     background-color: rgb(212, 210, 214);
     height: 100%;
     display:flex;
+    place-items: end;
+}
+.nav-menu-mobile-list-ctn-mini-ctn-nav-link{
+    background-color: red;
+    display:flex;
     flex-direction: column;
     gap:20px;
-    text-align: center;
+    text-align: left;
 }
 </style>
