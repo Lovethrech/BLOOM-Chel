@@ -5,9 +5,12 @@ import NavLogo from './NavLogo.vue';
 import NavLink from '@/components/nav/NavLink.vue';
 import NavMenu from "./NavMenu.vue";
 import NavMenuMobileListCtn from "./NavMenuMobileListCtn.vue";
+import TryFreeBtn from "../TryFreeBtn.vue";
 
 const navLinkColor=ref("#ffffff");
 const navLinkFontSize=ref("16px");
+const tryFreeBtnBgColor=ref(#ffffff);
+const tryFreeBtnColor=ref("#A54dea");
 </script>
 
 <template>
@@ -22,8 +25,11 @@ const navLinkFontSize=ref("16px");
                 :link="NavHeaderDetail.link"
                 :color="navLinkColor"
                 :fontSize="navLinkFontSize"
+                :tryFreeBtnBgColor="tryFreeBtnBgColor"
+                :tryFreeBtnColor="tryFreeBtnColor"
             >
             </NavLink>
+            <TryFreeBtn></TryFreeBtn>
             <NavMenu class="mobile-nav-menu"></NavMenu>
             <NavMenuMobileListCtn class="mobile-nav"></NavMenuMobileListCtn>
         </div>
