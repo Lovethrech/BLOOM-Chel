@@ -3,7 +3,7 @@ import HomeAboutTitle from './HomeAboutTitle.vue';
 </script>
 
 <template>
-    <section class="home-about-main-ctn">
+    <section class="home-about-main-ctn" :class="{open:isOpen}">
         <div class="home-about-mini-ctn">
             <HomeAboutTitle></HomeAboutTitle>
         </div>
@@ -17,5 +17,13 @@ import HomeAboutTitle from './HomeAboutTitle.vue';
     background-color: aquamarine;
     width:100%;
     height:100vh;
+}
+.home-about-main-ctn .home-about-mini-ctn{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.home-about-main-ctn.open .home-about-mini-ctn{
+    max-height: 500px;
 }
 </style>
