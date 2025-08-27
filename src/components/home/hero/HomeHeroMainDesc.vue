@@ -1,9 +1,11 @@
 <script setup>
 import HomeHeroMainDescTitleText from './HomeHeroMainDescTitleText.vue';
+import HomeHeroMainDescTitleText from './HomeHeroMainDescTitleText.vue';
 </script>
 
 <template>
     <section class="home-hero-main-desc-main-ctn">
+        <HomeHeroMainDescTitleText></HomeHeroMainDescTitleText>
         <!-- <i class="fi fi-tr-arrow-down"></i> -->
     </section>
 </template>
