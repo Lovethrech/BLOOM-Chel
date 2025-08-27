@@ -1,5 +1,4 @@
 <script setup>
-import NavHeaderDetails from "@/data/nav-header-details.json";
 import NavHeader from '@/components/nav/NavHeader.vue';
 import NavLink from '@/components/nav/NavLink.vue';
 </script>
@@ -8,18 +7,6 @@ import NavLink from '@/components/nav/NavLink.vue';
     <section class="home-hero-main-ctn">
         <div class="home-hero-mini-ctn">
             <NavHeader></NavHeader>
-            <div class="home-hero-mini-ctn-nav-desktop">
-                <NavLink
-                    v-for="NavHeaderDetail in NavHeaderDetails"
-                    :key="NavHeaderDetail.id"
-                    :name="NavHeaderDetail.name"
-                    :link="NavHeaderDetail.link"
-                >
-                </NavLink>
-            </div>
-            <div class="home-hero-mini-ctn-nav-mobile">
-                
-            </div>
         </div>
     </section>
 </template>
