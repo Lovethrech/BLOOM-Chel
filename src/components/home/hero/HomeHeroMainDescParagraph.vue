@@ -10,3 +10,16 @@
         </p>
     </div>
 </template>
+
+<style scoped>
+.home-hero-main-desc-paragraph-main-ctn p{
+    font-size:16px;
+    color: #fff;
+}
+.home-hero-main-desc-paragraph-main-ctn-name-desktop{
+    
+}
+.home-hero-main-desc-paragraph-main-ctn-name-mobile{
+    text-transform: uppercase;
+}
+</style>
