@@ -9,12 +9,14 @@ import NavLink from '@/components/nav/NavLink.vue';
         <NavLogo></NavLogo>
         <div class="nav-header-main-ctn-nav">
             <NavLink
+                class="desktop-nav"
                 v-for="NavHeaderDetail in NavHeaderDetails"
                 :key="NavHeaderDetail.id"
                 :name="NavHeaderDetail.name"
                 :link="NavHeaderDetail.link"
             >
             </NavLink>
+            <div class="mobile-nav"></div>
         </div>
     </section>
 </template>
@@ -31,15 +33,15 @@ import NavLink from '@/components/nav/NavLink.vue';
 .nav-header-main-ctn-nav{
     gap:20px;
 }
-.nav-header-main-ctn-nav-mobile{
+.mobile-nav{
     display:none;
 }
 
 @media screen and (max-width:850px) {
-    .nav-header-main-ctn-nav{
+    .desktop-nav{
         display:none;
     }
-    .nav-header-main-ctn-nav-mobile{
+    .mobile-nav{
         display:block;
     }
 }
