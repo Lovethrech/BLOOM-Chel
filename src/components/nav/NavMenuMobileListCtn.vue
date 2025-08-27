@@ -11,7 +11,7 @@
     position:absolute;
     top:9vh;
     right:0;
-    padding: 0 4vh;
+    padding: 0 6vw;
     background-color: orange;
     width:100%;
     height:200px;

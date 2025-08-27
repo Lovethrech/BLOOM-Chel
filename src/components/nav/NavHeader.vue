@@ -18,8 +18,8 @@ import NavMenuMobileListCtn from "./NavMenuMobileListCtn.vue";
                 :link="NavHeaderDetail.link"
             >
             </NavLink>
-            <NavMenu></NavMenu>
-            <NavMenuMobileListCtn></NavMenuMobileListCtn>
+            <NavMenu class="mobile-nav-menu"></NavMenu>
+            <NavMenuMobileListCtn class="mobile-nav"></NavMenuMobileListCtn>
         </div>
     </section>
 </template>
@@ -36,7 +36,7 @@ import NavMenuMobileListCtn from "./NavMenuMobileListCtn.vue";
 .nav-header-main-ctn-nav{
     gap:20px;
 }
-.mobile-nav{
+.mobile-nav, .mobile-nav-menu{
     display:none;
 }
 
@@ -48,7 +48,7 @@ import NavMenuMobileListCtn from "./NavMenuMobileListCtn.vue";
     .desktop-nav{
         display:none;
     }
-    .mobile-nav{
+    .mobile-nav, .mobile-nav-menu{
         display:block;
     }
 }
