@@ -28,4 +28,9 @@ import NavLink from '@/components/nav/NavLink.vue';
     background: linear-gradient(to bottom, #A54dea, #594edc);
     padding:24px;
 }
+.home-hero-mini-ctn{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 </style>
