@@ -39,13 +39,14 @@ const navLinkFontSize=ref("41px");
     width:100%;
 }
 .nav-menu-mobile-list-ctn-mini-ctn{
-    background-color: rgb(212, 210, 214);
+    background-color: rgb(255, 255, 255);
     height: 100%;
+    padding:0 24px;
     display:flex;
     place-items: end;
 }
 .nav-menu-mobile-list-ctn-mini-ctn-nav-link{
-    background-color: red;
+    margin-bottom:10vh;
     display:flex;
     flex-direction: column;
     gap:20px;
