@@ -1,12 +1,12 @@
 <script setup>
-import { useHomeHeroArrowSlideStore } from '@/stores/homeHeroArrowSlide';
+// import { useHomeHeroArrowSlideStore } from '@/stores/homeHeroArrowSlide';
 import HomeAboutTitle from './HomeAboutTitle.vue';
 
-const {isOpen}=useHomeHeroArrowSlideStore();
+// const {isOpen}=useHomeHeroArrowSlideStore();
 </script>
 
 <template>
-    <section class="home-about-main-ctn" :class="{open:isOpen}">
+    <section class="home-about-main-ctn">
         <div class="home-about-mini-ctn">
             <HomeAboutTitle></HomeAboutTitle>
         </div>

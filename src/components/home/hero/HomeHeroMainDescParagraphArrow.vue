@@ -1,8 +1,12 @@
 <script setup>
-import { useHomeHeroArrowSlideStore } from '@/stores/homeHeroArrowSlide';
+// import {ref} from "vue";
+// import { useHomeHeroArrowSlideStore } from '@/stores/homeHeroArrowSlide';
 
-const {toggleContent}=useHomeHeroArrowSlideStore();
-console.log(toggleContent);
+// const marginLift=ref({
+//     position: absolute
+// })
+// const {toggleContent}=useHomeHeroArrowSlideStore();
+// console.log(toggleContent);
 </script>
 
 <template>
@@ -13,6 +17,9 @@ console.log(toggleContent);
 
 <style scoped>
 .home-hero-main-desc-paragraph-arrow-main-ctn{
+    position:absolute;
+    right:80px;
+    margin-top:120vh;
     font-size: 70px;
     color:#fff;
 }
