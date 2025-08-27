@@ -6,3 +6,9 @@
         </h2>
     </div>
 </template>
+
+<style scoped>
+.home-about-title-main-ctn-name-colored{
+    
+}
+</style>
