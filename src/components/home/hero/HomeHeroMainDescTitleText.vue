@@ -7,7 +7,8 @@
 </template>
 
 <style scoped>
-h1 .home-hero-main-desc-title-text-main-ctn-name{
-    
+.home-hero-main-desc-title-text-main-ctn-name{
+    font-size: 41px;
+    text-transform: uppercase;
 }
 </style>
