@@ -1,5 +1,8 @@
 <script setup>
+import { useHomeHeroArrowSlideStore } from '@/stores/homeHeroArrowSlide';
 import HomeAboutTitle from './HomeAboutTitle.vue';
+
+const {isOpen}=useHomeHeroArrowSlideStore();
 </script>
 
 <template>
