@@ -7,13 +7,12 @@ img{
   outline: none;
   font-family: "Poppins", sans-serif;
 }
-
 .link{
   text-decoration: none;
 }
+
 /* TRY-FOR-FREE BUTTON  */
 .try-for-free-btn{  
-  /* background: linear-gradient(to bottom, #A54dea, #594edc); */
   font-size: 16px;
   padding:10px 20px;
   border-radius: 20px;
