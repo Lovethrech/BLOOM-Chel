@@ -8,7 +8,13 @@
 </template>
 
 <style scoped>
+.home-about-title-main-ctn-name{
+    font-size:56px;
+    text-transform: uppercase;
+}
 .home-about-title-main-ctn-name-colored{
-    
+    background: linear-gradient(to bottom, #A54dea, #594edc);
+    background-clip:text;
+    color:transparent;
 }
 </style>
