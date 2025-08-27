@@ -1,3 +1,7 @@
+<script setup>
+
+</script>
+
 <template>
     <section class="home-hero-main-desc-main-ctn">
         <!-- <i class="fi fi-tr-arrow-down"></i> -->
