@@ -17,6 +17,11 @@ import HomeHeroMainDescParagraphMainCtn from './HomeHeroMainDescParagraphMainCtn
 .home-hero-main-desc-main-ctn{
     background-color: aquamarine;
     width:100%;
-    height:60vh;
+    height:70vh;
+    display:flex;
+    place-items: end;
+}
+.home-hero-main-desc-mini-ctn{
+    margin-bottom: 40px;
 }
 </style>
