@@ -1,14 +1,23 @@
 <script setup>
+import {ref} from "vue";
 import HomeHeroMainDescParagraph from './HomeHeroMainDescParagraph.vue';
 import HomeHeroMainDescParagraphArrow from './HomeHeroMainDescParagraphArrow.vue';
 import TryFreeBtn from "@/components/TryFreeBtn.vue";
+
+
 </script>
 
 <template>
     <div class="home-hero-main-desc-paragraph-main-ctn-main-ctn">
         <HomeHeroMainDescParagraph></HomeHeroMainDescParagraph>
-        <HomeHeroMainDescParagraphArrow class="home-hero-main-desc-paragraph-main-ctn-main-ctn-paragraph-arrow"></HomeHeroMainDescParagraphArrow>
-        <TryFreeBtn class="home-hero-main-desc-paragraph-main-ctn-main-ctn-try-free"></TryFreeBtn>
+        <HomeHeroMainDescParagraphArrow 
+            class="home-hero-main-desc-paragraph-main-ctn-main-ctn-paragraph-arrow"
+        >
+        </HomeHeroMainDescParagraphArrow>
+        <TryFreeBtn 
+            class="home-hero-main-desc-paragraph-main-ctn-main-ctn-try-free"
+        >
+        </TryFreeBtn>
     </div>
 </template>
 
