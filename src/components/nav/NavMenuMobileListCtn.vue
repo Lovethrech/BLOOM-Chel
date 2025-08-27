@@ -10,16 +10,18 @@ const navLinkFontSize=ref("41px");
 <template>
     <div class="nav-menu-mobile-list-ctn-main-ctn">
         <div class="nav-menu-mobile-list-ctn-mini-ctn">
-            <NavLink
-                class="desktop-nav"
-                v-for="NavHeaderDetail in NavHeaderDetails"
-                :key="NavHeaderDetail.id"
-                :name="NavHeaderDetail.name"
-                :link="NavHeaderDetail.link"
-                :color="navLinkColor"
-                :fontSize="navLinkFontSize"
-            >
-            </NavLink>
+            <div class="nav-menu-mobile-list-ctn-mini-ctn-nav-link">
+                <NavLink
+                    class="desktop-nav"
+                    v-for="NavHeaderDetail in NavHeaderDetails"
+                    :key="NavHeaderDetail.id"
+                    :name="NavHeaderDetail.name"
+                    :link="NavHeaderDetail.link"
+                    :color="navLinkColor"
+                    :fontSize="navLinkFontSize"
+                >
+                </NavLink>
+            </div>
         </div>
     </div>
 </template>
@@ -31,7 +33,7 @@ const navLinkFontSize=ref("41px");
     right:0;
     padding: 0 6vw;
     background-color: transparent;
-    height:200px;
+    height:80vh;
 }
 .nav-menu-mobile-list-ctn-main-ctn, .nav-menu-mobile-list-ctn-mini-ctn{
     width:100%;
