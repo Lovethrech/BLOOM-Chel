@@ -1,11 +1,25 @@
 <script setup>
+import {ref} from "vue";
+import NavHeaderDetails from "@/data/nav-header-details.json";
+import NavLink from "./NavLink.vue";
 
+const navLinkColor=ref("#000000");
+const navLinkFontSize=ref("24px");
 </script>
 
 <template>
     <div class="nav-menu-mobile-list-ctn-main-ctn">
         <div class="nav-menu-mobile-list-ctn-mini-ctn">
-
+            <NavLink
+                class="desktop-nav"
+                v-for="NavHeaderDetail in NavHeaderDetails"
+                :key="NavHeaderDetail.id"
+                :name="NavHeaderDetail.name"
+                :link="NavHeaderDetail.link"
+                :color="navLinkColor"
+                :fontSize="navLinkFontSize"
+            >
+            </NavLink>
         </div>
     </div>
 </template>

@@ -1,13 +1,13 @@
 <script setup>
 import { defineProps } from 'vue';
 
-const {name, link, color}=defineProps(['name', 'link', 'color']);
+const {name, link, color, fontSize}=defineProps(['name', 'link', 'color', 'fontSize']);
 </script>
 
 <template>
     <div class="nav-link-main-ctn">
         <RouterLink :to="link" class="link">
-            <p class="nav-link-main-ctn-desc" :style="{color:color}">
+            <p class="nav-link-main-ctn-desc" :style="{color:color, fontSize:fontSize}">
                 {{name}}
             </p>
         </RouterLink>
@@ -16,7 +16,6 @@ const {name, link, color}=defineProps(['name', 'link', 'color']);
 
 <style scoped>
 .nav-link-main-ctn-desc{
-    font-size: 16px;;
     text-transform: capitalize;
 }
 </style>

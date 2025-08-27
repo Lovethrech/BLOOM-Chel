@@ -7,6 +7,7 @@ import NavMenu from "./NavMenu.vue";
 import NavMenuMobileListCtn from "./NavMenuMobileListCtn.vue";
 
 const navLinkColor=ref("#ffffff");
+const navLinkFontSize=ref("16px");
 </script>
 
 <template>
@@ -20,6 +21,7 @@ const navLinkColor=ref("#ffffff");
                 :name="NavHeaderDetail.name"
                 :link="NavHeaderDetail.link"
                 :color="navLinkColor"
+                :fontSize="navLinkFontSize"
             >
             </NavLink>
             <NavMenu class="mobile-nav-menu"></NavMenu>
