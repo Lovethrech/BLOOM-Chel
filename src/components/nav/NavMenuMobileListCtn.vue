@@ -17,7 +17,7 @@
     height:200px;
 }
 .nav-menu-mobile-list-ctn-mini-ctn{
-    background-color: blueviolet;
+    background-color: rgb(212, 210, 214);
     width:100%;
     height: 100%;
 }
