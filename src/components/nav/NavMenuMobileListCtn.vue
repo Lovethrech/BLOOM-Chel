@@ -6,8 +6,8 @@ import TryFreeBtn from "../TryFreeBtn.vue";
 
 const navLinkColor=ref("#000000");
 const navLinkFontSize=ref("41px");
-const tryFreeBtnBgColor=ref("#ffffff");
-const tryFreeBtnColor=ref("#A54dea");
+const tryFreeBtnBgColor=ref("linear-gradient(to bottom, #A54dea, #594edc)");
+const tryFreeBtnColor=ref("#ffffff");
 </script>
 
 <template>
@@ -24,6 +24,11 @@ const tryFreeBtnColor=ref("#A54dea");
                     :fontSize="navLinkFontSize"
                 >
                 </NavLink>
+                <TryFreeBtn
+                    :tryFreeBtnBgColor="tryFreeBtnBgColor"
+                    :tryFreeBtnColor="tryFreeBtnColor"
+                >
+                </TryFreeBtn>
             </div>
         </div>
     </div>
