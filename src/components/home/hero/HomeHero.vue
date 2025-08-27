@@ -17,7 +17,7 @@ import HomeHeroMainDesc from './HomeHeroMainDesc.vue';
     width:100%;
     height:90vh;
     background: linear-gradient(to bottom, #A54dea, #594edc);
-    padding:24px 80px;
+    padding: 2vh 4vw;
 }  
 .home-hero-mini-ctn{
     width:inherit;
