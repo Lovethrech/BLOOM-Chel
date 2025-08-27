@@ -1,11 +1,15 @@
 <script setup>
 import HomeAboutTitle from './HomeAboutTitle.vue';
+import HomeAboutDesc from './HomeAboutDesc.vue';
+import HomeAboutImg from './HomeAboutImg.vue';
 </script>
 
 <template>
     <section id="about" class="home-about-main-ctn">
         <div class="home-about-mini-ctn">
             <HomeAboutTitle></HomeAboutTitle>
+            <HomeAboutDesc></HomeAboutDesc>
+            <HomeAboutImg></HomeAboutImg>
         </div>
     </section>
 </template>
