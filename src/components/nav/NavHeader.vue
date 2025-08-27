@@ -25,11 +25,14 @@ const tryFreeBtnColor=ref("#A54dea");
                 :link="NavHeaderDetail.link"
                 :color="navLinkColor"
                 :fontSize="navLinkFontSize"
+                
+            >
+            </NavLink>
+            <TryFreeBtn
                 :tryFreeBtnBgColor="tryFreeBtnBgColor"
                 :tryFreeBtnColor="tryFreeBtnColor"
             >
-            </NavLink>
-            <TryFreeBtn></TryFreeBtn>
+            </TryFreeBtn>
             <NavMenu class="mobile-nav-menu"></NavMenu>
             <NavMenuMobileListCtn class="mobile-nav"></NavMenuMobileListCtn>
         </div>
