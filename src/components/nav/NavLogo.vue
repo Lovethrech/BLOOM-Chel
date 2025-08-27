@@ -16,6 +16,7 @@
 @media screen and (max-width:850px) {
     .nav-logo-img-ctn{
         width:26px;
+        height: 26px;
     }
     .nav-logo-mobile-logo{
         display: block;
