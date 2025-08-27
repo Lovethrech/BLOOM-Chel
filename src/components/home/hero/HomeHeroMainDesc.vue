@@ -20,6 +20,10 @@ import HomeHeroMainDescParagraphMainCtn from './HomeHeroMainDescParagraphMainCtn
     place-items: end;
 }
 .home-hero-main-desc-mini-ctn{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
     margin-bottom: 40px;
 }
 </style>

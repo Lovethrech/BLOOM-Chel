@@ -9,3 +9,12 @@ import HomeHeroMainDescParagraphArrow from './HomeHeroMainDescParagraphArrow.vue
         <HomeHeroMainDescParagraphArrow></HomeHeroMainDescParagraphArrow>
     </div>
 </template>
+
+<style scoped>
+.home-hero-main-desc-paragraph-main-ctn-main-ctn{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+</style>
