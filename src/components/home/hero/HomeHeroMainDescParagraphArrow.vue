@@ -10,10 +10,9 @@
     color:#fff;
 }
 .home-hero-main-desc-paragraph-arrow-main-ctn:hover{
+    cursor:pointer;
     will-change: transform;
-    position:absolute;
-    right:80px;
-    height:90vh;
-    transition: all 400ms ease;
+    transform: scaleY(1.3);
+    transition: all .8s ease;
 }
 </style>
