@@ -16,10 +16,17 @@
     font-size:16px;
     color: #fff;
 }
-.home-hero-main-desc-paragraph-main-ctn-name-desktop{
-    
-}
 .home-hero-main-desc-paragraph-main-ctn-name-mobile{
+    display: none;
     text-transform: uppercase;
+}
+
+@media screen and (max-width:850px) {
+    .home-hero-main-desc-paragraph-main-ctn-name-desktop{
+        display: none;
+    }
+    .home-hero-main-desc-paragraph-main-ctn-name-mobile{
+        display: flex;
+    }
 }
 </style>
