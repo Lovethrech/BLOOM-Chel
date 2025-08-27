@@ -4,7 +4,8 @@ import HomeHeroMainDescParagraph from './HomeHeroMainDescParagraph.vue';
 import HomeHeroMainDescParagraphArrow from './HomeHeroMainDescParagraphArrow.vue';
 import TryFreeBtn from "@/components/TryFreeBtn.vue";
 
-
+const tryFreeBtnBgColor=ref("#ffffff");
+const tryFreeBtnColor=ref("#594edc");
 </script>
 
 <template>
@@ -16,6 +17,8 @@ import TryFreeBtn from "@/components/TryFreeBtn.vue";
         </HomeHeroMainDescParagraphArrow>
         <TryFreeBtn 
             class="home-hero-main-desc-paragraph-main-ctn-main-ctn-try-free"
+            :tryFreeBtnBgColor="tryFreeBtnBgColor"
+            :tryFreeBtnColor="tryFreeBtnColor"
         >
         </TryFreeBtn>
     </div>
