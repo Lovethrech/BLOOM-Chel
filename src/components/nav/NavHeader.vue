@@ -35,7 +35,10 @@ const navMenuActiveIcon=ref("<i class='fi fi-tc-menu-burger'></i>");
                 :tryFreeBtnColor="tryFreeBtnColor"
             >
             </TryFreeBtn>
-            <NavMenu class="mobile-nav-menu"></NavMenu>
+            <NavMenu class="mobile-nav-menu"
+                :navMenuActiveIcon="navMenuActiveIcon"
+            >
+            </NavMenu>
             <NavMenuMobileListCtn class="mobile-nav"></NavMenuMobileListCtn>
         </div>
     </section>
