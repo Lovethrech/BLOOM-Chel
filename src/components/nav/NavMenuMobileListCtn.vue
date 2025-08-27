@@ -12,7 +12,7 @@
     top:9vh;
     right:0;
     padding: 0 6vw;
-    background-color: orange;
+    background-color: transparent;
     width:100%;
     height:200px;
 }
