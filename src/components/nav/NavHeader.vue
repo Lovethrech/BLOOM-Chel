@@ -40,6 +40,7 @@ import NavLink from '@/components/nav/NavLink.vue';
 @media screen and (max-width:850px) {
     .nav-header-main-ctn{
         background-color: #fff;
+        padding:12px;
     }
     .desktop-nav{
         display:none;
