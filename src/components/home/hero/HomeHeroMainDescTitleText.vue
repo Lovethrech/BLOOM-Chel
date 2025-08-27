@@ -10,6 +10,7 @@
 .home-hero-main-desc-title-text-main-ctn-name{
     color:#ffffff;
     font-size: 41px;
+    font-weight: 500;
     text-transform: uppercase;
 }
 </style>
