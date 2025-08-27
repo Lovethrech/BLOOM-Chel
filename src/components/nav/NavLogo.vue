@@ -1,7 +1,7 @@
 <template>
     <div class="nav-logo-img-ctn">
-        <img src="/bloom.svg" alt="Bloom Desktop Logo" class="nav-logo-desktop-logo"/>
-        <img src="/bloom-M-colored.svg" alt="Bloom Mobile Logo" class="nav-logo-mobile-logo"/>
+        <img src="/public/bloom.svg" alt="Bloom Desktop Logo" class="nav-logo-desktop-logo"/>
+        <img src="/publi/bloom-M-colored.svg" alt="Bloom Mobile Logo" class="nav-logo-mobile-logo"/>
     </div>
 </template>
 
