@@ -23,7 +23,6 @@ import HomeHeroMainDescParagraphMainCtn from './HomeHeroMainDescParagraphMainCtn
     width: 100%;
     display:flex;
     flex-direction: column;
-    gap:20px;
     margin-bottom: 40px;
 }
 </style>

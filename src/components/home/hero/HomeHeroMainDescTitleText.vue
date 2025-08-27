@@ -9,8 +9,14 @@
 <style scoped>
 .home-hero-main-desc-title-text-main-ctn-name{
     color:#ffffff;
-    font-size: 41px;
+    font-size: 56px;
     font-weight: 500;
     text-transform: uppercase;
+}
+
+@media screen and (max-width:850px) {
+    .home-hero-main-desc-title-text-main-ctn-name{
+        font-size:41px;
+    }
 }
 </style>
