@@ -2,7 +2,7 @@ import { ref } from "vue";
 import { defineStore } from "pinia";
 
 export const useHomeHeroArrowSlideStore= defineStore('homeHeroArrowSlide', ()=>{
-    const isOpenDeactivate=ref(false);
+    const defaultScreenSlideHeight=ref("")
     const isOpenActivate=ref(true);
 
     const isOpen=isOpenDeactivate;
