@@ -1,5 +1,7 @@
 <script setup>
+import { useHomeHeroArrowSlideStore } from '@/stores/homeHeroArrowSlide';
 
+const {toggleContent}=useHomeHeroArrowSlideStore();
 </script>
 
 <template>
