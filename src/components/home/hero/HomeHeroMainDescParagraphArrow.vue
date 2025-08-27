@@ -1,6 +1,8 @@
 <template>
     <div class="home-hero-main-desc-paragraph-arrow-main-ctn" @click="toggleContent">
-        <i class="fi fi-tr-arrow-down"></i>
+        <a href="">
+            <i class="fi fi-tr-arrow-down"></i> 
+        </a>        
     </div>
 </template>
 
