@@ -17,3 +17,8 @@ img{
   border-radius: 20px;
   border: 0;
 }
+.try-for-free-btn:hover{
+  cursor:pointer;
+  transform: scaleX(0.96);
+  transition: all .4s;
+}
