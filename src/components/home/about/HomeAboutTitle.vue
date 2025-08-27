@@ -10,6 +10,7 @@
 <style scoped>
 .home-about-title-main-ctn-name{
     font-size:56px;
+    font-weight:500;
     text-transform: uppercase;
 }
 .home-about-title-main-ctn-name-colored{
