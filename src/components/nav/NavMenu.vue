@@ -1,6 +1,6 @@
 <template>
     <div class="nav-menu-img-ctn">
-        <img src="@/components/icons/IconMobileNavHeader.svg" alt="">
+        <img src="@/components/icons/IconMobileNavHeader.svg" alt="Navigation Mobile Icon">
     </div>
 </template>
 
