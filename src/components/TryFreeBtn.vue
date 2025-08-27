@@ -7,7 +7,10 @@ const {tryFreeBtnBgColor, tryFreeBtnColor}=defineProps(['tryFreeBtnBgColor', 'tr
 <template>
     <div class="try-for-free-btn-main-ctn">
         <RouterLink to="">
-            <button class="try-for-free-btn" :style="{background:tryFreeBtnBgColor, color:tryFreeBtnColor}">
+            <button 
+                class="try-for-free-btn" 
+                :style="{background:tryFreeBtnBgColor, color:tryFreeBtnColor}"
+            >
                 Try for free
             </button>
         </RouterLink>
