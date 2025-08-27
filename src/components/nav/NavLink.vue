@@ -1,3 +1,9 @@
+<script setup>
+import { defineProps } from 'vue';
+
+const {name, link}=defineProps(['name', 'link']);
+</script>
+
 <template>
     <div class="nav-link-main-ctn">
         <RouterLink to="" class="link">
