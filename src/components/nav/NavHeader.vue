@@ -2,6 +2,7 @@
 import NavHeaderDetails from "@/data/nav-header-details.json";
 import NavLogo from './NavLogo.vue';
 import NavLink from '@/components/nav/NavLink.vue';
+import NavMenu from "./NavMenu.vue";
 </script>
 
 <template>
@@ -16,8 +17,9 @@ import NavLink from '@/components/nav/NavLink.vue';
                 :link="NavHeaderDetail.link"
             >
             </NavLink>
+            <NavMenu></NavMenu>
             <div class="mobile-nav">
-                
+
             </div>
         </div>
     </section>
