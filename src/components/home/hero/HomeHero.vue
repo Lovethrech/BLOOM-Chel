@@ -7,3 +7,9 @@ import NavHeader from '@/components/nav/NavHeader.vue';
         <NavHeader></NavHeader>
     </section>
 </template>
+
+<style scoped>
+.home-hero-main-ctn{
+    
+}
+</style>
