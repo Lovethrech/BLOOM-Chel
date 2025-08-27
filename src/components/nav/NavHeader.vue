@@ -16,9 +16,9 @@ import NavLink from '@/components/nav/NavLink.vue';
             >
             </NavLink>
         </div>
-        <!-- <div class="home-hero-mini-ctn-nav-mobile">
+        <div class="home-hero-mini-ctn-nav-mobile">
             
-        </div> -->
+        </div>
     </section>
 </template>
 
@@ -33,5 +33,17 @@ import NavLink from '@/components/nav/NavLink.vue';
 }
 .nav-header-main-ctn-nav-desktop{
     gap:20px;
+}
+.nav-header-main-ctn-nav-mobile{
+    display:none
+}
+
+@media screen and (max-width:850px) {
+    .nav-header-main-ctn-nav-desktop{
+        display:none;
+    }
+    .nav-header-main-ctn-nav-mobile{
+        display:block;
+    }
 }
 </style>
