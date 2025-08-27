@@ -1,6 +1,5 @@
 <script setup>
 import HomeHeroMainDescTitleText from './HomeHeroMainDescTitleText.vue';
-import HomeHeroMainDescTitleText from './HomeHeroMainDescTitleText.vue';
 </script>
 
 <template>
