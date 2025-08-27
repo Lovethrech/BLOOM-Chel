@@ -12,6 +12,8 @@ import NavLink from '@/components/nav/NavLink.vue';
                 <NavLink
                     v-for="NavHeaderDetail in NavHeaderDetails"
                     :key="NavHeaderDetail.id"
+                    :name="NavHeaderDetail.name"
+                    :link="NavHeaderDetail.link"
                 >
                 </NavLink>
             </div>
