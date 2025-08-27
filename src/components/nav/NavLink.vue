@@ -17,5 +17,7 @@ const {name, link}=defineProps(['name', 'link']);
 <style scoped>
 .nav-link-main-ctn-desc{
     color: #ffffff;
+    font-size: 16px;;
+    text-transform: capitalize;
 }
 </style>
