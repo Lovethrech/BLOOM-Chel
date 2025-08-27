@@ -31,7 +31,6 @@ const tryFreeBtnColor=ref("#ffffff");
 .home-about-main-ctn{
     margin-top: 20vh;
     padding:0 80px;
-    background-color: aquamarine;
     width:100%;
     height:100vh;
     display:flex;
@@ -43,18 +42,20 @@ const tryFreeBtnColor=ref("#ffffff");
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    height:80%;
-    background-color: red;
+    gap:50px;
+    height:60%;
 }
 .home-about-mini-ctn-grid-layout{
     display:flex;
     flex-direction: column;
-    justify-content: space-between;
-    padding:30px 0 ;
+    place-items: center;
+    gap:50px;
+    padding: 0 ;
     gap:10px;
 }
 .home-about-title, .home-about-desc, .try-free-btn{
     width:100%;
 }
+
 
 </style>
