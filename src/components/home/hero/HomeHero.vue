@@ -24,4 +24,10 @@ import HomeHeroMainDesc from './HomeHeroMainDesc.vue';
     display:flex;
     flex-direction: column;
 }
+
+@media screen and (max-width: 850px) {
+    .home-hero-main-ctn{
+        padding:3vh 6vw;
+    }
+}
 </style>
