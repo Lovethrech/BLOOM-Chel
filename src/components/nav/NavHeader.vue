@@ -27,7 +27,7 @@ const navMenuDisplayMenu=()=>{
 </script>
 
 <template>
-    <section class="nav-header-main-ctn">
+    <header class="nav-header-main-ctn">
         <NavLogo></NavLogo>
         <div class="nav-header-main-ctn-nav">
             <NavLink
@@ -59,7 +59,7 @@ const navMenuDisplayMenu=()=>{
             >
             </NavMenuMobileListCtn>
         </div>
-    </section>
+    </header>
 </template>
 
 <style scoped>
