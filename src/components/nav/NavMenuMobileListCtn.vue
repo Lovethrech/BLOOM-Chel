@@ -4,7 +4,7 @@ import NavHeaderDetails from "@/data/nav-header-details.json";
 import NavLink from "./NavLink.vue";
 
 const navLinkColor=ref("#000000");
-const navLinkFontSize=ref("24px");
+const navLinkFontSize=ref("41px");
 </script>
 
 <template>
@@ -31,12 +31,17 @@ const navLinkFontSize=ref("24px");
     right:0;
     padding: 0 6vw;
     background-color: transparent;
-    width:100%;
     height:200px;
+}
+.nav-menu-mobile-list-ctn-main-ctn, .nav-menu-mobile-list-ctn-mini-ctn{
+    width:100%;
 }
 .nav-menu-mobile-list-ctn-mini-ctn{
     background-color: rgb(212, 210, 214);
-    width:100%;
     height: 100%;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    text-align: center;
 }
 </style>
