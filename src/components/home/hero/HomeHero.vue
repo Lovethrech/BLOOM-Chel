@@ -23,6 +23,7 @@ import HomeHeroMainDesc from './HomeHeroMainDesc.vue';
     width:inherit;
     display:flex;
     flex-direction: column;
+    gap:20px;
 }
 
 @media screen and (max-width: 850px) {
