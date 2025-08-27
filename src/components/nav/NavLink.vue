@@ -16,7 +16,7 @@ const {name, link, color, fontSize}=defineProps(['name', 'link', 'color', 'fontS
 
 <style scoped>
 .nav-link-main-ctn{
-    margin:auto;
+    margin:auto 0;
 }
 .nav-link-main-ctn-desc{
     text-transform: capitalize;

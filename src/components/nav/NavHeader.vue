@@ -29,6 +29,7 @@ const tryFreeBtnColor=ref("#A54dea");
             >
             </NavLink>
             <TryFreeBtn
+                class="nav-header-try-free"
                 :tryFreeBtnBgColor="tryFreeBtnBgColor"
                 :tryFreeBtnColor="tryFreeBtnColor"
             >
@@ -60,7 +61,7 @@ const tryFreeBtnColor=ref("#A54dea");
         background-color: #fff;
         padding:12px;
     }
-    .desktop-nav{
+    .desktop-nav, .nav-header-try-free{
         display:none;
     }
     .mobile-nav, .mobile-nav-menu{
