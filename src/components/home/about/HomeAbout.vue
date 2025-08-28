@@ -31,8 +31,7 @@ const tryFreeBtnColor=ref("#ffffff");
 }
 .home-about-main-ctn{
     margin-top: 20vh;
-    padding:0 6vw;
-    height:100vh;
+    padding:8vh 6vw;
     display:flex;
     justify-content: center;
     place-items: center;
