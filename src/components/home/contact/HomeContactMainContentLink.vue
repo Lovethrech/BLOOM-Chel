@@ -13,7 +13,12 @@
 
 <style scoped>
 .home-contact-main-content-link-main-ctn{
-    width: 8vw;
+    width: 6vw;
+}
+.home-contact-main-content-link-main-ctn:hover{
+    cursor:pointer;
+    transform: scaleX(0.9);
+    transition: all .8s;
 }
 .home-contact-main-content-link-mini-ctn{
     border-bottom: 2px solid #fff;
