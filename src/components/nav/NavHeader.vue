@@ -81,7 +81,7 @@ const navMenuDisplayMenu=()=>{
 @media screen and (max-width:850px) {
     .nav-header-main-ctn{
         background-color: #fff;
-        padding:12px;
+        padding: 0 4vw;
         height:8vh
     }
     .desktop-nav, .nav-header-try-free{
