@@ -20,7 +20,6 @@ import HomeContactTitle from './HomeContactTitle.vue';
     padding: 10vh 0;
 }
 .home-contact-mini-ctn{
-    background-color: orange;
     height: 100%;
 }
 </style>
