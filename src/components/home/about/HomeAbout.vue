@@ -38,7 +38,6 @@ const tryFreeBtnColor=ref("#ffffff");
 }
 .home-about-mini-ctn{
     display:grid;
-    height:50%;
 }
 .home-about-title{
     grid-column: 1;
@@ -95,5 +94,4 @@ const tryFreeBtnColor=ref("#ffffff");
         width:100%;
     }
 }
-
 </style>
