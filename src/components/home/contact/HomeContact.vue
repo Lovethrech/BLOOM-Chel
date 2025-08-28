@@ -7,6 +7,7 @@ import HomeContactTitle from './HomeContactTitle.vue';
     <section class="home-contact-main-ctn">
         <div class="home-contact-mini-ctn">
             <HomeContactTitle></HomeContactTitle>
+            <br/>
             <HomeContactMainContent></HomeContactMainContent>
         </div>
     </section>
