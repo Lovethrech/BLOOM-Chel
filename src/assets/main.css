@@ -25,3 +25,10 @@ img{
   transform: scaleX(0.96);
   transition: all .4s;
 }
+@media screen and (max-width:900px) {
+  .try-for-free-btn{
+    font-size: 14px;
+    padding:10px 20px;
+    border-radius: 20px;
+  }
+}
