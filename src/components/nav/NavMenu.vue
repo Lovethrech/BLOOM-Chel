@@ -13,7 +13,7 @@ const {navMenuActiveIcon}=defineProps(['navMenuActiveIcon']);
     margin:auto 0;
 }
 .nav-menu-img-ctn{
-    font-size: 2vh;
+    font-size: 26px;
     color: #594edc;
 }
 </style>
