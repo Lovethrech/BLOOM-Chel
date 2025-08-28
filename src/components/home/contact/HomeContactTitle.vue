@@ -15,7 +15,9 @@
     text-transform: uppercase;
 }
 
-@media screen an {
-    
+@media screen and (max-width:850px) {
+    .home-contact-title-main-ctn-name{
+        font-size: 50px;
+    }
 }
 </style>
