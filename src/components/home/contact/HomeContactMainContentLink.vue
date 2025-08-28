@@ -14,7 +14,7 @@
 <style scoped>
 .home-contact-main-content-link-main-ctn:hover{
     cursor:pointer;
-    transform: scaleX(0.9);
+    transform: scaleX(0.98);
     transition: all .8s;
 }
 .home-contact-main-content-link-mini-ctn{
