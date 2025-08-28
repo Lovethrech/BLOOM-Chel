@@ -72,7 +72,7 @@ const navMenuDisplayMenu=()=>{
     justify-content: space-between;
 }
 .nav-header-main-ctn-nav{
-    gap:20px;
+    gap:1.4vw;
 }
 .mobile-nav-menu{
     display:none;
