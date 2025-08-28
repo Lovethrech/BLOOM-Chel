@@ -1,7 +1,7 @@
 <template>
     <div class="home-contact-main-content-desc-main-ctn">
-        <div class="home-contact-main-content-desc-main-ctn-name">
-            
-        </div>
+        <p class="home-contact-main-content-desc-main-ctn-name">
+            Seemless Service to transform your business
+        </p>
     </div>
 </template>
