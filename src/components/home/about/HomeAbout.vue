@@ -71,7 +71,7 @@ const tryFreeBtnColor=ref("#ffffff");
     }
     .home-about-mini-ctn{
         height: 100%;
-        justify-content: space-around;
+        gap:5vw;
     }
     .home-about-title{
         grid-column: 1;
@@ -88,6 +88,9 @@ const tryFreeBtnColor=ref("#ffffff");
     .try-free-btn{
         grid-column: 1;
         grid-row: 4;
+    }
+    .home-about-desc, .try-free-btn{
+        margin:0;
     }
     .home-about-title, .home-about-desc, .try-free-btn{
         width:100%;
