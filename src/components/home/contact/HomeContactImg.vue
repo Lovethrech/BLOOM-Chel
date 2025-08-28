@@ -8,4 +8,8 @@
 .home-contact-img-main-ctn{
     width: 42vw;
 }
+
+@media screen and (max-width: 850px) {
+    
+}
 </style>
