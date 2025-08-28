@@ -32,7 +32,6 @@ const tryFreeBtnColor=ref("#ffffff");
 .home-about-main-ctn{
     margin-top: 20vh;
     padding:0 6vw;
-    width:100%;
     height:100vh;
     display:flex;
     justify-content: center;
@@ -40,7 +39,6 @@ const tryFreeBtnColor=ref("#ffffff");
 }
 .home-about-mini-ctn{
     display:grid;
-    
     gap:5vw;
     height:50%;
 }
@@ -55,7 +53,6 @@ const tryFreeBtnColor=ref("#ffffff");
 .home-about-desc, .try-free-btn{
     grid-column: 1;
     grid-row: 1;
-    
 }
 .home-about-desc{
     margin-top:10vw;
