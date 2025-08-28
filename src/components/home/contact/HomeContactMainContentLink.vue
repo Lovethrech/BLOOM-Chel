@@ -34,7 +34,7 @@
         justify-content: center;
     }
     .home-contact-main-content-link-mini-ctn{
-        width:14vw;
+        width:80px;
     }
     .home-contact-main-content-link-mini-ctn-name{
         font-size: 14px;
