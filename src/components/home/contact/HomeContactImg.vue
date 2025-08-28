@@ -8,7 +8,12 @@
 .home-contact-img-main-ctn{
     width: 42vw;
 }
-
+@media screen and (max-width:1380px) and (min-width: 851px){
+    .home-contact-img-main-ctn{
+        width:800px;
+    }
+    
+}
 @media screen and (max-width: 850px) {
     .home-contact-img-main-ctn{
         width: 100%;
