@@ -30,7 +30,7 @@ const tryFreeBtnColor=ref("#ffffff");
 <style scoped>
 .home-about-main-ctn{
     margin-top: 20vh;
-    padding:0 80px;
+    padding:0 6vw;
     width:100%;
     height:100vh;
     display:flex;
