@@ -11,7 +11,7 @@
     margin: 0 6vw;
 }
 .home-contact-title-main-ctn-name{
-    font-size: 3.6vw;
+    font-size: 3.2vw;
     text-transform: uppercase;
 }
 
