@@ -12,12 +12,11 @@
     .home-contact-img-main-ctn{
         width:800px;
     }
-    
 }
 @media screen and (max-width: 850px) {
     .home-contact-img-main-ctn{
         margin: 0 auto;
-        width: 500px;
+        width: 100%;
     }
 }
 </style>
