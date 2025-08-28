@@ -18,4 +18,11 @@
     background-clip:text;
     color:transparent;
 }
+
+@media screen and (max-width: 900px) {
+    .home-about-title-main-ctn-name{
+        font-size: 50px;
+    }
+    
+}
 </style>
