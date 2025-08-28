@@ -10,5 +10,7 @@
 </template>
 
 <style scoped>
-
+.home-about-desc-main-ctn-name{
+    font-size: 0.9vw;
+}
 </style>
