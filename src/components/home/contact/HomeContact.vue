@@ -14,9 +14,10 @@ import HomeContactTitle from './HomeContactTitle.vue';
 
 <style scoped>
 .home-contact-main-ctn{
-    height: 100vh;
-    display:flex;
-    justify-content: center;
-    place-items: center;
+    width:100%;
+    padding: 20vh 0;
+}
+.home-contact-mini-ctn{
+    height: 60%;
 }
 </style>
