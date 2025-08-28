@@ -9,7 +9,7 @@
 
 <style scoped>
 .nav-logo-img-ctn{
-    width: 3vw;
+    width: 50px;
     margin: auto 0;
 }
 .nav-logo-mobile-logo{
