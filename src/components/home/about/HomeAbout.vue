@@ -89,6 +89,10 @@ const tryFreeBtnColor=ref("#ffffff");
         grid-column: 1;
         grid-row: 3;
     }
+    .try-free-btn{
+        grid-column: 1;
+        grid-row: 4;
+    }
 }
 
 </style>
