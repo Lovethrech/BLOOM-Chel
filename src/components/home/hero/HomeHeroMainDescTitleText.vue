@@ -9,7 +9,7 @@
 <style scoped>
 .home-hero-main-desc-title-text-main-ctn-name{
     color:#ffffff;
-    font-size: 56px;
+    font-size: 4vw;
     font-weight: 500;
     text-transform: uppercase;
 }
