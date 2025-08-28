@@ -9,8 +9,6 @@
     background-color: red;
     width:40vw;
     height: 30vw;
-    display:flex;
-    
 }
 .home-about-img-main-ctn img{
     background-color: chartreuse;
