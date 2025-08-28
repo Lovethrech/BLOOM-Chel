@@ -61,16 +61,8 @@ const tryFreeBtnColor=ref("#ffffff");
 .try-free-btn{
     margin-top:14vw;
 }
-.home-about-mini-ctn-grid-layout{
-    display:flex;
-    flex-direction: column;
-    place-items: center;
-    gap:50px;
-    padding: 0 ;
-    gap:2vh;
-}
 .home-about-title, .home-about-desc, .try-free-btn{
-    width:100%;
+    width:80%;
 }
 
 @media screen and (max-width: 900px) {

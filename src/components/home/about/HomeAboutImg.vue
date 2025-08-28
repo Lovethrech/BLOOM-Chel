@@ -7,8 +7,8 @@
 <style scoped>
 .home-about-img-main-ctn{
     background-color: red;
-    width:100%;
-    height: 100%;
+    width:40vw;
+    height: 30vw;
     display:flex;
     
 }
