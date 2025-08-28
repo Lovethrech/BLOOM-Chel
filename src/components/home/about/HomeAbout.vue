@@ -43,17 +43,24 @@ const tryFreeBtnColor=ref("#ffffff");
     height:40%;
 }
 .home-about-title{
-        grid-column: 1;
-        grid-row:1;
-    }
-    .home-about-img{
-        grid-column: 2;
-        grid-row: 1;
-    }
-    .home-about-desc{
-        grid-column: 1;
-        grid-row: 1;
-    }
+    grid-column: 1;
+    grid-row:1;
+}
+.home-about-img{
+    grid-column: 2;
+    grid-row: 1;
+}
+.home-about-desc, .try-free-btn{
+    grid-column: 1;
+    grid-row: 1;
+    
+}
+.home-about-desc{
+    margin-top:10vw;
+}
+.try-free-btn{
+    margin-top:14vw;
+}
 .home-about-mini-ctn-grid-layout{
     display:flex;
     flex-direction: column;
