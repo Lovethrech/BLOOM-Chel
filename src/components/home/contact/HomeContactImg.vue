@@ -6,6 +6,6 @@
 
 <style scoped>
 .home-contact-img-main-ctn{
-    width: 38vw;
+    width: 42vw;
 }
 </style>
