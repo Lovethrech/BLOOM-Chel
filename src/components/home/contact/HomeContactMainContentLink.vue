@@ -12,9 +12,6 @@
 </template>
 
 <style scoped>
-.home-contact-main-content-link-main-ctn{
-    width: 6vw;
-}
 .home-contact-main-content-link-main-ctn:hover{
     cursor:pointer;
     transform: scaleX(0.9);
@@ -22,10 +19,17 @@
 }
 .home-contact-main-content-link-mini-ctn{
     border-bottom: 2px solid #fff;
+    width: 6vw;
 }
 .home-contact-main-content-link-mini-ctn-name{
     color: #fff;
     font-size: 1vw;
     text-transform: capitalize;
+}
+
+@media screen and (max-width: 850px) {
+    .home-contact-main-content-link-main-ctn{
+        width:100%;
+    }
 }
 </style>
