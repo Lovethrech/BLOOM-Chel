@@ -14,7 +14,7 @@ const navToAboutComponent=()=>{
 
 <style scoped>
 .home-hero-main-desc-paragraph-arrow-main-ctn i{
-    font-size: 70px;
+    font-size: 4vw;
     color:#fff;
 }
 .home-hero-main-desc-paragraph-arrow-main-ctn:hover{
