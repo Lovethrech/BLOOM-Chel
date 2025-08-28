@@ -17,7 +17,7 @@
 
 @media screen and (max-width:850px) {
     .home-contact-title-main-ctn-name{
-        font-size: 44px;
+        font-size: 7vw;
     }
 }
 </style>
