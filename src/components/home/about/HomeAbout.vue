@@ -84,6 +84,9 @@ const tryFreeBtnColor=ref("#ffffff");
         grid-column: 1;
         grid-row: 4;
     }
+    .home-about-title, .home-about-desc, .try-free-btn{
+        width:100%;
+    }
 }
 
 </style>
