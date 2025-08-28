@@ -12,16 +12,14 @@ const tryFreeBtnColor=ref("#ffffff");
 <template>
     <section id="about" class="home-about-main-ctn">
         <div class="home-about-mini-ctn">
-            <div class="home-about-mini-ctn-grid-layout">
-                <HomeAboutTitle class="home-about-title"></HomeAboutTitle>
-                <HomeAboutDesc class="home-about-desc"></HomeAboutDesc>
-                <TryFreeBtn
-                    class="try-free-btn"
-                    :tryFreeBtnBgColor="tryFreeBtnBgColor"
-                    :tryFreeBtnColor="tryFreeBtnColor"
-                >
-                </TryFreeBtn>
-            </div>
+            <HomeAboutTitle class="home-about-title"></HomeAboutTitle>
+            <HomeAboutDesc class="home-about-desc"></HomeAboutDesc>
+            <TryFreeBtn
+                class="try-free-btn"
+                :tryFreeBtnBgColor="tryFreeBtnBgColor"
+                :tryFreeBtnColor="tryFreeBtnColor"
+            >
+            </TryFreeBtn>
             <HomeAboutImg class="home-about-img"></HomeAboutImg>
         </div>
     </section>
