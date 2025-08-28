@@ -6,9 +6,14 @@
 
 <style scoped>
 .home-about-img-main-ctn{
+    background-color: red;
     width:100%;
     height: 100%;
+    display:flex;
+    
 }
 .home-about-img-main-ctn img{
+    background-color: chartreuse;
+    
 }
 </style>

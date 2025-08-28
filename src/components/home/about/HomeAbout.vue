@@ -42,8 +42,8 @@ const tryFreeBtnColor=ref("#ffffff");
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    gap:50px;
-    height:60%;
+    gap:5vw;
+    height:40%;
 }
 .home-about-mini-ctn-grid-layout{
     display:flex;
@@ -51,11 +51,28 @@ const tryFreeBtnColor=ref("#ffffff");
     place-items: center;
     gap:50px;
     padding: 0 ;
-    gap:10px;
+    gap:2vh;
 }
 .home-about-title, .home-about-desc, .try-free-btn{
     width:100%;
 }
 
+@media screen and (max-width: 900px) {
+    .home-about-mini-ctn{
+        display:grid;
+    }
+    .home-about-title{
+        grid-column: 1;
+        grid-row:1;
+    }
+    .home-about-img{
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .home-about-desc{
+        grid-column: 1;
+        grid-row: 3;
+    }
+}
 
 </style>
