@@ -6,12 +6,8 @@
 
 <style scoped>
 .home-about-img-main-ctn{
-    background-color: red;
     width:30vw;
     height: 30vw;
-}
-.home-about-img-main-ctn img{
-    background-color: chartreuse;
 }
 
 @media screen and (max-width:900px) {
