@@ -1,13 +1,13 @@
 <template>
     <div class="home-contact-main-content-desc-main-ctn">
-        <h3 class="home-contact-main-content-desc-main-ctn-name">
+        <h4 class="home-contact-main-content-desc-main-ctn-name">
             Seemless Service to transform your business
-        </h3>
+        </h4>
     </div>
 </template>
 
 <style scoped>
 .home-contact-main-content-desc-main-ctn-name{
-    font-size: 3vw;
+    font-size: 2.4vw;
 }
 </style>
