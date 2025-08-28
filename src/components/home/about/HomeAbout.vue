@@ -47,12 +47,12 @@ const tryFreeBtnColor=ref("#ffffff");
         grid-row:1;
     }
     .home-about-img{
-        grid-column: 1;
-        grid-row: 2;
+        grid-column: 2;
+        grid-row: 1;
     }
     .home-about-desc{
         grid-column: 1;
-        grid-row: 3;
+        grid-row: 1;
     }
 .home-about-mini-ctn-grid-layout{
     display:flex;
