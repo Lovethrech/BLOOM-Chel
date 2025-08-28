@@ -17,14 +17,14 @@ import HomeContactMainContentLink from './HomeContactMainContentLink.vue';
 
 <style scoped>
 .home-contact-main-content-main-ctn{
-    padding: 4vh 6vw;
+    padding: 6vh 6vw;
     display:flex;
     flex-direction: row-reverse;
     justify-content: space-between;
     gap:10vw;
     background: linear-gradient(to bottom, #A54dea, #594edc);
     width:100%;
-    height:70%;
+    height:76%;
 }
 .home-contact-main-content-mini-ctn{
     margin: auto 0;
