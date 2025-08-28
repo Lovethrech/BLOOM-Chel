@@ -16,7 +16,7 @@ import HomeContactTitle from './HomeContactTitle.vue';
 <style scoped>
 .home-contact-main-ctn{
     width:100%;
-    height:100vh;
+    height:70vh;
     padding: 10vh 0;
 }
 .home-contact-mini-ctn{
