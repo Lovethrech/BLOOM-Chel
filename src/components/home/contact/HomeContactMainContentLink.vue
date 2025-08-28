@@ -1,6 +1,6 @@
 <template>
     <div class="home-contact-main-content-link-main-ctn">
-        <RouterLink to="">
+        <RouterLink to="" class="link">
             <div class="home-contact-main-content-link-mini-ctn">
                 <p class="home-contact-main-content-link-mini-ctn-name">
                     contact us
@@ -10,3 +10,11 @@
         </RouterLink>
     </div>
 </template>
+
+<style scoped>
+.home-contact-main-content-link-mini-ctn-name{
+    color: #fff;
+    font-size: 1.2vw;
+    text-transform: capitalize;
+}
+</style>
