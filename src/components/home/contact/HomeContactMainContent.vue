@@ -11,3 +11,11 @@ import HomeContactMainContentLink from './HomeContactMainContentLink.vue';
         <HomeContactMainContentLink></HomeContactMainContentLink>
     </div>
 </template>
+
+<style scoped>
+.home-contact-main-content-main-ctn{
+    background: linear-gradient(to bottom, #A54dea, #594edc);
+    width:100%;
+    height:60vh;
+}
+</style>
