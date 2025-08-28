@@ -24,7 +24,7 @@ import HomeContactMainContentLink from './HomeContactMainContentLink.vue';
     gap:10vw;
     background: linear-gradient(to bottom, #A54dea, #594edc);
     width:100%;
-    height:80%;
+    height:70%;
 }
 .home-contact-main-content-mini-ctn{
     margin: auto 0;
@@ -33,6 +33,7 @@ import HomeContactMainContentLink from './HomeContactMainContentLink.vue';
 @media screen and (max-width: 850px) {
     .home-contact-main-content-main-ctn{
         flex-direction: column;
+        gap:0;
     }
 }
 </style>
