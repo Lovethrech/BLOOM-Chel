@@ -26,6 +26,9 @@ const tryFreeBtnColor=ref("#ffffff");
 </template>
 
 <style scoped>
+.home-about-main-ctn, .home-about-mini-ctn{
+    width:100%;
+}
 .home-about-main-ctn{
     margin-top: 20vh;
     padding:0 6vw;
@@ -36,11 +39,10 @@ const tryFreeBtnColor=ref("#ffffff");
     place-items: center;
 }
 .home-about-mini-ctn{
-    width:100%;
     display:grid;
     
     gap:5vw;
-    height:40%;
+    height:50%;
 }
 .home-about-title{
     grid-column: 1;
