@@ -23,6 +23,7 @@ import HomeContactMainContentLink from './HomeContactMainContentLink.vue';
     gap:10vw;
     background: linear-gradient(to bottom, #A54dea, #594edc);
     width:100%;
+    height:80%;
 }
 .home-contact-main-content-mini-ctn{
     margin: auto 0;
