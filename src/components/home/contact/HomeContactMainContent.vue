@@ -25,4 +25,7 @@ import HomeContactMainContentLink from './HomeContactMainContentLink.vue';
     width:100%;
     height:60vh;
 }
+.home-contact-main-content-mini-ctn{
+    margin: auto 0;
+}
 </style>
