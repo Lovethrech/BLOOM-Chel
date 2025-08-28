@@ -30,6 +30,14 @@
 @media screen and (max-width: 850px) {
     .home-contact-main-content-link-main-ctn{
         width:100%;
+        display: flex;
+        justify-content: center;
+    }
+    .home-contact-main-content-link-mini-ctn{
+        width:14vw;
+    }
+    .home-contact-main-content-link-mini-ctn-name{
+        font-size: 14px;
     }
 }
 </style>
