@@ -12,6 +12,12 @@
 </template>
 
 <style scoped>
+.home-contact-main-content-link-main-ctn{
+    
+}
+.home-contact-main-content-link-mini-ctn{
+    border-bottom: 2px solid #fff;
+}
 .home-contact-main-content-link-mini-ctn-name{
     color: #fff;
     font-size: 1.2vw;
