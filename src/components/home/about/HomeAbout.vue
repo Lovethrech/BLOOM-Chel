@@ -69,7 +69,7 @@ const tryFreeBtnColor=ref("#ffffff");
     }
     .home-about-mini-ctn{
         height: 100%;
-        gap:5vw;
+        gap:3vh;
     }
     .home-about-title{
         grid-column: 1;
