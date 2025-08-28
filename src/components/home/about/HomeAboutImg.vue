@@ -15,6 +15,9 @@
 }
 
 @media screen and (max-width:900px) {
-    
+    .home-about-img-main-ctn{
+        width:100%;
+        height:100%;
+    }
 }
 </style>
