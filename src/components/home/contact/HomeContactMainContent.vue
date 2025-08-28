@@ -9,6 +9,7 @@ import HomeContactMainContentLink from './HomeContactMainContentLink.vue';
         <HomeContactImg></HomeContactImg>
         <div class="home-contact-main-content-mini-ctn">
             <HomeContactMainContentDesc></HomeContactMainContentDesc>
+            <br/>
             <HomeContactMainContentLink></HomeContactMainContentLink>
         </div>
     </div>

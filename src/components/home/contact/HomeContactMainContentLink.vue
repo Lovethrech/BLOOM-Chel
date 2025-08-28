@@ -20,7 +20,7 @@
 }
 .home-contact-main-content-link-mini-ctn-name{
     color: #fff;
-    font-size: 1.2vw;
+    font-size: 1vw;
     text-transform: capitalize;
 }
 </style>
