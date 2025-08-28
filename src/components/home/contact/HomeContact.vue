@@ -5,7 +5,7 @@ import HomeContactTitle from './HomeContactTitle.vue';
 
 <template>
     <section class="home-contact-main-ctn">
-        <div class="home-contact-main-ctn">
+        <div class="home-contact-mini-ctn">
             <HomeContactTitle></HomeContactTitle>
             <HomeContactMainContent></HomeContactMainContent>
         </div>
@@ -15,5 +15,8 @@ import HomeContactTitle from './HomeContactTitle.vue';
 <style scoped>
 .home-contact-main-ctn{
     height: 100vh;
+    display:flex;
+    justify-content: center;
+    place-items: center;
 }
 </style>
