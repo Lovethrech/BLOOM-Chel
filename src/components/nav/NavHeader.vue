@@ -82,6 +82,7 @@ const navMenuDisplayMenu=()=>{
     .nav-header-main-ctn{
         background-color: #fff;
         padding:12px;
+        height:8vh
     }
     .desktop-nav, .nav-header-try-free{
         display:none;
