@@ -15,7 +15,7 @@
 }
 @media screen and (max-width: 900px) {
     .home-about-desc-main-ctn-name{
-        font-size: 14px;
+        font-size: 12px;
         line-height: 2vh;
     }
 }
