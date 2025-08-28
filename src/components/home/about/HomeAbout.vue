@@ -75,7 +75,8 @@ const tryFreeBtnColor=ref("#ffffff");
 
 @media screen and (max-width: 900px) {
     .home-about-mini-ctn{
-        display:grid;
+        height: 100%;
+        gap:2vw;
     }
     .home-about-title{
         grid-column: 1;
