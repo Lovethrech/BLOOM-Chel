@@ -12,5 +12,9 @@
     font-size: 2.4vw;
 }
 
-
+@media screen and (max-width: 850px) {
+    .home-contact-main-content-desc-main-ctn-name{
+        
+    }
+}
 </style>
