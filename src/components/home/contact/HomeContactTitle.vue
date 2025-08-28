@@ -14,4 +14,8 @@
     font-size: 3.6vw;
     text-transform: uppercase;
 }
+
+@media screen an {
+    
+}
 </style>
