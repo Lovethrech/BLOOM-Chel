@@ -8,7 +8,7 @@ import NavMenuMobileListCtn from "./NavMenuMobileListCtn.vue";
 import TryFreeBtn from "../TryFreeBtn.vue";
 
 const navLinkColor=ref("#ffffff");
-const navLinkFontSize=ref("0.8vw");
+const navLinkFontSize=ref("1.4vh");
 const tryFreeBtnBgColor=ref("#ffffff");
 const tryFreeBtnColor=ref("#A54dea");
 const displayNavMenuMobileListCtn=ref("none");
