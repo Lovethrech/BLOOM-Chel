@@ -13,7 +13,7 @@
 
 <style scoped>
 .home-contact-main-content-link-main-ctn{
-    
+    width: 8vw;
 }
 .home-contact-main-content-link-mini-ctn{
     border-bottom: 2px solid #fff;
