@@ -29,4 +29,10 @@ import HomeContactMainContentLink from './HomeContactMainContentLink.vue';
 .home-contact-main-content-mini-ctn{
     margin: auto 0;
 }
+
+@media screen and (max-width: 850px) {
+    .home-contact-main-content-main-ctn{
+        flex-direction: column;
+    }
+}
 </style>
