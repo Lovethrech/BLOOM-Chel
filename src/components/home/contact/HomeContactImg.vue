@@ -6,7 +6,7 @@
 
 <style scoped>
 .home-contact-img-main-ctn{
-    width: 30vw;
-    height:30vw;
+    width: 34vw;
+    height:34vw;
 }
 </style>
