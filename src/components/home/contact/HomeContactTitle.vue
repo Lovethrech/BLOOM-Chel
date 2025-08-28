@@ -5,3 +5,13 @@
         </h2>
     </div>
 </template>
+
+<style scoped>
+.home-contact-title-main-ctn{
+    margin: 0 6vw;
+}
+.home-contact-title-main-ctn-name{
+    font-size: 3.6vw;
+    text-transform: uppercase;
+}
+</style>
