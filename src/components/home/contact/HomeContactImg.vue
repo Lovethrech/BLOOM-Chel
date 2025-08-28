@@ -5,5 +5,8 @@
 </template>
 
 <style scoped>
-.
+.home-contact-img-main-ctn{
+    width: 30vw;
+    height:30vw;
+}
 </style>
