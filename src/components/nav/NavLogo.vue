@@ -16,6 +16,11 @@
     display: none;
 }
 
+@media screen and (max-width:1110px) and (min-width:851px) {
+    .nav-logo-img-ctn{
+        width:70px;
+    }
+}
 @media screen and (max-width:850px) {
     .nav-logo-img-ctn{
         width:26px;
