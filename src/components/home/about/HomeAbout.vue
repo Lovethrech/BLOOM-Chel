@@ -39,7 +39,6 @@ const tryFreeBtnColor=ref("#ffffff");
 }
 .home-about-mini-ctn{
     display:grid;
-    gap:5vw;
     height:50%;
 }
 .home-about-title{
@@ -65,8 +64,14 @@ const tryFreeBtnColor=ref("#ffffff");
 }
 
 @media screen and (max-width: 900px) {
+    .home-about-main-ctn{
+        padding-top: 4vh;
+        padding-bottom: 5vh;
+        height:100%;
+    }
     .home-about-mini-ctn{
         height: 100%;
+        justify-content: space-around;
     }
     .home-about-title{
         grid-column: 1;
