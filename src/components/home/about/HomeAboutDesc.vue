@@ -14,6 +14,8 @@
     font-size: 0.9vw;
 }
 @media screen and (max-width: 900px) {
-    
+    .home-about-desc-main-ctn-name{
+        font-size: 14px;
+    }
 }
 </style>
