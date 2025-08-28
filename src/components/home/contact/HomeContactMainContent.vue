@@ -7,13 +7,16 @@ import HomeContactMainContentLink from './HomeContactMainContentLink.vue';
 <template>
     <div class="home-contact-main-content-main-ctn">
         <HomeContactImg></HomeContactImg>
-        <HomeContactMainContentDesc></HomeContactMainContentDesc>
-        <HomeContactMainContentLink></HomeContactMainContentLink>
+        <div class="home-contact-main-content-mini-ctn">
+            <HomeContactMainContentDesc></HomeContactMainContentDesc>
+            <HomeContactMainContentLink></HomeContactMainContentLink>
+        </div>
     </div>
 </template>
 
 <style scoped>
 .home-contact-main-content-main-ctn{
+    padding: 4vh 6vw;
     background: linear-gradient(to bottom, #A54dea, #594edc);
     width:100%;
     height:60vh;
