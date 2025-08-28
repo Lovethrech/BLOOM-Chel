@@ -16,7 +16,7 @@
     margin:auto 0;
 }
 .home-hero-main-desc-paragraph-main-ctn p{
-    font-size:16px;
+    font-size: 0.9vw;
     color: #fff;
 }
 .home-hero-main-desc-paragraph-main-ctn-name-mobile{
