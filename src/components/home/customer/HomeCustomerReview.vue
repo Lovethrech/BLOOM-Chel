@@ -18,12 +18,11 @@ import HomeCustomerReviewCtn from './HomeCustomerReviewCtn.vue';
 .home-customer-review-main-ctn{
     width:100%;
     height:100vh;
-    padding: 20vh 0;
+    padding: 10vh 0;
 }
 .home-customer-review-mini-ctn{
     background-color: green;
     width:100%;
-    height: 100%;
 }
 .home-customer-review-mini-ctn-name{
     text-transform: uppercase;

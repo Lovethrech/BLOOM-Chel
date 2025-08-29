@@ -20,10 +20,11 @@ import HomeCustomerReviewTextCtnDetails from './HomeCustomerReviewTextCtnDetails
     padding: 0 6vw;
 }
 .home-customer-review-ctn-mini-ctn{
+    width: 1005;
     display:flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    gap:6vw;
+    gap:3vw;
     background-color: red;
 }
 </style>

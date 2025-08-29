@@ -9,6 +9,6 @@
 
 <style scoped>
 .home-customer-review-text-ctn-speech-main-ctn-name{
-    font-size: 3vh;
+    font-size: 1.8vh;
 }
 </style>
