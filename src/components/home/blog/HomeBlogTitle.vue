@@ -9,5 +9,6 @@
 <style scoped>
 .home-blog-title-main-ctn-name{
     text-transform: uppercase;
+    font-size: 3.2vw;
 }
 </style>
