@@ -20,7 +20,6 @@ import HomeCustomerReviewTextCtnSpeech from './HomeCustomerReviewTextCtnSpeech.v
 
 <style scoped>
 .home-customer-review-text-ctn-details-main-ctn{
-    background-color: aqua;
     padding: 10vh 0;
 }
 .home-customer-review-text-ctn-details-mini-ctn{
@@ -28,6 +27,5 @@ import HomeCustomerReviewTextCtnSpeech from './HomeCustomerReviewTextCtnSpeech.v
     flex-direction: column;
     justify-content: space-between;
     height:100%;
-    background-color: red;
 }
 </style>
