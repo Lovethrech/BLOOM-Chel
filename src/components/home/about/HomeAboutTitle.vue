@@ -19,7 +19,7 @@
     color:transparent;
 }
 
-@media screen and (min-height: 1000px) {
+@media screen and (max-width:950px) and (min-height: 1000px) {
     .home-about-title-main-ctn-name{
         font-size: 3vh;
     }
