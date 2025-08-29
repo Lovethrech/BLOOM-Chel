@@ -1,9 +1,6 @@
 <script setup>
-import { defineProps } from 'vue';
+import HomeBlogDetails from "@/data/home-blog-details.json";
 import HomeBlogBoxDesc from './HomeBlogBoxDesc.vue';
-
-const {bgImgSrc, boxDesc}=defineProps(['bgImgSrc', 'boxDesc']);
-console.log(bgImgSrc);
 </script>
 
 <template>
