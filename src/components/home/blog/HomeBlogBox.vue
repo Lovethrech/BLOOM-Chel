@@ -10,6 +10,7 @@ const {bgImgSrc, boxDesc}=defineProps(['bgImgSrc', 'boxDesc']);
         <div class="home-blog-box-mini-ctn">
             <HomeBlogBoxDesc
             :boxDesc="boxDesc"
+            :style="{background:}"
             >
             </HomeBlogBoxDesc>
         </div>
