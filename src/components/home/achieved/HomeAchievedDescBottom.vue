@@ -45,4 +45,13 @@
         font-size:16vh;
     }
 }
+
+@media screen and (max-width:850px) {
+    .home-achieved-desc-bottom-main-ctn{
+        justify-content: left;
+    }
+    .home-achieved-desc-bottom-mini-ctn{
+        flex-direction: column;
+    }
+}
 </style>
