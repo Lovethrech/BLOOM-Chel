@@ -7,12 +7,20 @@ import HomeBlogBox from './HomeBlogBox.vue';
     <div class="home-bog-box-main-ctn-main-ctn">
         <div 
             class="home-bog-box-main-ctn-mini-ctn"
-            v-for="HomeBlogDetail in HomeBlogDetails"
-            :key="HomeBlogDetail.id"
         >
             <HomeBlogBox
-                :bgImgSrc="HomeBlogDetail.bgImgSrc"
-                :boxDesc="HomeBlogDetail.boxDesc"
+                :bgImgSrc="HomeBlogDetails[0].bgImgSrc"
+                :boxDesc="HomeBlogDetails[0].boxDesc"
+            >
+            </HomeBlogBox>
+            <HomeBlogBox
+                :bgImgSrc="HomeBlogDetails[1].bgImgSrc"
+                :boxDesc="HomeBlogDetails[1].boxDesc"
+            >
+            </HomeBlogBox>
+            <HomeBlogBox
+                :bgImgSrc="HomeBlogDetails[2].bgImgSrc"
+                :boxDesc="HomeBlogDetails[2].boxDesc"
             >
             </HomeBlogBox>
         </div>
