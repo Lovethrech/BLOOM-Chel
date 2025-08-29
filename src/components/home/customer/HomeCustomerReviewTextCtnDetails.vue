@@ -29,4 +29,11 @@ import HomeCustomerReviewTextCtnSpeech from './HomeCustomerReviewTextCtnSpeech.v
     justify-content: space-between;
     height:100%;
 }
+
+@media screen and (max-width: 900px) {
+    .home-customer-review-text-ctn-details-main-ctn{
+        width:100%;
+        padding:0 6vw
+    }
+}
 </style>

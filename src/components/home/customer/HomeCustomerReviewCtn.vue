@@ -28,6 +28,9 @@ import HomeCustomerReviewTextCtnDetails from './HomeCustomerReviewTextCtnDetails
 }
 
 @media screen and (max-width: 900px) {
+    .home-customer-review-ctn-main-ctn{
+        padding:0;
+    }
     .home-customer-review-ctn-mini-ctn{
         flex-direction: column;
     }
