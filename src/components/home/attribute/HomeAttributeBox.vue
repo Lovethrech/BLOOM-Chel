@@ -1,8 +1,10 @@
 <script setup>
-import HomeAttributeDetails from "@/data/home-attribute-details.json";
+import { defineProps } from 'vue';
 import HomeAttributeBoxDesc from './HomeAttributeBoxDesc.vue';
 import HomeAttributeBoxImg from './HomeAttributeBoxImg.vue';
 import HomeAttributeBoxTitle from './HomeAttributeBoxTitle.vue';
+
+const {name, imgSrc, description}=(['name', 'imgSrc', 'description']);
 </script>
 
 <template>
@@ -11,15 +13,15 @@ import HomeAttributeBoxTitle from './HomeAttributeBoxTitle.vue';
             class="home-attribute-box-mini-ctn" 
         >
             <HomeAttributeBoxImg
-                :imgSrc="HomeAttributeDetail.imgSrc"
+                :imgSrc="imgSrc"
             >
             </HomeAttributeBoxImg>
             <HomeAttributeBoxTitle
-                :name="HomeAttributeDetail.name"
+                :name="name"
             >
             </HomeAttributeBoxTitle>
             <HomeAttributeBoxDesc
-                :description="HomeAttributeDetail.description"
+                :description="description"
             >
             </HomeAttributeBoxDesc>
         </div>
