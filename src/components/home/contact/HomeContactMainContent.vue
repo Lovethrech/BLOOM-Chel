@@ -33,6 +33,9 @@ import HomeContactMainContentLink from './HomeContactMainContentLink.vue';
     justify-content: space-between;
     gap:10vw;
 }
+.home-contact-main-content-mini-ctn{
+    margin: auto 0;
+}
 
 @media screen and (max-width:950px) and (min-height: 1000px) {
     .home-contact-main-content-main-ctn{
