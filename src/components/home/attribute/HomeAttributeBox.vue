@@ -31,8 +31,13 @@ const {name, imgSrc, description}=defineProps(['name', 'imgSrc', 'description'])
 <style scoped>
 .home-attribute-box-main-ctn{
     background-color: #ffffff;
-    padding:3vh 4vw;
-    box-shadow: 0px 7px 14px 7px #cccbcc;
+    padding:4vh 4vw;
+    box-shadow: -0.4vw -0.6vh 20px 30px #cccbccad;
+}
+.home-attribute-box-mini-ctn{
+    display: flex;
+    flex-direction: column;
+    gap:2vh;
 }
 
 @media screen and (max-width: 850px) {
