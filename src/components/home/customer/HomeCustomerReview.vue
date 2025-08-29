@@ -28,4 +28,10 @@ import HomeCustomerReviewCtn from './HomeCustomerReviewCtn.vue';
     font-size: 3.6vh;
     margin: 0 6vw;
 }
+
+@media screen and (max-width: 900px) {
+    .home-customer-review-mini-ctn-name{
+        font-size: 30px;
+    }
+}
 </style>
