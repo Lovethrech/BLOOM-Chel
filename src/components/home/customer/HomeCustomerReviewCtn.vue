@@ -20,5 +20,6 @@ import HomeCustomerReviewTextCtnDetails from './HomeCustomerReviewTextCtnDetails
 .home-customer-review-ctn-mini-ctn{
     display:flex;
     flex-direction: row-reverse;
+    justify-content: space-between;
 }
 </style>

@@ -17,3 +17,14 @@ import HomeCustomerReviewTextCtnSpeech from './HomeCustomerReviewTextCtnSpeech.v
         </div>
     </div>
 </template>
+
+<style scoped>
+.home-customer-review-text-ctn-details-main-ctn{
+    
+}
+.home-customer-review-text-ctn-details-mini-ctn{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+</style>
