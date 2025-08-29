@@ -18,9 +18,9 @@
         font-size:24px;
     }
 }
-@media screen and (max-width:520px) {
+@media screen and (max-width:400px) {
     .home-achieved-desc-top-main-ctn-name{
-        font-size: 30px;
+        font-size: 16px;
     }
 }
 </style>

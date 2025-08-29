@@ -60,12 +60,12 @@
         font-size:100px;
     }
 }
-@media screen and (max-width:520px) {
+@media screen and (max-width:400px) {
     .home-achieved-desc-bottom-mini-ctn-name-patients, .home-achieved-desc-bottom-mini-ctn-name-business{
-        font-size: 24px;
+        font-size: 14px;
     }
     .home-achieved-desc-bottom-mini-ctn-name-patients-count, .home-achieved-desc-bottom-mini-ctn-name-business-count{
-        font-size:120px;
+        font-size:70px;
     }
 }
 </style>
