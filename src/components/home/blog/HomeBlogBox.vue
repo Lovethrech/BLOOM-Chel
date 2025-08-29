@@ -3,14 +3,14 @@ import { defineProps } from 'vue';
 import HomeBlogBoxDesc from './HomeBlogBoxDesc.vue';
 
 const {bgImgSrc, boxDesc}=defineProps(['bgImgSrc', 'boxDesc']);
+console.log(bgImgSrc);
 </script>
 
 <template>
-    <div class="home-blog-box-main-ctn">
+    <div class="home-blog-box-main-ctn" :style="{background:bgImgSrc}">
         <div class="home-blog-box-mini-ctn">
             <HomeBlogBoxDesc
-            :boxDesc="boxDesc"
-            :style="{background:}"
+                :boxDesc="boxDesc"
             >
             </HomeBlogBoxDesc>
         </div>
@@ -20,7 +20,6 @@ const {bgImgSrc, boxDesc}=defineProps(['bgImgSrc', 'boxDesc']);
 <style scoped>
 .home-blog-box-main-ctn{
     background-color: green;
-    background: url(@/assets/home-blog-img-two.svg) top no-repeat;
     background-size: cover;
     width:27vw;
     min-height:30vw;
