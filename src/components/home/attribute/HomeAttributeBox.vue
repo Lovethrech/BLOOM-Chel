@@ -1,4 +1,5 @@
 <script setup>
+import HomeAttributeDetails from "@/data/home-attribute-details.json";
 import HomeAttributeBoxDesc from './HomeAttributeBoxDesc.vue';
 import HomeAttributeBoxImg from './HomeAttributeBoxImg.vue';
 import HomeAttributeBoxTitle from './HomeAttributeBoxTitle.vue';
@@ -6,10 +7,23 @@ import HomeAttributeBoxTitle from './HomeAttributeBoxTitle.vue';
 
 <template>
     <div class="home-attribute-box-main-ctn">
-        <div class="home-attribute-box-mini-ctn">
-            <HomeAttributeBoxImg></HomeAttributeBoxImg>
-            <HomeAttributeBoxTitle></HomeAttributeBoxTitle>
-            <HomeAttributeBoxDesc></HomeAttributeBoxDesc>
+        <div 
+            class="home-attribute-box-mini-ctn" 
+            v-for="HomeAttributeDetail in HomeAttributeDetails"
+            :key="HomeAttributeDetail.id"
+        >
+            <HomeAttributeBoxImg
+                :imgSrc="HomeAttributeDetail.imgSrc"
+            >
+            </HomeAttributeBoxImg>
+            <HomeAttributeBoxTitle
+                :name="HomeAttributeDetail.name"
+            >
+            </HomeAttributeBoxTitle>
+            <HomeAttributeBoxDesc
+                :description="HomeAttributeDetail.description"
+            >
+            </HomeAttributeBoxDesc>
         </div>
     </div>
 </template>
