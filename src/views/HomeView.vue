@@ -5,6 +5,7 @@ import HomeContact from '@/components/home/contact/HomeContact.vue';
 import HomeAttribute from '@/components/home/attribute/HomeAttribute.vue';
 import HomeAchieved from '@/components/home/achieved/HomeAchieved.vue';
 import HomeCustomerReview from '@/components/home/customer/HomeCustomerReview.vue';
+import HomeBlog from '@/components/home/blog/HomeBlog.vue';
 </script>
 
 <template>
@@ -15,5 +16,6 @@ import HomeCustomerReview from '@/components/home/customer/HomeCustomerReview.vu
     <HomeAttribute></HomeAttribute>
     <HomeAchieved></HomeAchieved>
     <HomeCustomerReview></HomeCustomerReview>
+    <HomeBlog></HomeBlog>
   </main>
 </template>
