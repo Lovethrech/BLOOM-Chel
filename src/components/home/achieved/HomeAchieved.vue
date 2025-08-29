@@ -11,3 +11,11 @@ import HomeAchievedDescTop from './HomeAchievedDescTop.vue';
         </div>
     </section>
 </template>
+
+<style scoped>
+.home-achieved-main-ctn{
+    width:100%;
+    height:100vh;
+    background: url(@/assets/home-achieved-bg.svg) top center/ auto no-repeat;
+}
+</style>
