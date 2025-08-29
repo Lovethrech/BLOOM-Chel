@@ -31,7 +31,7 @@ const {name, imgSrc, description}=defineProps(['name', 'imgSrc', 'description'])
 <style scoped>
 .home-attribute-box-main-ctn{
     background-color: #ffffff;
-    padding:3vh 2vw;
+    padding:3vh 4vw;
     box-shadow: 0px 7px 100px 27px #cccbcc;
 }
 </style>
