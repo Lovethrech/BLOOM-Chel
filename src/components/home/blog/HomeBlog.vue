@@ -16,8 +16,10 @@ import HomeBlogTitle from './HomeBlogTitle.vue';
 </template>
 
 <style scoped>
-.home-blog-main-ctn{
+.home-blog-main-ctn, .home-blog-mini-ctn{
     width:100%;
+}
+.home-blog-main-ctn{
     height: 100vh;
     padding: 12vh 6vw;
     display:flex;
@@ -25,8 +27,6 @@ import HomeBlogTitle from './HomeBlogTitle.vue';
     place-items: center;
 }
 .home-blog-mini-ctn{
-    width:100%;
     height: 100%;
-    background-color: aquamarine;
 }
 </style>
