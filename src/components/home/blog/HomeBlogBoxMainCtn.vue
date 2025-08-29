@@ -1,12 +1,11 @@
 <script setup>
+import HomeBlogDetails from "@/data/home-blog-details.json";
 import HomeBlogBox from './HomeBlogBox.vue';
 </script>
 
 <template>
     <div class="home-bog-box-main-ctn-main-ctn">
         <div class="home-bog-box-main-ctn-mini-ctn">
-            <HomeBlogBox></HomeBlogBox>
-            <HomeBlogBox></HomeBlogBox>
             <HomeBlogBox></HomeBlogBox>
         </div>
     </div>
