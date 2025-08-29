@@ -32,6 +32,7 @@ import HomeAchievedDescTop from './HomeAchievedDescTop.vue';
     .home-achieved-main-ctn{
         background: url(@/assets/home-achieved-bg-mobile.svg) center/ auto no-repeat;
         background-size: cover;
+        padding:10vh 6vw;
     }
 }
 </style>
