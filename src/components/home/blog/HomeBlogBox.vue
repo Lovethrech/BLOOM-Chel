@@ -16,6 +16,7 @@
 @media screen and (max-width:900px) {
     .home-blog-box-main-ctn{
         width:100%;
+        height: 200px;
     }
 }
 </style>

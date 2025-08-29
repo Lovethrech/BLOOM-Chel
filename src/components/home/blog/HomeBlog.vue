@@ -29,4 +29,11 @@ import HomeBlogTitle from './HomeBlogTitle.vue';
 .home-blog-mini-ctn{
     height: 100%;
 }
+
+
+@media screen and (max-width:900px) {
+    .home-blog-main-ctn{
+        height: 100%;
+    }
+}
 </style>
