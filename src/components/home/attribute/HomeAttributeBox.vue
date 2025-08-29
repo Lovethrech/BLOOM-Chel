@@ -15,5 +15,7 @@ import HomeAttributeBoxTitle from './HomeAttributeBoxTitle.vue';
 </template>
 
 <style scoped>
-
+.home-attribute-box-main-ctn{
+    background-color: #bdb6b6;
+}
 </style>
