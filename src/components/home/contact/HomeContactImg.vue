@@ -23,7 +23,9 @@
 @media screen and (max-width: 850px) {
     .home-contact-img-main-ctn{
         margin: 0 auto;
-        width: 100%;
+        width: 80vw;
+        height:20vh;
+        background-color: chartreuse;
     }
 }
 </style>
