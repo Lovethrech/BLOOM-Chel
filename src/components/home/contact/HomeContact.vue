@@ -22,4 +22,9 @@ import HomeContactTitle from './HomeContactTitle.vue';
 .home-contact-mini-ctn{
     height: 100%;
 }
+@media screen and (max-width:850px){
+    .home-contact-main-ctn{
+        height: 100vh;
+    }
+}
 </style>
