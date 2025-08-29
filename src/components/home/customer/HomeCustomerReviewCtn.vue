@@ -15,5 +15,10 @@ import HomeCustomerReviewTextCtnDetails from './HomeCustomerReviewTextCtnDetails
 <style scoped>
 .home-customer-review-ctn-main-ctn{
     background: linear-gradient(to bottom, #A54dea, #594edc);
+    padding: 0 6vw;
+}
+.home-customer-review-ctn-mini-ctn{
+    display:flex;
+    flex-direction: row-reverse;
 }
 </style>
