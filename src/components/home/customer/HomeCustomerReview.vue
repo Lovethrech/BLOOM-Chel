@@ -17,7 +17,7 @@ import HomeCustomerReviewCtn from './HomeCustomerReviewCtn.vue';
 <style scoped>
 .home-customer-review-main-ctn{
     width:100%;
-    min-height:100vh;
+    min-height:50vh;
     padding: 10vh 0;
 }
 .home-customer-review-mini-ctn{
