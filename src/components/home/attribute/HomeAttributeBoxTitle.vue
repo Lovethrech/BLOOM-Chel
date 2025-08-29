@@ -18,6 +18,11 @@ const {name}=defineProps(['name']);
     text-transform: capitalize;
 }
 
+@media screen and (min-height: 1000px) {
+    .home-attribute-box-title-main-ctn-name{
+        font-size: 2vh;
+    }
+}
 @media screen and (max-width: 850px) {
     .home-attribute-box-title-main-ctn-name{
         font-size: 16px;
