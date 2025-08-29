@@ -17,6 +17,8 @@ import HomeBlogBoxDesc from './HomeBlogBoxDesc.vue';
     background-size: cover;
     width:27vw;
     min-height:30vw;
+    display:flex;
+    place-items: end;
 }
 
 @media screen and (max-width:900px) {

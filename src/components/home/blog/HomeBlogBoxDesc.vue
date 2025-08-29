@@ -10,7 +10,7 @@
 
 <style scoped>
 .home-blog-box-desc-main-ctn{
-    padding: 0 2vw;
+    padding: 4vh 2vw;
 }
 .home-blog-box-desc-main-ctn-name{
     color: #fff;
