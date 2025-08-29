@@ -22,7 +22,7 @@ import HomeAttributeBox from './HomeAttributeBox.vue';
 
 <style scoped>
 .home-attribute-main-ctn{
-    padding:16vh 6vw;
+    padding:10vh 6vw;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
