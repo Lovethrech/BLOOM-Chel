@@ -11,3 +11,9 @@ const {description}=defineProps(['description']);
         </p>
     </div>
 </template>
+
+<style scoped>
+.home-attribute-box-desc-main-ctn-name{
+    font-size: 0.8vw;
+}
+</style>

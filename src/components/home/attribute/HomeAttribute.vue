@@ -25,6 +25,7 @@ import HomeAttributeBox from './HomeAttributeBox.vue';
     padding:16vh 6vw;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     text-align: center;
     gap:3vw;
 }

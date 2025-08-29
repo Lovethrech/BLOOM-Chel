@@ -14,6 +14,7 @@ const {name}=defineProps(['name']);
 
 <style scoped>
 .home-attribute-box-title-main-ctn-name{
+    font-size: 1.4vw;
     text-transform: capitalize;
 }
 </style>
