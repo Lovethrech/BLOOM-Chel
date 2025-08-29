@@ -1,7 +1,11 @@
+<script setup>
+import HomeBlogBoxDesc from './HomeBlogBoxDesc.vue';
+</script>
+
 <template>
     <div class="home-blog-box-main-ctn">
         <div class="home-blog-box-mini-ctn">
-
+            <HomeBlogBoxDesc></HomeBlogBoxDesc>
         </div>
     </div>
 </template>
