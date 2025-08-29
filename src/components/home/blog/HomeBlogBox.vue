@@ -9,7 +9,7 @@
 <style scoped>
 .home-blog-box-main-ctn{
     background-color: green;
-    width:500px;
-    height:400px;
+    width:27vw;
+    height:30vw;
 }
 </style>
