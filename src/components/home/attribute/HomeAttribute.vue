@@ -6,6 +6,8 @@ import HomeAttributeBox from './HomeAttributeBox.vue';
     <div class="home-attribute-main-ctn">
         <div class="home-attribute-mini-ctn">
             <HomeAttributeBox></HomeAttributeBox>
+            <HomeAttributeBox></HomeAttributeBox>
+            <HomeAttributeBox></HomeAttributeBox>
         </div>
     </div>
 </template>
@@ -13,5 +15,11 @@ import HomeAttributeBox from './HomeAttributeBox.vue';
 <style scoped>
 .home-attribute-main-ctn{
     padding:3vh 6vw;
+}
+.home-attribute-mini-ctn{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:3vw;
 }
 </style>
