@@ -4,7 +4,7 @@ import HomeAttributeBoxDesc from './HomeAttributeBoxDesc.vue';
 import HomeAttributeBoxImg from './HomeAttributeBoxImg.vue';
 import HomeAttributeBoxTitle from './HomeAttributeBoxTitle.vue';
 
-const {name, imgSrc, description}=(['name', 'imgSrc', 'description']);
+const {name, imgSrc, description}=defineProps(['name', 'imgSrc', 'description']);
 </script>
 
 <template>
