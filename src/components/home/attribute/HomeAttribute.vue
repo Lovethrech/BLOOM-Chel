@@ -3,13 +3,11 @@ import HomeAttributeBox from './HomeAttributeBox.vue';
 </script>
 
 <template>
-    <div class="home-attribute-main-ctn">
+    <section class="home-attribute-main-ctn">
         <div class="home-attribute-mini-ctn">
             <HomeAttributeBox></HomeAttributeBox>
-            <HomeAttributeBox></HomeAttributeBox>
-            <HomeAttributeBox></HomeAttributeBox>
         </div>
-    </div>
+    </section>
 </template>
 
 <style scoped>
