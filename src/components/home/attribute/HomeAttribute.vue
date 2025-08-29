@@ -10,7 +10,12 @@ import HomeAttributeBox from './HomeAttributeBox.vue';
             v-for="HomeAttributeDetail in HomeAttributeDetails"
             :key="HomeAttributeDetail.id"
         >
-            <HomeAttributeBox></HomeAttributeBox>
+            <HomeAttributeBox
+                :name="HomeAttributeDetail.name"
+                :imgSrc="HomeAttributeDetail.imgSrc"
+                :description="HomeAttributeDetail.description"
+            >
+            </HomeAttributeBox>
         </div>
     </section>
 </template>
