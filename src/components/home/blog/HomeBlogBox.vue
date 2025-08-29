@@ -7,7 +7,7 @@ console.log(bgImgSrc);
 </script>
 
 <template>
-    <div class="home-blog-box-main-ctn" :style="">
+    <div class="home-blog-box-main-ctn" :style="{background: bgImgSrc}">
         <div class="home-blog-box-mini-ctn">
             <HomeBlogBoxDesc
                 :boxDesc="boxDesc"
@@ -20,6 +20,7 @@ console.log(bgImgSrc);
 <style scoped>
 .home-blog-box-main-ctn{
     background-color: green;
+    background: url(@/assets/home-blog-img-three.svg) top no-repeat;
     background-size: cover;
     width:27vw;
     min-height:30vw;
