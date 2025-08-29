@@ -46,7 +46,7 @@
     }
 }
 
-@media screen and (max-width:850px) {
+@media screen and (max-width:850px){
     .home-achieved-desc-bottom-main-ctn{
         justify-content: left;
     }
@@ -58,6 +58,14 @@
     }
     .home-achieved-desc-bottom-mini-ctn-name-patients-count, .home-achieved-desc-bottom-mini-ctn-name-business-count{
         font-size:180px;
+    }
+}
+@media screen and (max-width:520px) {
+    .home-achieved-desc-bottom-mini-ctn-name-patients, .home-achieved-desc-bottom-mini-ctn-name-business{
+        font-size: 24px;
+    }
+    .home-achieved-desc-bottom-mini-ctn-name-patients-count, .home-achieved-desc-bottom-mini-ctn-name-business-count{
+        font-size:120px;
     }
 }
 </style>
