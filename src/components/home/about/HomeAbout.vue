@@ -62,6 +62,39 @@ const tryFreeBtnColor=ref("#ffffff");
     width:80%;
 }
 
+@media screen and (min-height: 1000px) {
+    .home-about-main-ctn{
+        padding-top: 4vh;
+        padding-bottom: 5vh;
+        height:100%;
+    }
+    .home-about-mini-ctn{
+        height: 100%;
+        gap:3vh;
+    }
+    .home-about-title{
+        grid-column: 1;
+        grid-row:1;
+    }
+    .home-about-img{
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .home-about-desc{
+        grid-column: 1;
+        grid-row: 3;
+    }
+    .try-free-btn{
+        grid-column: 1;
+        grid-row: 4;
+    }
+    .home-about-desc, .try-free-btn{
+        margin:0;
+    }
+    .home-about-title, .home-about-desc, .try-free-btn{
+        width:100%;
+    }
+}
 @media screen and (max-width: 900px) {
     .home-about-main-ctn{
         padding-top: 4vh;
