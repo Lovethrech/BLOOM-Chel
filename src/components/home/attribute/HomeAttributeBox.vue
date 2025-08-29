@@ -33,9 +33,4 @@ const {name, imgSrc, description}=defineProps(['name', 'imgSrc', 'description'])
     background-color: #bdb6b6;
     padding:3vh 2vw;
 }
-.home-attribute-box-mini-ctn{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
 </style>

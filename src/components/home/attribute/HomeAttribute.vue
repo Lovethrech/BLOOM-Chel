@@ -25,9 +25,9 @@ import HomeAttributeBox from './HomeAttributeBox.vue';
     padding:16vh 6vw;
 }
 .home-attribute-mini-ctn{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
     gap:3vw;
 }
 </style>
