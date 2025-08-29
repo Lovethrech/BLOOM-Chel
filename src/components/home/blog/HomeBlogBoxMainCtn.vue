@@ -1,5 +1,6 @@
 <script setup>
 import HomeBlogBoxOne from './HomeBlogBoxOne.vue';
+import HomeBlogBoxTwo from './HomeBlogBoxTwo.vue';
 </script>
 
 <template>
@@ -8,6 +9,8 @@ import HomeBlogBoxOne from './HomeBlogBoxOne.vue';
             class="home-bog-box-main-ctn-mini-ctn"
         >
             <HomeBlogBoxOne></HomeBlogBoxOne>
+            <HomeBlogBoxTwo></HomeBlogBoxTwo>
+            
         </div>
     </div>
 </template>
