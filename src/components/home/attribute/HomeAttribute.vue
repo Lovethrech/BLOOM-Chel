@@ -30,6 +30,12 @@ import HomeAttributeBox from './HomeAttributeBox.vue';
     gap:3vw;
 }
 
+@media screen and (min-height: 1000px) {
+    .home-attribute-main-ctn{
+        flex-direction: column;
+        gap:8vh;
+    }
+}
 @media screen and (max-width: 850px) {
     .home-attribute-main-ctn{
         flex-direction: column;
