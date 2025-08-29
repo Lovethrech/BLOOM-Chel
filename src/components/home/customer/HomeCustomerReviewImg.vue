@@ -6,7 +6,7 @@
 
 <style scoped>
 .home-customer-review-img-main-ctn{
-    width:30vw;
-    height:30vw;
+    width:60vw;
+    height:60vh;
 }
 </style>
