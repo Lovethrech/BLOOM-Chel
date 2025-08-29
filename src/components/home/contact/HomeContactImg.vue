@@ -24,8 +24,7 @@
     .home-contact-img-main-ctn{
         margin: 0 auto;
         width: 80vw;
-        height:20vh;
-        background-color: chartreuse;
+        height:30vh;
     }
 }
 </style>
