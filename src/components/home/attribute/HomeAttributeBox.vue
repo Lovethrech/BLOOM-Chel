@@ -17,5 +17,11 @@ import HomeAttributeBoxTitle from './HomeAttributeBoxTitle.vue';
 <style scoped>
 .home-attribute-box-main-ctn{
     background-color: #bdb6b6;
+    padding:3vh 2vw;
+}
+.home-attribute-box-mini-ctn{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 </style>
