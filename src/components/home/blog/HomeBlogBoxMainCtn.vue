@@ -19,8 +19,6 @@ import HomeBlogBox from './HomeBlogBox.vue';
 }
 .home-bog-box-main-ctn-main-ctn{
     height:80%;
-    background-color:darkgoldenrod;
-    display:flex;
     place-items: center;
 }
 .home-bog-box-main-ctn-mini-ctn{
