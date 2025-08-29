@@ -1,11 +1,17 @@
 <script setup>
+import { defineProps } from 'vue';
 import HomeBlogBoxDesc from './HomeBlogBoxDesc.vue';
+
+const {bgImgSrc, boxDesc}=defineProps(['bgImgSrc', 'boxDesc']);
 </script>
 
 <template>
     <div class="home-blog-box-main-ctn">
         <div class="home-blog-box-mini-ctn">
-            <HomeBlogBoxDesc></HomeBlogBoxDesc>
+            <HomeBlogBoxDesc
+            :boxDesc="boxDesc"
+            >
+            </HomeBlogBoxDesc>
         </div>
     </div>
 </template>
