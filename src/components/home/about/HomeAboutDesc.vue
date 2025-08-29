@@ -13,6 +13,13 @@
 .home-about-desc-main-ctn-name{
     font-size: 0.9vw;
 }
+
+@media screen and (min-height: 1000px) {
+    .home-about-desc-main-ctn-name{
+        font-size: 1.6vh;
+        line-height: 2.4vh;
+    }
+}
 @media screen and (max-width: 900px) {
     .home-about-desc-main-ctn-name{
         font-size: 14px;
