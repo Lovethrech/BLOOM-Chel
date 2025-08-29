@@ -15,7 +15,7 @@
     text-transform: uppercase;
 }
 
-@media screen and (min-height: 1000px) {
+@media screen and (max-width:950px) and (min-height: 1000px) {
     .home-contact-title-main-ctn-name{
         font-size: 2.6vh;
     }
