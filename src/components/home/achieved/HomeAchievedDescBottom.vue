@@ -54,10 +54,10 @@
         flex-direction: column;
     }
     .home-achieved-desc-bottom-mini-ctn-name-patients, .home-achieved-desc-bottom-mini-ctn-name-business{
-        font-size: 30px;
+        font-size: 26px;
     }
     .home-achieved-desc-bottom-mini-ctn-name-patients-count, .home-achieved-desc-bottom-mini-ctn-name-business-count{
-        font-size:180px;
+        font-size:100px;
     }
 }
 @media screen and (max-width:520px) {
