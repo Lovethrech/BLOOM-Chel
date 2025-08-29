@@ -34,6 +34,6 @@
     font-size: 1vw;
 }
 .home-achieved-desc-bottom-mini-ctn-name-patients-count, .home-achieved-desc-bottom-mini-ctn-name-business-count{
-    font-size:6vw;
+    font-size:7vw;
 }
 </style>
