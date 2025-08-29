@@ -11,6 +11,5 @@ import HomeCustomerReviewCtn from './HomeCustomerReviewCtn.vue';
             </p>
             <HomeCustomerReviewCtn></HomeCustomerReviewCtn>
         </div>
-        <!-- .home-customer-review-text-ctn -->
     </section>
 </template>
