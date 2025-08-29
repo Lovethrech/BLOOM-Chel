@@ -1,6 +1,5 @@
 <script setup>
-import HomeBlogDetails from "@/data/home-blog-details.json";
-import HomeBlogBox from './HomeBlogBox.vue';
+import HomeBlogBoxOne from './HomeBlogBoxOne.vue';
 </script>
 
 <template>
@@ -8,21 +7,7 @@ import HomeBlogBox from './HomeBlogBox.vue';
         <div 
             class="home-bog-box-main-ctn-mini-ctn"
         >
-            <HomeBlogBox
-                :bgImgSrc="HomeBlogDetails[0].bgImgSrc"
-                :boxDesc="HomeBlogDetails[0].boxDesc"
-            >
-            </HomeBlogBox>
-            <!-- <HomeBlogBox
-                :bgImgSrc="HomeBlogDetails[1].bgImgSrc"
-                :boxDesc="HomeBlogDetails[1].boxDesc"
-            >
-            </HomeBlogBox>
-            <HomeBlogBox
-                :bgImgSrc="HomeBlogDetails[2].bgImgSrc"
-                :boxDesc="HomeBlogDetails[2].boxDesc"
-            >
-            </HomeBlogBox> -->
+            <HomeBlogBoxOne></HomeBlogBoxOne>
         </div>
     </div>
 </template>
