@@ -13,3 +13,9 @@ import HomeBlogTitle from './HomeBlogTitle.vue';
         </div>
     </section>
 </template>
+
+<style scoped>
+.home-blog-main-ctn{
+    padding: 2vh 6vw;
+}
+</style>
