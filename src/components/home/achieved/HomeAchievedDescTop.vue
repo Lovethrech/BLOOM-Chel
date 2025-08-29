@@ -5,3 +5,10 @@
         </p>
     </div>
 </template>
+
+<style scoped>
+.home-achieved-desc-top-main-ctn-name{
+    color:#fff;
+    font-size:2.4vw;
+}
+</style>
