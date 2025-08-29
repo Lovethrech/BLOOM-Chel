@@ -5,8 +5,15 @@ import HomeBlogBox from './HomeBlogBox.vue';
 
 <template>
     <div class="home-bog-box-main-ctn-main-ctn">
-        <div class="home-bog-box-main-ctn-mini-ctn">
-            <HomeBlogBox></HomeBlogBox>
+        <div 
+            class="home-bog-box-main-ctn-mini-ctn"
+            v-for="HomeBlogDetail in HomeBlogDetails"
+            :key="HomeBlogDetail.id"
+        >
+            <HomeBlogBox
+                
+            >
+            </HomeBlogBox>
         </div>
     </div>
 </template>
