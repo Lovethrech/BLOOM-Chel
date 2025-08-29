@@ -46,7 +46,6 @@ import HomeContactMainContentLink from './HomeContactMainContentLink.vue';
     .home-contact-main-content-main-ctn-main{
         flex-direction: column;
         gap:0;
-        background-color: cadetblue;
     }
 }
 </style>
