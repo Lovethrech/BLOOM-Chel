@@ -33,6 +33,12 @@
         display: flex;
         justify-content: center;
     }
+    .home-contact-main-content-link-mini-ctn{
+        width:170px;
+    }
+    .home-contact-main-content-link-mini-ctn-name{
+        font-size: 1.4vh;
+    }
 }
 @media screen and (max-width: 850px) {
     .home-contact-main-content-link-main-ctn{
