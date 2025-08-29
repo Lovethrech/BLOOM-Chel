@@ -18,5 +18,7 @@
 </template>
 
 <style scoped>
-
+.home-achieved-desc-bottom-mini-ctn-name-patients, .home-achieved-desc-bottom-mini-ctn-name-business{
+    color:#fff;
+}
 </style>
