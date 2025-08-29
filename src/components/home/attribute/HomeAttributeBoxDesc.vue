@@ -16,4 +16,10 @@ const {description}=defineProps(['description']);
 .home-attribute-box-desc-main-ctn-name{
     font-size: 0.8vw;
 }
+
+@media screen and (max-width: 850px) {
+    .home-attribute-box-desc-main-ctn-name{
+        font-size: 12px;
+    }
+}
 </style>
