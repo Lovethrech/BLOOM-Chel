@@ -12,4 +12,10 @@
     width:27vw;
     height:30vw;
 }
+
+@media screen and (max-width:900px) {
+    .home-blog-box-main-ctn{
+        width:100%;
+    }
+}
 </style>

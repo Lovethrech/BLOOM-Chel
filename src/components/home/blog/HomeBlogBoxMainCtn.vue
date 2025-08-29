@@ -25,4 +25,10 @@ import HomeBlogBox from './HomeBlogBox.vue';
     flex-direction: row;
     justify-content: space-between;
 }
+@media screen and (max-width:900px) {
+    .home-bog-box-main-ctn-mini-ctn{
+        flex-direction: column;
+        gap: 2vh
+    }
+}
 </style>
