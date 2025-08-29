@@ -27,6 +27,13 @@
     text-transform: capitalize;
 }
 
+@media screen and (min-height: 1000px) {
+    .home-contact-main-content-link-main-ctn{
+        width:100%;
+        display: flex;
+        justify-content: center;
+    }
+}
 @media screen and (max-width: 850px) {
     .home-contact-main-content-link-main-ctn{
         width:100%;
