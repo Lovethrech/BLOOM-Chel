@@ -25,6 +25,5 @@ import HomeCustomerReviewTextCtnDetails from './HomeCustomerReviewTextCtnDetails
     flex-direction: row-reverse;
     justify-content: space-between;
     gap:3vw;
-    background-color: red;
 }
 </style>

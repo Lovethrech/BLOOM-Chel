@@ -1,6 +1,6 @@
 <template>
     <div class="home-customer-review-img-main-ctn">
-        <img src="@/assets/home-customer-obayemi.svg" alt="">
+        <img src="@/assets/home-customer-obayemi.svg" alt=""/>
     </div>
 </template>
 
@@ -9,6 +9,5 @@
     background-size: cover;
     width: 40vw;
     height:100%;
-    background-color: yellow;
 }
 </style>

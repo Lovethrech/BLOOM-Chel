@@ -21,7 +21,6 @@ import HomeCustomerReviewCtn from './HomeCustomerReviewCtn.vue';
     padding: 10vh 0;
 }
 .home-customer-review-mini-ctn{
-    background-color: green;
     width:100%;
 }
 .home-customer-review-mini-ctn-name{
