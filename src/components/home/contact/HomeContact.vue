@@ -28,8 +28,5 @@ import HomeContactTitle from './HomeContactTitle.vue';
         display:flex;
         place-items: center;
     }
-    .home-contact-mini-ctn{
-        background-color: burlywood;
-    }
 }
 </style>
