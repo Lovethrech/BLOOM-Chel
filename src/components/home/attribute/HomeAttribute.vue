@@ -1,7 +1,5 @@
 <script setup>
 import HomeAttributeBox from './HomeAttributeBox.vue';
-
-
 </script>
 
 <template>
