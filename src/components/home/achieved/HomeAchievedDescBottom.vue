@@ -31,9 +31,18 @@
 }
 .home-achieved-desc-bottom-mini-ctn-name-patients, .home-achieved-desc-bottom-mini-ctn-name-business{
     color:#fff;
-    font-size: 1vw;
+    font-size: 2vh;
 }
 .home-achieved-desc-bottom-mini-ctn-name-patients-count, .home-achieved-desc-bottom-mini-ctn-name-business-count{
-    font-size:7vw;
+    font-size:16vw;
+}
+
+@media screen and (min-width:1500px) {
+    .home-achieved-desc-bottom-mini-ctn-name-patients, .home-achieved-desc-bottom-mini-ctn-name-business{
+        font-size: 2vh;
+    }
+    .home-achieved-desc-bottom-mini-ctn-name-patients-count, .home-achieved-desc-bottom-mini-ctn-name-business-count{
+        font-size:16vh;
+    }
 }
 </style>
