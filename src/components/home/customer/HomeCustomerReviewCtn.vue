@@ -26,4 +26,10 @@ import HomeCustomerReviewTextCtnDetails from './HomeCustomerReviewTextCtnDetails
     justify-content: space-between;
     gap:3vw;
 }
+
+@media screen and (max-width: 900px) {
+    .home-customer-review-ctn-mini-ctn{
+        flex-direction: column;
+    }
+}
 </style>
