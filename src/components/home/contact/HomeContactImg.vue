@@ -6,7 +6,8 @@
 
 <style scoped>
 .home-contact-img-main-ctn{
-    width: 42vw;
+    width: 40vw;
+    height:30vw;
 }
 @media screen and (max-width:1380px) and (min-width: 851px){
     .home-contact-img-main-ctn{
