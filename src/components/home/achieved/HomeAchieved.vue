@@ -16,7 +16,7 @@ import HomeAchievedDescTop from './HomeAchievedDescTop.vue';
 .home-achieved-main-ctn{
     width:100%;
     height:100vh;
-    padding: 10vh 6vw;
+    padding: 14vh 6vw;
     background: url(@/assets/home-achieved-bg.svg) center/ auto no-repeat;
     background-size: cover;
 }
