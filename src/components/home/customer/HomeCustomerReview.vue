@@ -17,7 +17,7 @@ import HomeCustomerReviewCtn from './HomeCustomerReviewCtn.vue';
 <style scoped>
 .home-customer-review-main-ctn{
     width:100%;
-    height:100vh;
+    min-height:100vh;
     padding: 10vh 0;
 }
 .home-customer-review-mini-ctn{
@@ -25,7 +25,7 @@ import HomeCustomerReviewCtn from './HomeCustomerReviewCtn.vue';
 }
 .home-customer-review-mini-ctn-name{
     text-transform: uppercase;
-    font-size: 2.6vh;
+    font-size: 3.6vh;
     margin: 0 6vw;
 }
 </style>
