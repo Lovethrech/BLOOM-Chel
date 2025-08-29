@@ -32,7 +32,7 @@ const {name, imgSrc, description}=defineProps(['name', 'imgSrc', 'description'])
 .home-attribute-box-main-ctn{
     background-color: #ffffff;
     padding:4vh 4vw;
-    box-shadow: 0.2vw 0.2vh 10px 20px hsla(300, 2%, 80%, 0.171);
+    box-shadow: 0.2vw 0.2vh 20px 20px #cdcbcd2c;
 }
 .home-attribute-box-mini-ctn{
     display: flex;
@@ -42,7 +42,7 @@ const {name, imgSrc, description}=defineProps(['name', 'imgSrc', 'description'])
 
 @media screen and (max-width: 850px) {
     .home-attribute-box-main-ctn{
-        box-shadow: 0px 7px 10px 10px #cccbcc;
+        box-shadow: 0px 7px 10px 10px #cdcbcd4f;
     }
 }
 </style>
