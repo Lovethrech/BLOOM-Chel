@@ -10,5 +10,6 @@
 <style scoped>
 .home-customer-review-text-ctn-speech-main-ctn-name{
     color: #fff;
+    font-size: 2vh;
 }
 </style>
