@@ -62,7 +62,7 @@ const tryFreeBtnColor=ref("#ffffff");
     width:80%;
 }
 
-@media screen and (max-width:950px) (min-height: 1000px) {
+@media screen and (max-width:950px) and (min-height: 1000px) {
     .home-about-main-ctn{
         padding-top: 4vh;
         padding-bottom: 5vh;

@@ -15,7 +15,7 @@
     font-weight:100;
 }
 
-@media screen and (min-height: 1000px) {
+@media screen and (max-width:950px) and  (min-height: 1000px) {
     .home-about-desc-main-ctn-name{
         font-size: 1.6vh;
         line-height: 2.4vh;
