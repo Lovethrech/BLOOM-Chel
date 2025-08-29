@@ -1,6 +1,7 @@
 <script setup>
 import HomeBlogBoxOne from './HomeBlogBoxOne.vue';
 import HomeBlogBoxTwo from './HomeBlogBoxTwo.vue';
+import HomeBlogBoxThree from './HomeBlogBoxThree.vue';
 </script>
 
 <template>
@@ -10,7 +11,7 @@ import HomeBlogBoxTwo from './HomeBlogBoxTwo.vue';
         >
             <HomeBlogBoxOne></HomeBlogBoxOne>
             <HomeBlogBoxTwo></HomeBlogBoxTwo>
-            
+            <HomeBlogBoxThree></HomeBlogBoxThree>
         </div>
     </div>
 </template>
