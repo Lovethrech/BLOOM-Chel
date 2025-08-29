@@ -39,6 +39,7 @@ import HomeContactMainContentLink from './HomeContactMainContentLink.vue';
     .home-contact-main-content-main-ctn{
         flex-direction: column;
         gap:0;
+        height: 90%;
     }
 }
 </style>

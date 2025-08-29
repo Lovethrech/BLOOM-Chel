@@ -25,6 +25,11 @@ import HomeContactTitle from './HomeContactTitle.vue';
 @media screen and (max-width:850px){
     .home-contact-main-ctn{
         height: 100vh;
+        display:flex;
+        place-items: center;
+    }
+    .home-contact-mini-ctn{
+        background-color: burlywood;
     }
 }
 </style>
