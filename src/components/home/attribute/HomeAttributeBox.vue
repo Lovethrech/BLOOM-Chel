@@ -32,7 +32,7 @@ const {name, imgSrc, description}=defineProps(['name', 'imgSrc', 'description'])
 .home-attribute-box-main-ctn{
     background-color: #ffffff;
     padding:4vh 4vw;
-    box-shadow: -0.4vw -0.6vh 20px 30px #cccbccad;
+    box-shadow: 0.2vw 0.2vh 10px 20px hsla(300, 2%, 80%, 0.171);
 }
 .home-attribute-box-mini-ctn{
     display: flex;
