@@ -6,11 +6,13 @@ import HomeContactMainContentLink from './HomeContactMainContentLink.vue';
 
 <template>
     <div class="home-contact-main-content-main-ctn">
-        <HomeContactImg></HomeContactImg>
-        <div class="home-contact-main-content-mini-ctn">
-            <HomeContactMainContentDesc></HomeContactMainContentDesc>
-            <br/>
-            <HomeContactMainContentLink></HomeContactMainContentLink>
+        <div class="home-contact-main-content-main-ctn-main">
+            <HomeContactImg></HomeContactImg>
+            <div class="home-contact-main-content-mini-ctn">
+                <HomeContactMainContentDesc></HomeContactMainContentDesc>
+                <br/>
+                <HomeContactMainContentLink></HomeContactMainContentLink>
+            </div>
         </div>
     </div>
 </template>
@@ -18,15 +20,17 @@ import HomeContactMainContentLink from './HomeContactMainContentLink.vue';
 <style scoped>
 .home-contact-main-content-main-ctn{
     padding: 6vh 6vw;
+    background: linear-gradient(to bottom, #A54dea, #594edc);
+    width:100%;
+    display:flex;
+    justify-content: center;
+    place-items: center;
+}
+.home-contact-main-content-main-ctn-main{
     display:flex;
     flex-direction: row-reverse;
     justify-content: space-between;
     gap:10vw;
-    background: linear-gradient(to bottom, #A54dea, #594edc);
-    width:100%;
-}
-.home-contact-main-content-mini-ctn{
-    margin: auto 0;
 }
 
 @media screen and (max-width:950px) and (min-height: 1000px) {
@@ -37,9 +41,12 @@ import HomeContactMainContentLink from './HomeContactMainContentLink.vue';
 }
 @media screen and (max-width: 850px) {
     .home-contact-main-content-main-ctn{
+        height: 90%;
+    }
+    .home-contact-main-content-main-ctn-main{
         flex-direction: column;
         gap:0;
-        height: 90%;
+        background-color: cadetblue;
     }
 }
 </style>
