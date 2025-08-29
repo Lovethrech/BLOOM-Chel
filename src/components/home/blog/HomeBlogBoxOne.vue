@@ -4,10 +4,10 @@ import HomeBlogBoxDesc from './HomeBlogBoxDesc.vue';
 </script>
 
 <template>
-    <div class="home-blog-box-main-ctn" :style="{background: bgImgSrc}">
+    <div class="home-blog-box-main-ctn">
         <div class="home-blog-box-mini-ctn">
             <HomeBlogBoxDesc
-                :boxDesc="boxDesc"
+                :boxDesc="HomeBlogDetails[0].boxDesc"
             >
             </HomeBlogBoxDesc>
         </div>
