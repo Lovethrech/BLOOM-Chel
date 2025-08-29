@@ -9,7 +9,7 @@
 <style scoped>
 .home-contact-main-content-desc-main-ctn-name{
     color:#fff;
-    font-size: 2vw;
+    font-size: 1.8vw;
 }
 
 @media screen and (max-width: 850px) {
