@@ -29,7 +29,10 @@ import HomeAttributeBox from './HomeAttributeBox.vue';
     text-align: center;
     gap:3vw;
 }
-.home-attribute-mini-ctn{
-    
+
+@media screen and (max-width: 850px) {
+    .home-attribute-main-ctn{
+        flex-direction: column;
+    }
 }
 </style>
