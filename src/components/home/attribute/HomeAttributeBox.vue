@@ -32,6 +32,12 @@ const {name, imgSrc, description}=defineProps(['name', 'imgSrc', 'description'])
 .home-attribute-box-main-ctn{
     background-color: #ffffff;
     padding:3vh 4vw;
-    box-shadow: 0px 7px 100px 27px #cccbcc;
+    box-shadow: 0px 7px 14px 7px #cccbcc;
+}
+
+@media screen and (max-width: 850px) {
+    .home-attribute-box-main-ctn{
+        box-shadow: 0px 7px 10px 10px #cccbcc;
+    }
 }
 </style>
