@@ -16,7 +16,7 @@
 }
 @media screen and (max-width:950px) and (min-height: 1000px) {
     .home-contact-img-main-ctn{
-        width: 800px;
+        width: 500px;
         margin: 0 auto;
     }
 }
