@@ -33,7 +33,10 @@ import HomeCustomerReviewTextCtnSpeech from './HomeCustomerReviewTextCtnSpeech.v
 @media screen and (max-width: 900px) {
     .home-customer-review-text-ctn-details-main-ctn{
         width:100%;
-        padding:0 6vw
+        padding:0 6vw 4vh;
+    }
+    .home-customer-review-text-ctn-details-mini-ctn{
+        gap:10vh;
     }
 }
 </style>
