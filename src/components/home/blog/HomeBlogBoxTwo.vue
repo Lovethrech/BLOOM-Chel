@@ -1,0 +1,21 @@
+<script setup>
+import HomeBlogDetails from "@/data/home-blog-details.json";
+import HomeBlogBoxDesc from './HomeBlogBoxDesc.vue';
+</script>
+
+<template>
+    <div class="home-blog-box-main-ctn">
+        <div class="home-blog-box-mini-ctn">
+            <HomeBlogBoxDesc
+                :boxDesc="HomeBlogDetails[1].boxDesc"
+            >
+            </HomeBlogBoxDesc>
+        </div>
+    </div>
+</template>
+
+<style scoped>
+.home-blog-box-main-ctn{
+    background: url(@/assets/home-blog-img-two.svg) top no-repeat;
+}
+</style>
