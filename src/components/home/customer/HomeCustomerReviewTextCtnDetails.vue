@@ -7,8 +7,8 @@ import HomeCustomerReviewTextCtnSpeech from './HomeCustomerReviewTextCtnSpeech.v
 </script>
 
 <template>
-    <div class="home-customer-review-text-ctn-main-ctn">
-        <div class="home-customer-review-text-ctn-mini-ctn">
+    <div class="home-customer-review-text-ctn-details-main-ctn">
+        <div class="home-customer-review-text-ctn-details-mini-ctn">
             <HomeCustomerReviewTextCtnDetails></HomeCustomerReviewTextCtnDetails>
             <Home
         </div>
