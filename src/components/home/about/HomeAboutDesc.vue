@@ -12,6 +12,7 @@
 <style scoped>
 .home-about-desc-main-ctn-name{
     font-size: 0.9vw;
+    font-weight:100;
 }
 
 @media screen and (min-height: 1000px) {
@@ -22,7 +23,7 @@
 }
 @media screen and (max-width: 900px) {
     .home-about-desc-main-ctn-name{
-        font-size: 14px;
+        font-size: 12px;
         line-height: 2vh;
     }
 }
