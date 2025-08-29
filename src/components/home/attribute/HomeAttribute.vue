@@ -23,11 +23,12 @@ import HomeAttributeBox from './HomeAttributeBox.vue';
 <style scoped>
 .home-attribute-main-ctn{
     padding:16vh 6vw;
-}
-.home-attribute-mini-ctn{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
     gap:3vw;
+}
+.home-attribute-mini-ctn{
+    
 }
 </style>
