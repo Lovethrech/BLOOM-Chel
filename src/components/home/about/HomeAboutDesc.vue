@@ -12,7 +12,7 @@
 <style scoped>
 .home-about-desc-main-ctn-name{
     font-size: 0.9vw;
-    font-weight:100;
+    font-weight: 400;
     line-height:1.6vw;
 }
 
