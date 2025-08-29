@@ -9,3 +9,9 @@ import HomeAttributeBox from './HomeAttributeBox.vue';
         </div>
     </div>
 </template>
+
+<style scoped>
+.home-attribute-main-ctn{
+    padding:3vh 6vw;
+}
+</style>
