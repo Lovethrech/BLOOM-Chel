@@ -22,5 +22,7 @@ import HomeCustomerReviewCtn from './HomeCustomerReviewCtn.vue';
 }
 .home-customer-review-mini-ctn-name{
     text-transform: uppercase;
+    font-size: 2.6vh;
+    margin: 0 6vw;
 }
 </style>
