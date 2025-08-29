@@ -12,6 +12,12 @@
     font-size: 1.8vw;
 }
 
+@media screen and (min-height: 1000px) {
+    .home-contact-main-content-desc-main-ctn-name{
+        font-size: 2vh;
+        text-align: center;
+    }
+}
 @media screen and (max-width: 850px) {
     .home-contact-main-content-desc-main-ctn-name{
         font-size: 22px;
