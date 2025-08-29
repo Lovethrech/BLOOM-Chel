@@ -13,3 +13,14 @@ import HomeCustomerReviewCtn from './HomeCustomerReviewCtn.vue';
         </div>
     </section>
 </template>
+
+<style scoped>
+.home-customer-review-main-ctn{
+    width:100%;
+    height:100vh;
+    padding: 20vh 0;
+}
+.home-customer-review-mini-ctn-name{
+    text-transform: uppercase;
+}
+</style>
