@@ -13,4 +13,9 @@
     color:#fff;
     font-size:2.8vw;
 }
+@media screen and (max-width:850px) {
+    .home-achieved-desc-top-main-ctn-name{
+        font-size:36px;
+    }
+}
 </style>
