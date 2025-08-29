@@ -13,17 +13,17 @@ import HomeBlogBox from './HomeBlogBox.vue';
 </template>
 
 <style scoped>
-.home-bog-box-main-ctn-main-ctn{
+.home-bog-box-main-ctn-main-ctn, .home-bog-box-main-ctn-mini-ctn{
     width:100%;
+    display:flex;
+}
+.home-bog-box-main-ctn-main-ctn{
     height:80%;
     background-color:darkgoldenrod;
     display:flex;
     place-items: center;
-
 }
 .home-bog-box-main-ctn-mini-ctn{
-    width:100%;
-    display:flex;
     flex-direction: row;
     justify-content: space-between;
 }
