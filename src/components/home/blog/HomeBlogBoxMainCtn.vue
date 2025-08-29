@@ -13,7 +13,7 @@ import HomeBlogBox from './HomeBlogBox.vue';
                 :boxDesc="HomeBlogDetails[0].boxDesc"
             >
             </HomeBlogBox>
-            <HomeBlogBox
+            <!-- <HomeBlogBox
                 :bgImgSrc="HomeBlogDetails[1].bgImgSrc"
                 :boxDesc="HomeBlogDetails[1].boxDesc"
             >
@@ -22,7 +22,7 @@ import HomeBlogBox from './HomeBlogBox.vue';
                 :bgImgSrc="HomeBlogDetails[2].bgImgSrc"
                 :boxDesc="HomeBlogDetails[2].boxDesc"
             >
-            </HomeBlogBox>
+            </HomeBlogBox> -->
         </div>
     </div>
 </template>

@@ -7,7 +7,7 @@ console.log(bgImgSrc);
 </script>
 
 <template>
-    <div class="home-blog-box-main-ctn" :style="{background:bgImgSrc}">
+    <div class="home-blog-box-main-ctn" :style="">
         <div class="home-blog-box-mini-ctn">
             <HomeBlogBoxDesc
                 :boxDesc="boxDesc"
