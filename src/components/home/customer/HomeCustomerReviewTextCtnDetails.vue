@@ -28,5 +28,6 @@ import HomeCustomerReviewTextCtnSpeech from './HomeCustomerReviewTextCtnSpeech.v
     flex-direction: column;
     justify-content: space-between;
     height:100%;
+    background-color: orange;
 }
 </style>

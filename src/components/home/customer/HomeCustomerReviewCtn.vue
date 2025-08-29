@@ -14,6 +14,8 @@ import HomeCustomerReviewTextCtnDetails from './HomeCustomerReviewTextCtnDetails
 
 <style scoped>
 .home-customer-review-ctn-main-ctn{
+    width: 100%;
+    height:100%;
     background: linear-gradient(to bottom, #A54dea, #594edc);
     padding: 0 6vw;
 }
@@ -22,5 +24,6 @@ import HomeCustomerReviewTextCtnDetails from './HomeCustomerReviewTextCtnDetails
     flex-direction: row-reverse;
     justify-content: space-between;
     gap:6vw;
+    background-color: red;
 }
 </style>

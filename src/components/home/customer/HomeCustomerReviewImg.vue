@@ -10,5 +10,6 @@
     background-size: cover;
     width:60vw;
     height:60vh;
+    background-color: yellow;
 }
 </style>
