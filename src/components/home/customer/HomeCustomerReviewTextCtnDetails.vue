@@ -21,6 +21,7 @@ import HomeCustomerReviewTextCtnSpeech from './HomeCustomerReviewTextCtnSpeech.v
 <style scoped>
 .home-customer-review-text-ctn-details-main-ctn{
     padding: 10vh 0;
+    width:30%;
 }
 .home-customer-review-text-ctn-details-mini-ctn{
     display:flex;
