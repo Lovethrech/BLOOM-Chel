@@ -9,6 +9,7 @@ import HomeBlogTitle from './HomeBlogTitle.vue';
         <div class="home-blog-mini-ctn">
             <HomeBlogTitle></HomeBlogTitle>
             <HomeBlogDesc></HomeBlogDesc>
+            <br/>
             <HomeBlogBoxMainCtn></HomeBlogBoxMainCtn>
         </div>
     </section>
