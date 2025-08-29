@@ -27,13 +27,13 @@
 .home-achieved-desc-bottom-mini-ctn{
     display:flex;
     flex-direction: row;
-    gap:2vw;
+    gap:4vw;
 }
 .home-achieved-desc-bottom-mini-ctn-name-patients, .home-achieved-desc-bottom-mini-ctn-name-business{
     color:#fff;
     font-size: 1vw;
 }
 .home-achieved-desc-bottom-mini-ctn-name-patients-count, .home-achieved-desc-bottom-mini-ctn-name-business-count{
-    font-size:5vw;
+    font-size:6vw;
 }
 </style>
