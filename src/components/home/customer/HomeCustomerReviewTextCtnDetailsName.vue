@@ -9,6 +9,6 @@
 <style scoped>
 .home-customer-review-text-ctn-details-name-main-ctn-name{
     text-transform:capitalize;
-    font-size: 1.6vh;
+    font-size: 1.6vw;
 }
 </style>

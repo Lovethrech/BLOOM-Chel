@@ -8,6 +8,6 @@
 
 <style scoped>
 .home-customer-review-text-ctn-details-year-main-ctn-name{
-    font-size: 0.8vh;
+    font-size: 0.6vw;
 }
 </style>
