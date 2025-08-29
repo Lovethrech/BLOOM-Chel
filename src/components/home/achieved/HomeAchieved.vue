@@ -16,9 +16,16 @@ import HomeAchievedDescTop from './HomeAchievedDescTop.vue';
 .home-achieved-main-ctn{
     width:100%;
     height:100vh;
-    padding:2vh 6vw;
+    padding: 10vh 6vw;
     background: url(@/assets/home-achieved-bg.svg) center/ auto no-repeat;
     background-size: cover;
+}
+.home-achieved-mini-ctn{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 @media screen and (max-width:850px) {

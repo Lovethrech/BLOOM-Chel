@@ -31,6 +31,9 @@
 }
 .home-achieved-desc-bottom-mini-ctn-name-patients, .home-achieved-desc-bottom-mini-ctn-name-business{
     color:#fff;
-    font-size: 3vw;
+    font-size: 1vw;
+}
+.home-achieved-desc-bottom-mini-ctn-name-patients-count, .home-achieved-desc-bottom-mini-ctn-name-business-count{
+    font-size:5vw;
 }
 </style>
