@@ -3,3 +3,10 @@
         <img src="" alt="">
     </div>
 </template>
+
+<style scoped>
+.home-attribute-box-img-main-ctn{
+    width:6vw;
+    height:6vw;
+}
+</style>
