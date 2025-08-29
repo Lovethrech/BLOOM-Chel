@@ -9,8 +9,6 @@ import HomeAttributeBoxTitle from './HomeAttributeBoxTitle.vue';
     <div class="home-attribute-box-main-ctn">
         <div 
             class="home-attribute-box-mini-ctn" 
-            v-for="HomeAttributeDetail in HomeAttributeDetails"
-            :key="HomeAttributeDetail.id"
         >
             <HomeAttributeBoxImg
                 :imgSrc="HomeAttributeDetail.imgSrc"

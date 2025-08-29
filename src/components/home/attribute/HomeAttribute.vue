@@ -5,7 +5,11 @@ import HomeAttributeBox from './HomeAttributeBox.vue';
 
 <template>
     <section class="home-attribute-main-ctn">
-        <div class="home-attribute-mini-ctn">
+        <div 
+            class="home-attribute-mini-ctn"
+            v-for="HomeAttributeDetail in HomeAttributeDetails"
+            :key="HomeAttributeDetail.id"
+        >
             <HomeAttributeBox></HomeAttributeBox>
         </div>
     </section>
