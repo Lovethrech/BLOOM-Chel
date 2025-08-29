@@ -14,7 +14,7 @@ import HomeAttributeBox from './HomeAttributeBox.vue';
 
 <style scoped>
 .home-attribute-main-ctn{
-    padding:3vh 6vw;
+    padding:16vh 6vw;
 }
 .home-attribute-mini-ctn{
     display:flex;
