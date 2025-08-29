@@ -5,3 +5,9 @@
         </p>
     </div>
 </template>
+
+<style scoped>
+.home-customer-review-text-ctn-details-name-main-ctn-name{
+    
+}
+</style>
