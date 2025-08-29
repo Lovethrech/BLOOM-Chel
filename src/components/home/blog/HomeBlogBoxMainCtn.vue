@@ -11,7 +11,8 @@ import HomeBlogBox from './HomeBlogBox.vue';
             :key="HomeBlogDetail.id"
         >
             <HomeBlogBox
-                
+                :bgImgSrc="HomeBlogDetail.bgImgSrc"
+                :boxDesc="HomeBlogDetail.boxDesc"
             >
             </HomeBlogBox>
         </div>
