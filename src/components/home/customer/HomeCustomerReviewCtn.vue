@@ -4,10 +4,16 @@ import HomeCustomerReviewTextCtnDetails from './HomeCustomerReviewTextCtnDetails
 </script>
 
 <template>
-    <div class="home-customer-review-text-ctn-main-ctn">
-        <div class="home-customer-review-text-ctn-mini-ctn">
+    <div class="home-customer-review-ctn-main-ctn">
+        <div class="home-customer-review-ctn-mini-ctn">
             <HomeCustomerReviewImg></HomeCustomerReviewImg>
             <HomeCustomerReviewTextCtnDetails></HomeCustomerReviewTextCtnDetails>
         </div>
     </div>
 </template>
+
+<style scoped>
+.home-customer-review-ctn-main-ctn{
+    background: linear-gradient(to bottom, #A54dea, #594edc);
+}
+</style>
