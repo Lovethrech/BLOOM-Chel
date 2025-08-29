@@ -9,9 +9,11 @@ import HomeCustomerReviewTextCtnSpeech from './HomeCustomerReviewTextCtnSpeech.v
     <div class="home-customer-review-text-ctn-details-main-ctn">
         <div class="home-customer-review-text-ctn-details-mini-ctn">
             <HomeCustomerReviewTextCtnSpeech></HomeCustomerReviewTextCtnSpeech>
-            <HomeCustomerReviewTextCtnDetailsTitle></HomeCustomerReviewTextCtnDetailsTitle>
-            <HomeCustomerReviewTextCtnDetailsName></HomeCustomerReviewTextCtnDetailsName>
-            <HomeCustomerReviewTextCtnDetailsYear></HomeCustomerReviewTextCtnDetailsYear>
+            <div class="home-customer-review-personal-details">
+                <HomeCustomerReviewTextCtnDetailsTitle></HomeCustomerReviewTextCtnDetailsTitle>
+                <HomeCustomerReviewTextCtnDetailsName></HomeCustomerReviewTextCtnDetailsName>
+                <HomeCustomerReviewTextCtnDetailsYear></HomeCustomerReviewTextCtnDetailsYear>
+            </div>
         </div>
     </div>
 </template>
