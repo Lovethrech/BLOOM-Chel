@@ -20,12 +20,13 @@
 </template>
 
 <style scoped>
-.home-achieved-desc-bottom-main-ctn{
+.home-achieved-desc-bottom-main-ctn, .home-achieved-desc-bottom-mini-ctn{
     display:flex;
+}
+.home-achieved-desc-bottom-main-ctn{
     justify-content: end;
 }
 .home-achieved-desc-bottom-mini-ctn{
-    display:flex;
     flex-direction: row;
     gap:4vw;
 }

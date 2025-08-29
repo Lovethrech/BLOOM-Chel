@@ -13,15 +13,16 @@ import HomeAchievedDescTop from './HomeAchievedDescTop.vue';
 </template>
 
 <style scoped>
-.home-achieved-main-ctn{
+.home-achieved-main-ctn, .home-achieved-mini-ctn{
     width:100%;
+}
+.home-achieved-main-ctn{
     height:100vh;
     padding: 14vh 6vw;
     background: url(@/assets/home-achieved-bg.svg) center/ auto no-repeat;
     background-size: cover;
 }
 .home-achieved-mini-ctn{
-    width:100%;
     height:100%;
     display:flex;
     flex-direction: column;
