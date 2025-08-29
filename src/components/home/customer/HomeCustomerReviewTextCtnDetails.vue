@@ -10,7 +10,7 @@ import HomeCustomerReviewTextCtnSpeech from './HomeCustomerReviewTextCtnSpeech.v
     <div class="home-customer-review-text-ctn-details-main-ctn">
         <div class="home-customer-review-text-ctn-details-mini-ctn">
             <HomeCustomerReviewTextCtnDetails></HomeCustomerReviewTextCtnDetails>
-            <Home
+            <!-- <Home -->
         </div>
     </div>
 </template>
