@@ -5,3 +5,9 @@
         </p>
     </div>
 </template>
+
+<style scoped>
+.home-customer-review-text-ctn-title-main-ctn-name{
+    font-size: 1.8vh;
+}
+</style>

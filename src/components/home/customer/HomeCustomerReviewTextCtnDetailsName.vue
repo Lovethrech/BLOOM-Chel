@@ -8,6 +8,7 @@
 
 <style scoped>
 .home-customer-review-text-ctn-details-name-main-ctn-name{
-    
+    text-transform:capitalize;
+    font-size: 3vh;
 }
 </style>
