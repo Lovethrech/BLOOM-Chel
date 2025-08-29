@@ -1,4 +1,5 @@
 <script setup>
+import HomeAttributeDetails from "@/data/home-attribute-details.json";
 import HomeAttributeBox from './HomeAttributeBox.vue';
 </script>
 
