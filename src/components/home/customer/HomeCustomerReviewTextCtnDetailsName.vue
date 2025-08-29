@@ -11,4 +11,9 @@
     text-transform:capitalize;
     font-size: 1.6vw;
 }
+@media screen and (max-width: 900px) {
+    .home-customer-review-text-ctn-details-name-main-ctn-name{
+        font-size: 22px;
+    }
+}
 </style>

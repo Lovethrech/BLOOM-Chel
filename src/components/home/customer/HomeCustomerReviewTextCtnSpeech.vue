@@ -14,8 +14,7 @@
 
 @media screen and (max-width: 900px) {
     .home-customer-review-text-ctn-speech-main-ctn-name{
-        text-align: center;
-        font-size: 22px; 
+        font-size: 16px; 
     }
 }
 </style>
