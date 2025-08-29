@@ -22,7 +22,6 @@ import HomeAttributeBox from './HomeAttributeBox.vue';
 
 <style scoped>
 .home-attribute-main-ctn{
-    background-color: rgba(0, 0, 0, 0.39);
     padding:10vh 6vw;
     display: flex;
     flex-direction: row;
