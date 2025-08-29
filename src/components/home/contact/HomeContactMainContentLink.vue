@@ -27,7 +27,7 @@
     text-transform: capitalize;
 }
 
-@media screen and (min-height: 1000px) {
+@media screen and (max-width:950px) and (min-height: 1000px) {
     .home-contact-main-content-link-main-ctn{
         width:100%;
         display: flex;
