@@ -30,15 +30,16 @@ const tryFreeBtnColor=ref("#ffffff");
     width:100%;
 }
 .home-about-main-ctn{
-    margin-top: 20vh;
     height: 100vh;
-    padding:8vh 6vw;
+    padding:4vh 6vw;
     display:flex;
     justify-content: center;
     place-items: center;
 }
 .home-about-mini-ctn{
     display:grid;
+    height: 100%;
+    background-color: blueviolet;
 }
 .home-about-title{
     grid-column: 1;
