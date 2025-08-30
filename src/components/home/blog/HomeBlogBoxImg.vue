@@ -1,3 +1,9 @@
+<script setup>
+import { defineProps } from 'vue';
+
+const {bgImgSrc}=
+</script>
+
 <template>
     <div class="home-blog-box-img">
         <img src="@/assets/home-blog-img-one.svg" alt="">
