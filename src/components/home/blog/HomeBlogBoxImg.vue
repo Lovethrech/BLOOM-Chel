@@ -6,6 +6,7 @@
 
 <style scoped>
 .home-blog-box-img{
-    
+    grid-column: 1;
+    grid-row: 1;
 }
 </style>

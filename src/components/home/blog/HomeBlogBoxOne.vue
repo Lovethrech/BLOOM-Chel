@@ -21,7 +21,6 @@ import HomeBlogBoxDesc from './HomeBlogBoxDesc.vue';
     background-color: red;
     width:27vw;
     min-height:30vw;
-    display:flex;
-    place-items: end;
+    display:grid;
 }
 </style>
