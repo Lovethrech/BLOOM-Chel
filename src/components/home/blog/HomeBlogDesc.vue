@@ -12,8 +12,4 @@
 .home-blog-desc-main-ctn-name{
     font-size: 1.9vh;
 }
-
-@media screen and (max-width: 990px) {
-    
-}
 </style>
