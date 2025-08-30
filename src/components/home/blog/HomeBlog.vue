@@ -12,7 +12,6 @@ import HomeBlogVisitBtn from './HomeBlogVisitBtn.vue';
             <HomeBlogDesc></HomeBlogDesc>
             <br/>
             <HomeBlogBoxMainCtn></HomeBlogBoxMainCtn>
-            <br/>
             <HomeBlogVisitBtn></HomeBlogVisitBtn>
         </div>
     </section>
