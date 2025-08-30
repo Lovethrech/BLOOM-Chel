@@ -24,6 +24,7 @@ const {boxDesc}=defineProps(['boxDesc']);
     line-height: 3vh;
 }
 .home-blog-box-desc-main-ctn-name{
+    font-size: 1.1vw;
     color: #fff;
 }
 
