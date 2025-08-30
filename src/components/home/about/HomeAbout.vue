@@ -112,12 +112,14 @@ const tryFreeBtnColor=ref("#ffffff");
     .home-about-main-ctn{
         padding-top: 4vh;
         padding-bottom: 5vh;
-        height:100%;
+        min-height:100vh;
+        background-color: red;
     }
     .home-about-mini-ctn{
+        background-color: orange;
         display:grid;
         height: 100%;
-        gap:3vh;
+        gap:1vw;
     }
     .home-about-mini-ctn-desktop-view{
         display:none;
