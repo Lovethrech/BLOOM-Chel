@@ -15,6 +15,7 @@ const tryFreeBtnColor=ref("#ffffff");
             <div class="home-about-mini-ctn-desktop-view">
                 <HomeAboutTitle></HomeAboutTitle>
                 <HomeAboutDesc></HomeAboutDesc>
+                <br/>
                 <TryFreeBtn
                     :tryFreeBtnBgColor="tryFreeBtnBgColor"
                     :tryFreeBtnColor="tryFreeBtnColor"
@@ -48,13 +49,12 @@ const tryFreeBtnColor=ref("#ffffff");
 .home-about-mini-ctn{
     display:grid;
     height: 100%;
-    background-color: rgba(137, 43, 226, 0.623);
 }
 .home-about-mini-ctn-desktop-view{
-    background-color: dimgrey;
     margin: auto 0;
     display: flex;
     flex-direction: column;
+    gap: 2vw;
 }
 .home-about-img{
     grid-column: 2;

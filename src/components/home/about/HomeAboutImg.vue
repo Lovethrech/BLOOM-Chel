@@ -7,7 +7,6 @@
 <style scoped>
 .home-about-img-main-ctn{
     margin: auto 0;
-    background-color: crimson;
     width:46vw;
     height: 46vw;
 }
