@@ -8,8 +8,8 @@
 .home-about-img-main-ctn{
     margin: auto 0;
     background-color: crimson;
-    width:50vw;
-    height: 50vw;
+    width:46vw;
+    height: 46vw;
 }
 
 @media screen and (max-width:950px) and (min-height: 1000px) {
