@@ -7,6 +7,7 @@ import HomeBlogBoxDesc from './HomeBlogBoxDesc.vue';
 <template>
     <div class="home-blog-box-main-ctn">
         <div class="home-blog-box-mini-ctn">
+            <HomeBlogBoxImg></HomeBlogBoxImg>
             <HomeBlogBoxDesc
                 :boxDesc="HomeBlogDetails[2].boxDesc"
             >
@@ -14,9 +15,3 @@ import HomeBlogBoxDesc from './HomeBlogBoxDesc.vue';
         </div>
     </div>
 </template>
-
-<style scoped>
-.home-blog-box-main-ctn{
-    background: url(@/assets/home-blog-img-three.svg) top no-repeat;
-}
-</style>

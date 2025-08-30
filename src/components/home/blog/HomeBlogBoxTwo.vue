@@ -15,6 +15,3 @@ import HomeBlogBoxDesc from './HomeBlogBoxDesc.vue';
         </div>
     </div>
 </template>
-
-<style scoped>
-</style>
