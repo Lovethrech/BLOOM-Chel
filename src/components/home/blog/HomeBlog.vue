@@ -11,6 +11,7 @@ import HomeBlogTitle from './HomeBlogTitle.vue';
             <HomeBlogDesc></HomeBlogDesc>
             <br/>
             <HomeBlogBoxMainCtn></HomeBlogBoxMainCtn>
+            <br/>
         </div>
     </section>
 </template>
