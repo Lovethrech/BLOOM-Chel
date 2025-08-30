@@ -11,4 +11,10 @@
     text-transform: uppercase;
     font-size: 5.2vh;
 }
+
+@media screen and (max-width:900px) {
+    .home-blog-title-main-ctn-name{
+        font-size: 60px;
+    }
+}
 </style>
