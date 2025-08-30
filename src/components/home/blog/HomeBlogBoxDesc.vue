@@ -17,7 +17,7 @@ const {boxDesc}=defineProps(['boxDesc']);
     grid-column: 1;
     grid-row: 1;
     width: 100%;
-    height: 100%;
+    height: 30vw;
     background-color: cadetblue;
     padding: 4vh 2vw;
 }
