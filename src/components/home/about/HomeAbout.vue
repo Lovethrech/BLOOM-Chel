@@ -50,25 +50,12 @@ const tryFreeBtnColor=ref("#ffffff");
     height: 100%;
     background-color: rgba(137, 43, 226, 0.623);
 }
-.home-about-title{
-    grid-column: 1;
-    grid-row:1;
-}
 .home-about-img{
     grid-column: 2;
     grid-row: 1;
 }
-.home-about-desc, .try-free-btn{
-    grid-column: 1;
-    grid-row: 1;
-}
-.home-about-desc{
-    margin-top:10vw;
-}
-.try-free-btn{
-    margin-top:14vw;
-}
 .home-about-title, .home-about-desc, .try-free-btn{
+    display:none;
     width:80%;
 }
 
