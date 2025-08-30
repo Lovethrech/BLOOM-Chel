@@ -10,6 +10,7 @@
 <style scoped>
 .home-customer-review-text-ctn-speech-main-ctn-name{
     font-size: 1.8vw;
+    line-height: 4vh;
 }
 
 @media screen and (max-width: 900px) {

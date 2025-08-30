@@ -15,6 +15,7 @@ const {description}=defineProps(['description']);
 <style scoped>
 .home-attribute-box-desc-main-ctn-name{
     font-size: 0.8vw;
+    line-height: 2vh;
 }
 
 @media screen and (max-width:950px) and (min-height: 1000px) {

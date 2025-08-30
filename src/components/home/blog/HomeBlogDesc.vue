@@ -11,6 +11,7 @@
 <style scoped>
 .home-blog-desc-main-ctn-name{
     font-size: 1.9vh;
+    line-height: 3vh;
 }
 
 @media screen and (max-width:900px) {
