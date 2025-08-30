@@ -1,3 +1,3 @@
 <template>
-    .home-blog-b
+    .home-blog-bo
 </template>
