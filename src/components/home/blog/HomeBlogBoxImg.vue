@@ -1,3 +1,3 @@
 <template>
-    .home-blog-box-
+    .home-blog-box-i
 </template>
