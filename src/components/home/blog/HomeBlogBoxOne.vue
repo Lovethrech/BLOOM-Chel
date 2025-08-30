@@ -21,11 +21,7 @@ import HomeBlogBoxDesc from './HomeBlogBoxDesc.vue';
 .home-blog-box-main-ctn-one{
     background-color: red;
     width:27vw;
-    height:20vw;
+    min-height:30vw;
     display:grid;
-}
-.home-blog-box-img, .home-blog-box-desc{
-    grid-column: 1;
-    grid-row: 1;
 }
 </style>
