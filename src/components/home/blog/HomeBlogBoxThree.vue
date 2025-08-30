@@ -1,5 +1,6 @@
 <script setup>
 import HomeBlogDetails from "@/data/home-blog-details.json";
+import HomeBlogBoxImg from "./HomeBlogBoxImg.vue";
 import HomeBlogBoxDesc from './HomeBlogBoxDesc.vue';
 </script>
 

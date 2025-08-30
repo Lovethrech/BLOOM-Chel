@@ -7,6 +7,7 @@ import HomeBlogBoxDesc from './HomeBlogBoxDesc.vue';
 <template>
     <div class="home-blog-box-main-ctn">
         <div class="home-blog-box-mini-ctn">
+            <HomeBlogBoxImg></HomeBlogBoxImg>
             <HomeBlogBoxDesc
                 :boxDesc="HomeBlogDetails[1].boxDesc"
             >
