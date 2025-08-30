@@ -1,3 +1,3 @@
 <template>
-    .home-blog
+    .home-blog-
 </template>
