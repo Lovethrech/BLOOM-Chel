@@ -18,6 +18,7 @@
     text-transform:capitalize;
     background: linear-gradient(to bottom, #A54dea, #594edc);
     color: #fff;
+    font-size: 0.8vw;
     padding: 1vh 3vw;
     border:0;
 }
