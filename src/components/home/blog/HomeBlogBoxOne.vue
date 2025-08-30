@@ -7,9 +7,8 @@ import HomeBlogBoxDesc from './HomeBlogBoxDesc.vue';
 <template>
     <div class="home-blog-box-main-ctn-one">
         <div class="home-blog-box-mini-ctn">
-            <HomeBlogBoxImg class="home-blog-box-img"></HomeBlogBoxImg>
+            <HomeBlogBoxImg></HomeBlogBoxImg>
             <HomeBlogBoxDesc
-                class="home-blog-box-desc"
                 :boxDesc="HomeBlogDetails[0].boxDesc"
             >
             </HomeBlogBoxDesc>
@@ -22,6 +21,9 @@ import HomeBlogBoxDesc from './HomeBlogBoxDesc.vue';
     background-color: red;
     width:27vw;
     min-height:30vw;
+    
+}
+.home-blog-box-mini-ctn{
     display:grid;
 }
 </style>
