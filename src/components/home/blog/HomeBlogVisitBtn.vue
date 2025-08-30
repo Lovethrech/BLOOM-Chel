@@ -12,7 +12,7 @@
 .home-blog-visit-btn-main-ctn{
     width:100%;
     display:flex;
-    
+    justify-content: center;
 }
 .home-blog-visit-btn-main-ctn-button{
     text-transform:capitalize;
