@@ -20,6 +20,5 @@
     color: #fff;
     padding: 1vh 3vw;
     border:0;
-    
 }
 </style>
