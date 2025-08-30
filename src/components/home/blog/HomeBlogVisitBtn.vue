@@ -11,6 +11,8 @@
 <style scoped>
 .home-blog-visit-btn-main-ctn{
     width:100%;
+    display:flex;
+    
 }
 .home-blog-visit-btn-main-ctn-button{
     text-transform:capitalize;
