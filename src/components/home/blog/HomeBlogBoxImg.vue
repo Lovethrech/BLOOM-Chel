@@ -2,11 +2,12 @@
 import { defineProps } from 'vue';
 
 const {bgImgSrc}=defineProps(['bgImgSrc']);
+console.log(bgImgSrc)
 </script>
 
 <template>
     <div class="home-blog-box-img">
-        <img :src="bgImgSrc" alt="">
+        <img :src="{bgImgSrc}" alt="">
     </div>
 </template>
 
