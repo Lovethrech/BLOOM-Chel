@@ -78,6 +78,12 @@ const tryFreeBtnColor=ref("#ffffff");
         height: 100%;
         gap:3vh;
     }
+    .home-about-mini-ctn-desktop-view{
+        display:none;
+    }
+    .home-about-title, .home-about-desc, .try-free-btn{
+        display:flex;
+    }
     .home-about-title{
         grid-column: 1;
         grid-row:1;
@@ -110,6 +116,12 @@ const tryFreeBtnColor=ref("#ffffff");
     .home-about-mini-ctn{
         height: 100%;
         gap:3vh;
+    }
+    .home-about-mini-ctn-desktop-view{
+        display:none;
+    }
+    .home-about-title, .home-about-desc, .try-free-btn{
+        display:flex;
     }
     .home-about-title{
         grid-column: 1;
