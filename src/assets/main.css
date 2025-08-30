@@ -52,11 +52,15 @@ img{
 
 /* HOME-BLOG-BOX  */
 .home-blog-box-main-ctn{
-    width:27vw;
-    min-height:30vw;
+  width:27vw;
+  min-height:30vw;
 }
 .home-blog-box-mini-ctn{
-    display:grid;
+  display:grid;
+}
+.home-blog-box-img{
+  grid-column: 1;
+  grid-row: 1;
 }
 
 @media screen and (max-width:900px) {
