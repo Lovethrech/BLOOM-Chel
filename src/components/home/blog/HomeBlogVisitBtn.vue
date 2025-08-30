@@ -18,6 +18,6 @@
     text-transform:capitalize;
     background: linear-gradient(to bottom, #A54dea, #594edc);
     color: #fff;
-    padding: 2vh 4vw;
+    padding: 1vh 3vw;
 }
 </style>
