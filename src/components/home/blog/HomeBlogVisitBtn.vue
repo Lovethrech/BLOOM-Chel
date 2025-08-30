@@ -24,6 +24,6 @@
 .home-blog-visit-btn-main-ctn-button:hover{
     cursor:pointer;
     transform: scaleX(0.98);
-    
+    transition: all .6s;
 }
 </style>
