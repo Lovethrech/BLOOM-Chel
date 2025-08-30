@@ -14,6 +14,7 @@ const {boxDesc}=defineProps(['boxDesc']);
 
 <style scoped>
 .home-blog-box-desc-main-ctn{
+    background-color: cadetblue;
     padding: 4vh 2vw;
 }
 .home-blog-box-desc-main-ctn-name{
