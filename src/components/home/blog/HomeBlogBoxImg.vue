@@ -5,5 +5,9 @@
 </template>
 
 <style scoped>
-
+.home-blog-box-img{
+    position:absolute;
+    z-index: -1;
+    top:0;
+}
 </style>
