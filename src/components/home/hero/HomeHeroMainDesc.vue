@@ -18,7 +18,7 @@ import HomeHeroMainDescParagraphMainCtn from './HomeHeroMainDescParagraphMainCtn
     display:flex;
 }
 .home-hero-main-desc-main-ctn{
-    height:70vh;
+    height:80vh;
     place-items: end;
 }
 .home-hero-main-desc-mini-ctn{
