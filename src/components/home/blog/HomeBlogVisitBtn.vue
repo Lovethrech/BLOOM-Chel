@@ -21,4 +21,8 @@
     padding: 1vh 3vw;
     border:0;
 }
+.home-blog-visit-btn-main-ctn-button:hover{
+    cursor:pointer;
+    transform: scaleX(0.98);
+}
 </style>
