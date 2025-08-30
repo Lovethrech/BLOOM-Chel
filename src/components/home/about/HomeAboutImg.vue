@@ -6,6 +6,7 @@
 
 <style scoped>
 .home-about-img-main-ctn{
+    margin: auto 0;
     background-color: crimson;
     width:50vw;
     height: 50vw;
@@ -19,6 +20,7 @@
 }
 @media screen and (max-width:900px) {
     .home-about-img-main-ctn{
+        margin:0;
         width:100%;
         height:100%;
     }
