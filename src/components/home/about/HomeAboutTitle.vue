@@ -26,7 +26,7 @@
 }
 @media screen and (max-width: 900px) {
     .home-about-title-main-ctn-name{
-        font-size: 50px;
+        font-size: 40px;
     }
 }
 </style>
