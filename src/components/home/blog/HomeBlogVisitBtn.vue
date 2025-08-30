@@ -12,5 +12,6 @@
 .home-blog-visit-btn-main-ctn-button{
     text-transform:capitalize;
     background: linear-gradient(to bottom, #A54dea, #594edc);
+    
 }
 </style>
