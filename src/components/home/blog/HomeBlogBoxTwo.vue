@@ -1,16 +1,13 @@
 <script setup>
 import HomeBlogDetails from "@/data/home-blog-details.json";
-import HomeBlogBoxImg from "./HomeBlogBoxImg.vue";
+import HomeBlogBoxTwoImg from "./HomeBlogBoxTwoImg.vue";
 import HomeBlogBoxDesc from './HomeBlogBoxDesc.vue';
 </script>
 
 <template>
     <div class="home-blog-box-main-ctn">
         <div class="home-blog-box-mini-ctn">
-            <HomeBlogBoxImg
-                :bgImgSrc="HomeBlogDetails[1].bgImgSrc"
-            >
-            </HomeBlogBoxImg>
+            <HomeBlogBoxTwoImg></HomeBlogBoxTwoImg>
             <HomeBlogBoxDesc
                 :boxDesc="HomeBlogDetails[1].boxDesc"
             >
