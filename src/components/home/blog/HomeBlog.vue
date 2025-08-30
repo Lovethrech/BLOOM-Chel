@@ -28,9 +28,10 @@ import HomeBlogVisitBtn from './HomeBlogVisitBtn.vue';
     display:flex;
     justify-content: center;
     place-items: center;
+    background-color: cornflowerblue;
 }
 .home-blog-mini-ctn{
-    height: 100%;
+    background-color: aquamarine;
 }
 
 
