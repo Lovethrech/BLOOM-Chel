@@ -110,9 +110,9 @@ const tryFreeBtnColor=ref("#ffffff");
 }
 @media screen and (max-width: 900px) {
     .home-about-main-ctn{
-        padding-top: 4vh;
-        padding-bottom: 5vh;
-        min-height:100vh;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        height:100%;
         background-color: red;
     }
     .home-about-mini-ctn{
