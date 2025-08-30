@@ -15,7 +15,7 @@ import HomeHeroMainDesc from './HomeHeroMainDesc.vue';
 <style scoped>
 .home-hero-main-ctn{
     width:100%;
-    height:90vh;
+    height:100vh;
     background: linear-gradient(to bottom, #A54dea, #594edc);
     padding: 2vh 6vw;
 }  

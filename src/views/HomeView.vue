@@ -8,6 +8,7 @@ import HomeCustomerReview from '@/components/home/customer/HomeCustomerReview.vu
 import HomeBlog from '@/components/home/blog/HomeBlog.vue';
 import HomeTeam from '@/components/home/team/HomeTeam.vue';
 import HomePartner from '@/components/home/partner/HomePartner.vue';
+import Footer from '@/components/footer/Footer.vue';
 </script>
 
 <template>
@@ -21,5 +22,6 @@ import HomePartner from '@/components/home/partner/HomePartner.vue';
     <HomeBlog></HomeBlog>
     <HomeTeam></HomeTeam>
     <HomePartner></HomePartner>
+    <Footer></Footer>
   </main>
 </template>
