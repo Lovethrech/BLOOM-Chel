@@ -12,6 +12,15 @@ const tryFreeBtnColor=ref("#ffffff");
 <template>
     <section id="about" class="home-about-main-ctn">
         <div class="home-about-mini-ctn">
+            <div class="home-about-mini-ctn-desktop-view">
+                <HomeAboutTitle></HomeAboutTitle>
+                <HomeAboutDesc></HomeAboutDesc>
+                <TryFreeBtn
+                    :tryFreeBtnBgColor="tryFreeBtnBgColor"
+                    :tryFreeBtnColor="tryFreeBtnColor"
+                >
+                </TryFreeBtn>
+            </div>
             <HomeAboutTitle class="home-about-title"></HomeAboutTitle>
             <HomeAboutDesc class="home-about-desc"></HomeAboutDesc>
             <TryFreeBtn
@@ -39,7 +48,7 @@ const tryFreeBtnColor=ref("#ffffff");
 .home-about-mini-ctn{
     display:grid;
     height: 100%;
-    background-color: blueviolet;
+    background-color: rgba(137, 43, 226, 0.623);
 }
 .home-about-title{
     grid-column: 1;
