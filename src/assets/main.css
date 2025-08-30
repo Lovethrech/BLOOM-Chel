@@ -34,7 +34,7 @@ img{
 }
 @media screen and (max-width:900px) {
   .try-for-free-btn{
-    font-size: 14px;
+    font-size: 12px;
     padding:10px 20px;
     border-radius: 20px;
   }
