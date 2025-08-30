@@ -6,6 +6,7 @@ import HomeAttribute from '@/components/home/attribute/HomeAttribute.vue';
 import HomeAchieved from '@/components/home/achieved/HomeAchieved.vue';
 import HomeCustomerReview from '@/components/home/customer/HomeCustomerReview.vue';
 import HomeBlog from '@/components/home/blog/HomeBlog.vue';
+import HomeTeam from '@/components/home/team/HomeTeam.vue';
 </script>
 
 <template>
@@ -17,5 +18,6 @@ import HomeBlog from '@/components/home/blog/HomeBlog.vue';
     <HomeAchieved></HomeAchieved>
     <HomeCustomerReview></HomeCustomerReview>
     <HomeBlog></HomeBlog>
+    <HomeTeam></HomeTeam>
   </main>
 </template>
