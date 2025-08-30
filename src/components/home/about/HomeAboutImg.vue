@@ -6,8 +6,9 @@
 
 <style scoped>
 .home-about-img-main-ctn{
-    width:30vw;
-    height: 30vw;
+    background-color: crimson;
+    width:50vw;
+    height: 50vw;
 }
 
 @media screen and (max-width:950px) and (min-height: 1000px) {
