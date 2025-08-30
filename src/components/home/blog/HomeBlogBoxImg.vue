@@ -6,7 +6,7 @@ const {bgImgSrc}=defineProps(['bgImgSrc']);
 
 <template>
     <div class="home-blog-box-img">
-        <img src="@/assets/home-blog-img-one.svg" alt="">
+        <img :src="bgImgSrc" alt="">
     </div>
 </template>
 

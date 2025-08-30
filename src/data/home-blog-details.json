@@ -1,17 +1,17 @@
 [
     {
         "id":"1",
-        "bgImgSrc":"url(@/assets/home-blog-img-one.svg) top no-repeat",
+        "bgImgSrc":"@/assets/home-blog-img-one.svg",
         "boxDesc":"Check out our latest news and articles about the use of technology in the medical field"
     },
     {
         "id":"2",
-        "bgImgSrc":"url(@/assets/home-blog-img-two.svg) top no-repeat",
+        "bgImgSrc":"@/assets/home-blog-img-two.svg",
         "boxDesc":"Check out our latest news and articles about the use of technology in the medical field"
     },
     {
         "id":"3",
-        "bgImgSrc":"url(@/assets/home-blog-img-three.svg) top no-repeat",
+        "bgImgSrc":"@/assets/home-blog-img-three.svg",
         "boxDesc":"Check out our latest news and articles about the use of technology in the medical field"
     }
 ]
