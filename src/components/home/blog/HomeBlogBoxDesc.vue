@@ -38,7 +38,7 @@ const {boxDesc}=defineProps(['boxDesc']);
         padding: 4vh 4vw;
     }
     .home-blog-desc-main-ctn-name{
-        font-size: 20px;
+        font-size: 14px;
     }
 }
 </style>

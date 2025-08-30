@@ -15,7 +15,7 @@
 
 @media screen and (max-width:900px) {
     .home-blog-desc-main-ctn-name{
-        font-size: 20px;
+        font-size: 16px;
     }
 }
 </style>
