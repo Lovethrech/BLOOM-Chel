@@ -11,5 +11,6 @@
 <style scoped>
 .home-blog-visit-btn-main-ctn-button{
     text-transform:capitalize;
+    
 }
 </style>
