@@ -75,6 +75,7 @@ const tryFreeBtnColor=ref("#ffffff");
         height:100%;
     }
     .home-about-mini-ctn{
+        display:grid;
         height: 100%;
         gap:3vh;
     }
@@ -114,6 +115,7 @@ const tryFreeBtnColor=ref("#ffffff");
         height:100%;
     }
     .home-about-mini-ctn{
+        display:grid;
         height: 100%;
         gap:3vh;
     }
