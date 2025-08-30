@@ -21,6 +21,7 @@ const {boxDesc}=defineProps(['boxDesc']);
     padding: 4vh 2vw;
     display:flex;
     place-items: end;
+    line-height: 3vh;
 }
 .home-blog-box-desc-main-ctn-name{
     color: #fff;
