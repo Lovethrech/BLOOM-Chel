@@ -7,6 +7,7 @@ import HomeAchieved from '@/components/home/achieved/HomeAchieved.vue';
 import HomeCustomerReview from '@/components/home/customer/HomeCustomerReview.vue';
 import HomeBlog from '@/components/home/blog/HomeBlog.vue';
 import HomeTeam from '@/components/home/team/HomeTeam.vue';
+import HomePartner from '@/components/home/partner/HomePartner.vue';
 </script>
 
 <template>
@@ -19,5 +20,6 @@ import HomeTeam from '@/components/home/team/HomeTeam.vue';
     <HomeCustomerReview></HomeCustomerReview>
     <HomeBlog></HomeBlog>
     <HomeTeam></HomeTeam>
+    <HomePartner></HomePartner>
   </main>
 </template>
