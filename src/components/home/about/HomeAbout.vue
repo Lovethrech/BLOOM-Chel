@@ -47,10 +47,13 @@ const tryFreeBtnColor=ref("#ffffff");
     place-items: center;
 }
 .home-about-mini-ctn{
-    display:grid;
+    display:flex;
+    flex-direction: row;
+    gap:10vw;
     height: 100%;
 }
 .home-about-mini-ctn-desktop-view{
+    width:50%;
     margin: auto 0;
     display: flex;
     flex-direction: column;
