@@ -52,12 +52,12 @@ img{
 
 /* HOME-BLOG-BOX  */
 .home-blog-box-main-ctn{
-  background-color: green;
-  background-size: cover;
-  width:27vw;
-  min-height:30vw;
-  display:flex;
-  place-items: end;
+    background-color: red;
+    width:27vw;
+    min-height:30vw;
+}
+.home-blog-box-mini-ctn{
+    display:grid;
 }
 
 @media screen and (max-width:900px) {
