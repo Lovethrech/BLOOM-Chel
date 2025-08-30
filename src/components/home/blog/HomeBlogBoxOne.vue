@@ -18,6 +18,5 @@ import HomeBlogBoxDesc from './HomeBlogBoxDesc.vue';
 
 <style scoped>
 .home-blog-box-main-ctn{
-    background: url(@/assets/home-blog-img-one.svg) top no-repeat;
 }
 </style>
