@@ -1,7 +1,7 @@
 <script setup>
 import { defineProps } from 'vue';
 
-const {bgImgSrc}=
+const {bgImgSrc}=defineProps(['bgImgSrc']);
 </script>
 
 <template>
