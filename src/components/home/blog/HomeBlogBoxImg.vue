@@ -1,3 +1,3 @@
 <template>
-    .home
+    .home-blo
 </template>
