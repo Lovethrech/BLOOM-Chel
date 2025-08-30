@@ -50,6 +50,12 @@ const tryFreeBtnColor=ref("#ffffff");
     height: 100%;
     background-color: rgba(137, 43, 226, 0.623);
 }
+.home-about-mini-ctn-desktop-view{
+    background-color: dimgrey;
+    margin: auto 0;
+    display: flex;
+    flex-direction: column;
+}
 .home-about-img{
     grid-column: 2;
     grid-row: 1;
