@@ -2,6 +2,7 @@
 import HomeBlogBoxMainCtn from './HomeBlogBoxMainCtn.vue';
 import HomeBlogDesc from './HomeBlogDesc.vue';
 import HomeBlogTitle from './HomeBlogTitle.vue';
+import HomeBlogVisitBtn from './HomeBlogVisitBtn.vue';
 </script>
 
 <template>
@@ -12,6 +13,7 @@ import HomeBlogTitle from './HomeBlogTitle.vue';
             <br/>
             <HomeBlogBoxMainCtn></HomeBlogBoxMainCtn>
             <br/>
+            <HomeBlogVisitBtn></HomeBlogVisitBtn>
         </div>
     </section>
 </template>
