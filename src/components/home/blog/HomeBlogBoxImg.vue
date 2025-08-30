@@ -3,3 +3,7 @@
         <img src="@/assets/home-blog-img-one.svg" alt="">
     </div>
 </template>
+
+<style scoped>
+
+</style>

@@ -10,9 +10,6 @@
 
 <style scoped>
 .home-blog-desc-main-ctn-name{
-    position:absolute;
-    z-index: 10;
-    bottom:0;
     font-size: 1.9vh;
 }
 </style>
