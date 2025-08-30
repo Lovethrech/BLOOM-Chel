@@ -57,7 +57,7 @@ const tryFreeBtnColor=ref("#ffffff");
     margin: auto 0;
     display: flex;
     flex-direction: column;
-    gap: 2vw;
+    gap: 1vw;
 }
 .home-about-img{
     grid-column: 2;
