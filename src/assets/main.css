@@ -69,3 +69,10 @@ img{
     height: 100%;
   }
 }
+
+/* HOME-TEAM-BOX-ONE AND TWO  */
+.home-team-box-main-ctn{
+  background-color: green;
+  width:20vw;
+  height:40vh;
+}
