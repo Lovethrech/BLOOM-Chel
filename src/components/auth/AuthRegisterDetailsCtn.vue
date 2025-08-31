@@ -8,6 +8,6 @@
 .auth-login-details-ctn-main-ctn{
     width: 40%;
     height: 60vh;
-    background-color: orange;
+    background-color: violet;
 }
 </style>

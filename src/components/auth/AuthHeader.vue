@@ -4,6 +4,7 @@ import NavLogo from '../nav/NavLogo.vue';
 import AuthLoginBtn from './AuthLoginBtn.vue';
 import AuthRegisterBtn from './AuthRegisterBtn.vue';
 import AuthLoginDetailsCtn from "./AuthLoginDetailsCtn.vue";
+import AuthRegisterDetailsCtn from "./AuthRegisterDetailsCtn.vue";
 
 const displayLoginBtn=ref("block");
 const displayRegisterBtn=ref("none")
@@ -25,6 +26,7 @@ const displayRegisterBtn=ref("none")
             </header>
             <div class="auth-header-mini-ctn-auth-content-ctn">
                 <AuthLoginDetailsCtn></AuthLoginDetailsCtn>
+                <AuthRegisterDetailsCtn></AuthRegisterDetailsCtn>
             </div>
         </div>
     </div>
@@ -50,7 +52,7 @@ const displayRegisterBtn=ref("none")
 }
 .auth-header-mini-ctn-auth-content-ctn{
     min-height:90vh;
-    background-color: blue;
+    background-color: rgba(0, 0, 255, 0.322);
     display:flex;
     justify-content: center;
 }
