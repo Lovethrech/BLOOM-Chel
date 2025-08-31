@@ -13,8 +13,8 @@
     },
     {
         "id": "2",
-        "name":"free",
-        "price":"0k",
+        "name":"basic",
+        "price":"100k",
         "plans":[
             {
                 "id":"1",
@@ -25,8 +25,8 @@
     },
     {
         "id": "3",
-        "name":"free",
-        "price":"0k",
+        "name":"professional",
+        "price":"170k",
         "plans":[
             {
                 "id":"1",
