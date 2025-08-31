@@ -2,6 +2,7 @@
 import {ref} from "vue";
 import { useRouter } from "vue-router";
 import AuthRegisterDetails from "@/data/auth-register-details.json";
+import AuthBookAndSignDetails from "@/data/auth-book-and-sign-details.json"; 
 import AuthLoginAndRegisterHeader from './AuthLoginAndRegisterHeader.vue';
 import AuthRegisterDetailsFormInput from './AuthRegisterDetailsFormInput.vue';
 import AuthLoginAndRegisterBookBtn from "./AuthLoginAndRegisterBookBtn.vue";
@@ -65,7 +66,11 @@ const bookDemo=()=>{
                 >
                 </AuthRegisterDetailsFormInput>
                 <br/>
-                <AuthLoginAndRegisterBookBtn @click="bookDemo"></AuthLoginAndRegisterBookBtn>
+                <AuthLoginAndRegisterBookBtn 
+                    @click="bookDemo"
+                    :btnDesc="AuthBookAndSignDetails[0].name"
+                >
+                </AuthLoginAndRegisterBookBtn>
             </form>
         </div>
     </div>
