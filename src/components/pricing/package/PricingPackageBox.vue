@@ -10,6 +10,6 @@
 .pricing-package-box-main-ctn{
     background-color: darkmagenta;
     width: 100%;
-    height: 100%;
+    height: 20vh;
 }
 </style>
