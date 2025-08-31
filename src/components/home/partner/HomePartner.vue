@@ -1,6 +1,7 @@
 <script setup>
 import HomePartnerTitle from './HomePartnerTitle.vue';
 import hOmePartnerDesc from './hOmePartnerDesc.vue';
+import HomePartnerLogoDisplay from './HomePartnerLogoDisplay.vue';
 </script>
 
 <template>
@@ -8,6 +9,7 @@ import hOmePartnerDesc from './hOmePartnerDesc.vue';
         <div class="home-partner-mini-ctn">
             <HomePartnerTitle></HomePartnerTitle>
             <hOmePartnerDesc></hOmePartnerDesc>
+            <HomePartnerLogoDisplay></HomePartnerLogoDisplay>
         </div>
     </section>
 </template>
