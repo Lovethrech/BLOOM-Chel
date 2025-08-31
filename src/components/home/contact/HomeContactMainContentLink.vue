@@ -19,15 +19,18 @@
 }
 .home-contact-main-content-link-mini-ctn{
     border-bottom: 2px solid #fff;
-    width: 6vw;
+    width: 7vw;
     display:flex;
     flex-direction: row;
-    
+
 }
-.home-contact-main-content-link-mini-ctn-name{
+.home-contact-main-content-link-mini-ctn-name, .home-contact-main-content-link-mini-ctn i{
     color: #fff;
     font-size: 1vw;
     text-transform: capitalize;
+}
+..home-contact-main-content-link-mini-ctn i{
+    margin: auto 0;
 }
 
 @media screen and (max-width:950px) and (min-height: 1000px) {
