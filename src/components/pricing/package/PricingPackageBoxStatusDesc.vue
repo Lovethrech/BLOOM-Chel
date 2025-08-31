@@ -1,3 +1,5 @@
 <template>
-    <div class="welcome-and-pay-now"></div>
+    <div class="pricing-package-box-status-desc-main-ctn">
+        
+    </div>
 </template>
