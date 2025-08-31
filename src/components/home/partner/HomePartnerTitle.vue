@@ -12,7 +12,7 @@
     text-align: center;
 }
 .home-partner-title-main-ctn-name{
-    font-size: 3vw;
+    font-size: 4vh;
     text-transform: uppercase;
 }
 </style>

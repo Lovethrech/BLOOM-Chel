@@ -14,6 +14,12 @@
     text-align: center;
 }
 .home-partner-desc-main-ctn-name{
-    font-size: 0.8vw;
+    font-size: 1.8vh;
+}
+
+@media screen and (max-width:850px ) {
+    .home-partner-desc-main-ctn-name{
+        font-size: 12px;
+    }
 }
 </style>

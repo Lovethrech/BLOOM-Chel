@@ -25,7 +25,7 @@ import HomePartnerLogoBox from './HomePartnerLogoBox.vue';
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    gap:6vw;
+    gap:2vw;
 }
 
 @media screen and (max-width:850px) {
