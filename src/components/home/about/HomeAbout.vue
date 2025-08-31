@@ -113,10 +113,8 @@ const tryFreeBtnColor=ref("#ffffff");
         padding-top: 10vh;
         padding-bottom: 10vh;
         height:100%;
-        background-color: red;
     }
     .home-about-mini-ctn{
-        background-color: orange;
         display:grid;
         height: 100%;
         gap:1vw;
