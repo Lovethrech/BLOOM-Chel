@@ -14,4 +14,11 @@
 .home-team-desc-main-ctn-name{
     font-size:2.2vh;
 }
+
+@media screen and (max-width:850px) {
+    .home-team-desc-main-ctn-name{
+        font-size:16px;
+    }
+    
+}
 </style>
