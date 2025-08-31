@@ -1,6 +1,7 @@
 <script setup>
 import NavLogo from '../nav/NavLogo.vue';
 import AuthLoginBtn from './AuthLoginBtn.vue';
+import AuthRegisterBtn from './AuthRegisterBtn.vue';
 </script>
 
 <template>
@@ -9,6 +10,7 @@ import AuthLoginBtn from './AuthLoginBtn.vue';
             <header class="auth-header-mini-ctn-header">
                 <NavLogo></NavLogo>
                 <AuthLoginBtn></AuthLoginBtn>
+                <AuthRegisterBtn></AuthRegisterBtn>
             </header>
         </div>
     </div>
