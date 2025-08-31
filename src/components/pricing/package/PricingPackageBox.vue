@@ -20,8 +20,9 @@ import PricingPackageBoxListMain from './PricingPackageBoxListMain.vue';
 
 <style scoped>
 .pricing-package-box-main-ctn{
-    background-color: darkmagenta;
+    background-color: rgb(255, 255, 255);
     width: 100%;
     height: 20vh;
+    padding: 3vh 3vw;
 }
 </style>
