@@ -1,6 +1,12 @@
+<script setup>
+import { defineProps } from 'vue';
+
+const {imgSrc, imgName}=defineProps(['imgSrc', 'imgName']);
+</script>
+
 <template>
     <div class="home-partner-logo-box-main-ctn">
-        <!-- <img src="" alt=""> -->
+        <img :src="imgSrc" :alt="imgName">
     </div>
 </template>
 
