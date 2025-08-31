@@ -1,6 +1,10 @@
+<script setup>
+import AuthHeader from './AuthHeader.vue';
+</script>
+
 <template>
     <section class="auth-main-ctn">
-
+        <AuthHeader></AuthHeader>
     </section>
 </template>
 
