@@ -7,3 +7,13 @@
         </p>
     </div>
 </template>
+
+<style scoped>
+.home-partner-desc-main-ctn{
+    width: 100%;
+    text-align: center;
+}
+.home-partner-desc-main-ctn-name{
+    font-size: 0.8vw;
+}
+</style>
