@@ -27,4 +27,11 @@
     transform: scaleX(0.98);
     transition: all .6s;
 }
+
+@media screen and (max-width:900px) {
+    .home-blog-visit-btn-main-ctn-button{
+        font-size: 14px;
+        padding:10px 30px;
+    }
+}
 </style>
