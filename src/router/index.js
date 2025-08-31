@@ -12,8 +12,12 @@ const router = createRouter({
       path:'/pricing',
       name: 'pricing',
       component: ()=> import ('../views/PricingView.vue'),
-    }
-    
+    },
+    {
+      path:'/auth',
+      name: 'auth',
+      component: ()=> import ('../views/AuthView.vue'),
+    },    
   ],
 })
 
