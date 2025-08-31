@@ -14,5 +14,6 @@
 .auth-header-main-ctn{
     width:100%;
     height: 50vh;
+    background: linear-gradient(to bottom, #A54dea, #594edc);
 }
 </style>
