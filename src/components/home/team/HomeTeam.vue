@@ -9,3 +9,9 @@ import HomeTeamTitle from './HomeTeamTitle.vue';
         </div>
     </section>
 </template>
+
+<style scoped>
+.home-team-main-ctn{
+    padding: 10vh 4vw;
+}
+</style>
