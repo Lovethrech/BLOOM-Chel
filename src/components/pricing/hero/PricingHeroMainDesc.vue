@@ -1,13 +1,13 @@
 <script setup>
 import PricingHeroMainDescTitleText from './PricingHeroMainDescTitleText.vue';
-import HomeHeroMainDescParagraphArrow from '@/components/home/hero/HomeHeroMainDescParagraphArrow.vue';
+import PricingHeroMainDescArrow from '@/components/pricing/hero/PricingHeroMainDescArrow.vue';
 </script>
 
 <template>
     <section class="pricing-hero-main-desc-main-ctn">
         <div class="pricing-hero-main-desc-mini-ctn">
             <PricingHeroMainDescTitleText></PricingHeroMainDescTitleText>
-            <HomeHeroMainDescParagraphArrow></HomeHeroMainDescParagraphArrow>
+            <PricingHeroMainDescArrow></PricingHeroMainDescArrow>
         </div>
     </section>
 </template>

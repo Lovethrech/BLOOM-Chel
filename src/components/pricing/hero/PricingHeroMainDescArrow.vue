@@ -1,0 +1,35 @@
+<script setup>
+const navToAboutComponent=()=>{
+    const target=document.getElementById('package');
+    if (!target) return;
+    target.scrollIntoView({ behavior: 'smooth' });
+}
+</script>
+
+<template>
+    <div class="home-hero-main-desc-paragraph-arrow-main-ctn" @click="navToAboutComponent">
+        <i class="fi fi-tr-arrow-down"></i> 
+    </div>
+</template>
+
+<style scoped>
+.home-hero-main-desc-paragraph-arrow-main-ctn{
+    margin: auto 0;
+}
+.home-hero-main-desc-paragraph-arrow-main-ctn i{
+    font-size: 4vw;
+    color:#fff;
+}
+.home-hero-main-desc-paragraph-arrow-main-ctn:hover{
+    cursor:pointer;
+    will-change: transform;
+    transform: scaleY(1.3);
+    transition: all .8s ease;
+}
+
+@media screen and (max-width:850px) {
+    .home-hero-main-desc-paragraph-arrow-main-ctn{
+        display:none;
+    }
+}
+</style>

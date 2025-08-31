@@ -5,7 +5,7 @@ import PricingPackageMainBoxCtn from './PricingPackageMainBoxCtn.vue';
 </script>
 
 <template>
-    <section class="pricing-package-main-ctn">
+    <section id="package" class="pricing-package-main-ctn">
         <div class="pricing-package-mini-ctn">
             <PricingPackageTitle></PricingPackageTitle>
             <PricingPackageDesc></PricingPackageDesc>
