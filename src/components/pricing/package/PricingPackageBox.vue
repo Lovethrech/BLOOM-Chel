@@ -25,7 +25,7 @@ import PricingPackageBoxListMain from './PricingPackageBoxListMain.vue';
     background-color: rgb(255, 255, 255);
     box-shadow: 0.2vw 0.2vh 20px 20px #cdcbcd2c;
     width: 100%;
-    height: 40vh;
+    height: 100%;
     padding: 3vh 3vw;
 }
 </style>
