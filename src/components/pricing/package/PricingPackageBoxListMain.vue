@@ -1,3 +1,7 @@
+<script setup>
+import PricingPackageBoxList from './PricingPackageBoxList.vue';
+</script>
+
 <template>
     <div class="pricing-package-box-list-main-main-ctn">
         <div class="pricing-package-box-list-main-mini-ctn">
@@ -6,7 +10,7 @@
             </p>
             <div class="pricing-package-box-list-main-mini-ctn-list-content">
                 <div class="pricing-package-box-list-main-mini-ctn-list-content-mini-ctn">
-
+                    <PricingPackageBoxList></PricingPackageBoxList>
                 </div>
             </div>
         </div>
