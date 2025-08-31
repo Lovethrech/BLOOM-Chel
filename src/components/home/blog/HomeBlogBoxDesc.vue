@@ -28,7 +28,7 @@ const {boxDesc}=defineProps(['boxDesc']);
     color: #fff;
 }
 
-@media screen and (max-width: 1130px) and (min-width: 901px) {
+@media screen and (max-width: 1130px){
     .home-blog-box-desc-main-ctn-name{
         font-size: 1.4vh;
     }
@@ -37,9 +37,6 @@ const {boxDesc}=defineProps(['boxDesc']);
     .home-blog-box-desc-main-ctn{
         height: 100%;
         padding: 4vh 4vw;
-    }
-    .home-blog-desc-main-ctn-name{
-        font-size: 14px;
     }
 }
 </style>
