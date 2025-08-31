@@ -117,7 +117,7 @@ const tryFreeBtnColor=ref("#ffffff");
     .home-about-mini-ctn{
         display:grid;
         height: 100%;
-        gap:1vw;
+        gap:2vh;
     }
     .home-about-mini-ctn-desktop-view{
         display:none;
