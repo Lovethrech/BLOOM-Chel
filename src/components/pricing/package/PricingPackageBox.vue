@@ -35,7 +35,7 @@ const {name, price, plans}=defineProps(['name', 'price', 'plans']);
 <style scoped>
 .pricing-package-box-main-ctn{
     background-color: rgb(255, 255, 255);
-    box-shadow: 0.2vw 0.2vh 20px 20px #cdcbcd2c;
+    box-shadow: 0px 7px 10px 10px #cdcbcd4f;
     width: 100%;
     height: 100%;
     padding: 3vh 3vw;

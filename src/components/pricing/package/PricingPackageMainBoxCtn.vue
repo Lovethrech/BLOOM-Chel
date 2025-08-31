@@ -37,6 +37,7 @@ import PricingPackageBox from './PricingPackageBox.vue';
     }
     .pricing-package-main-box-ctn-mini-ctn{
         flex-direction: column;
+        gap:4vh;
     }
 }
 </style>
