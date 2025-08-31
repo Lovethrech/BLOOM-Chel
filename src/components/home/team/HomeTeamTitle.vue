@@ -15,4 +15,10 @@
     font-size: 3.2vw;
     text-transform: uppercase;
 }
+
+@media screen and (max-width: 850px) {
+    .home-team-title-main-ctn-name{
+        font-size: 32px;
+    }
+}
 </style>
