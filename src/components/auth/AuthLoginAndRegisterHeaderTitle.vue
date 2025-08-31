@@ -9,3 +9,12 @@
         </p>
     </div>
 </template>
+
+<style scoped>
+.auth-login-and-register-header-title-main-ctn{
+    text-align:center;
+}
+.auth-login-and-register-header-title-main-ctn-name{
+    font-size: 2vh;
+}
+</style>
