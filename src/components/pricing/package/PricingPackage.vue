@@ -18,6 +18,7 @@ import PricingPackageMainBoxCtn from './PricingPackageMainBoxCtn.vue';
 .pricing-package-main-ctn{
     width:100%;
     height: 100vh;
+    padding: 3vh 4vw;
     background-color: #ffffff;
 }
 </style>
