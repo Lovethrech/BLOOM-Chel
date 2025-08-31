@@ -20,12 +20,6 @@ const  {plans}=defineProps(['plans']);
                         :plan="plan"
                     >
                     </PricingPackageBoxList>
-                    <PricingPackageBoxList></PricingPackageBoxList>
-                    <PricingPackageBoxList></PricingPackageBoxList>
-                    <PricingPackageBoxList></PricingPackageBoxList>
-                    <PricingPackageBoxList></PricingPackageBoxList>
-                    <PricingPackageBoxList></PricingPackageBoxList>
-                    <PricingPackageBoxList></PricingPackageBoxList>
                 </div>
             </div>
         </div>
