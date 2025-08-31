@@ -8,21 +8,21 @@ import AuthRegisterDetailsCtn from "./AuthRegisterDetailsCtn.vue";
 
 const displayLoginBtn=ref("block");
 const displayRegisterBtn=ref("none");
-const displayLoginBtnDetails=ref("block");
-const displayRegisterBtnDetails=ref("none");
+const displayLoginBtnDetails=ref("none");
+const displayRegisterBtnDetails=ref("block");
 
 const openLoginDetails=()=>{
     if(displayLoginBtn.value==="block"){
         displayLoginBtn.value="none";
-        displayLoginBtnDetails.value="none";
+        displayLoginBtnDetails.value="block";
         displayRegisterBtn.value="block";
-        displayRegisterBtnDetails.value="block";
+        displayRegisterBtnDetails.value="none";
     }
     else{
         displayLoginBtn.value="block";
-        displayLoginBtnDetails.value="block";
+        displayLoginBtnDetails.value="none";
         displayRegisterBtn.value="none";
-        displayRegisterBtnDetails.value="none";
+        displayRegisterBtnDetails.value="block";
     }
 }
 </script>
