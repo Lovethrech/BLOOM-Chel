@@ -1,5 +1,6 @@
 <script setup>
 import NavLogo from '../nav/NavLogo.vue';
+import AuthLoginBtn from './AuthLoginBtn.vue';
 </script>
 
 <template>
@@ -7,6 +8,7 @@ import NavLogo from '../nav/NavLogo.vue';
         <div class="auth-header-mini-ctn">
             <header class="auth-header-mini-ctn-header">
                 <NavLogo></NavLogo>
+                <AuthLoginBtn></AuthLoginBtn>
             </header>
         </div>
     </div>
@@ -20,7 +22,7 @@ import NavLogo from '../nav/NavLogo.vue';
 }
 .auth-header-mini-ctn{
     width:100%;
-    height:50vh;
+    height:48vh;
     background:  url(@/assets/auth-pattern.svg) bottom/ 100% no-repeat;
 }
 

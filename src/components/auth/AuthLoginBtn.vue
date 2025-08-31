@@ -1,7 +1,12 @@
 <template>
     <div class="auth-login-ctn-main-ctn">
-        <RouterLink to="">
-            
-        </RouterLink>
+        login
     </div>
 </template>
+
+<style scoped>
+.auth-login-ctn-main-ctn{
+    background-color: #fff;
+    
+}
+</style>
