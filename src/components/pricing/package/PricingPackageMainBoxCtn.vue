@@ -1,11 +1,15 @@
 <script setup>
+import PricingPackageBoxListDetails from "@/data/pricing-package-box-list-details.json"
 import PricingPackageBox from './PricingPackageBox.vue';
 </script>
 
 <template>
     <div class="pricing-package-main-box-ctn-main-ctn">
         <div class="pricing-package-main-box-ctn-mini-ctn">
-            <PricingPackageBox></PricingPackageBox>
+            <PricingPackageBox
+
+            >
+            </PricingPackageBox>
             <PricingPackageBox></PricingPackageBox>
             <PricingPackageBox></PricingPackageBox>
         </div>
