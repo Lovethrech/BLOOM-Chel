@@ -12,11 +12,8 @@ import Footer from '@/components/footer/Footer.vue';
 </script>
 
 <template>
-  <header>
-    <HomeHero></HomeHero>
-  </header>
   <main>
-    
+    <HomeHero></HomeHero>
     <HomeAbout></HomeAbout>
     <HomeContact></HomeContact>
     <HomeAttribute></HomeAttribute>
