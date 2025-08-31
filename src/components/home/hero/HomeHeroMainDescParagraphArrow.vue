@@ -26,4 +26,10 @@ const navToAboutComponent=()=>{
     transform: scaleY(1.3);
     transition: all .8s ease;
 }
+
+@media screen and (max-width:850px) {
+    .home-hero-main-desc-paragraph-arrow-main-ctn{
+        display:none;
+    }
+}
 </style>
