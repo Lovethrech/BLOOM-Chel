@@ -1,0 +1,22 @@
+[
+    {
+        "id":"1",
+        "name":"name",
+        "placeholder":"Enter full name"
+    },
+    {
+        "id":"2",
+        "name":"client name",
+        "placeholder":"Enter Client Name"
+    },
+    {
+        "id":"3",
+        "name":"email",
+        "placeholder":"Enter email address"
+    },
+    {
+        "id":"4",
+        "name":"phone",
+        "placeholder":"Enter phone number"
+    }
+]
