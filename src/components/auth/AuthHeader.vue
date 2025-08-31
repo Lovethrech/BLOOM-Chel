@@ -63,7 +63,7 @@ const openLoginDetails=()=>{
     background:  url(@/assets/auth-pattern.svg) bottom/ 100% no-repeat;
 }
 .auth-header-mini-ctn-header{
-    padding: 3vh 4vw;
+    padding: 3vh 6vw;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
