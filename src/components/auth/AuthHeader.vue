@@ -16,4 +16,7 @@
     height: 50vh;
     background: linear-gradient(to bottom, #A54dea, #594edc);
 }
+.auth-header-mini-ctn{
+    background:  url(@/assets/auth-pattern.svg);
+}
 </style>
