@@ -13,4 +13,13 @@
 .pricing-package-title-main-ctn-name{
     font-size: 3vw;
 }
+
+@media screen and (max-width: 850px) {
+    .pricing-package-title-main-ctn{
+        text-align: center;
+    }
+    .pricing-package-title-main-ctn-name{
+        font-size: 30px;
+    }
+}
 </style>
