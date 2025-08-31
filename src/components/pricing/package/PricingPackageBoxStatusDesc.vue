@@ -17,5 +17,6 @@
 }
 .pricing-package-box-status-desc-main-ctn-name{
     font-size: 1.4vh;
+    line-height: 2vh;
 }
 </style>
