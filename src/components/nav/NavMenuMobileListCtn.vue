@@ -5,7 +5,7 @@ import NavLink from "./NavLink.vue";
 import TryFreeBtn from "../TryFreeBtn.vue";
 
 const navLinkColor=ref("#000000");
-const navLinkFontSize=ref("41px");
+const navLinkFontSize=ref("31px");
 const tryFreeBtnBgColor=ref("linear-gradient(to bottom, #A54dea, #594edc)");
 const tryFreeBtnColor=ref("#ffffff");
 </script>
@@ -41,7 +41,7 @@ const tryFreeBtnColor=ref("#ffffff");
     right:0;
     padding: 0 6vw;
     background-color: transparent;
-    height:70vh;
+    height:80vh;
 }
 .nav-menu-mobile-list-ctn-main-ctn, .nav-menu-mobile-list-ctn-mini-ctn, .nav-menu-mobile-list-ctn-mini-ctn-nav-link{
     width:100%;
