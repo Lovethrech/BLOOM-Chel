@@ -1,12 +1,12 @@
 <script setup>
-import PricingHeroMainDesc from './PricingHeroMainDesc.vue';
+import PricingHeroMainDescTitleText from './PricingHeroMainDescTitleText.vue';
 // import HomeHeroMainDescParagraphMainCtn from './HomeHeroMainDescParagraphMainCtn.vue';
 </script>
 
 <template>
     <section class="home-hero-main-desc-main-ctn">
         <div class="home-hero-main-desc-mini-ctn">
-            <PricingHeroMainDesc></PricingHeroMainDesc>
+            <PricingHeroMainDescTitleText></PricingHeroMainDescTitleText>
             <!-- <!-- <HomeHeroMainDescParagraphMainCtn></HomeHeroMainDescParagraphMainCtn> --> -->
         </div>
     </section>
