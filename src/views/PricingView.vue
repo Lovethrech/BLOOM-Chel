@@ -1,5 +1,5 @@
 <script setup>
-import PricingHero from '@/components/home/hero/PricingHero.vue';
+import PricingHero from '@/components/pricing/hero/PricingHero.vue';
 import HomeAbout from '@/components/home/about/HomeAbout.vue';
 import HomeContact from '@/components/home/contact/HomeContact.vue';
 import HomeAttribute from '@/components/home/attribute/HomeAttribute.vue';
