@@ -4,8 +4,8 @@ import HomeHeroMainDescParagraphArrow from '@/components/home/hero/HomeHeroMainD
 </script>
 
 <template>
-    <section class="home-hero-main-desc-main-ctn">
-        <div class="home-hero-main-desc-mini-ctn">
+    <section class="pricing-hero-main-desc-main-ctn">
+        <div class="pricing-hero-main-desc-mini-ctn">
             <PricingHeroMainDescTitleText></PricingHeroMainDescTitleText>
             <HomeHeroMainDescParagraphArrow></HomeHeroMainDescParagraphArrow>
         </div>
@@ -13,16 +13,17 @@ import HomeHeroMainDescParagraphArrow from '@/components/home/hero/HomeHeroMainD
 </template>
 
 <style scoped>
-.home-hero-main-desc-main-ctn, .home-hero-main-desc-mini-ctn{
+.pricing-hero-main-desc-main-ctn, .pricing-hero-main-desc-mini-ctn{
     width:100%;
     display:flex;
 }
-.home-hero-main-desc-main-ctn{
+.pricing-hero-main-desc-main-ctn{
     height:80vh;
     place-items: end;
 }
-.home-hero-main-desc-mini-ctn{
-    flex-direction: column;
+.pricing-hero-main-desc-mini-ctn{
+    flex-direction: row;
+    justify-content: space-between;
     margin-bottom: 40px;
 }
 </style>

@@ -13,6 +13,9 @@ const navToAboutComponent=()=>{
 </template>
 
 <style scoped>
+.home-hero-main-desc-paragraph-arrow-main-ctn{
+    margin: auto 0;
+}
 .home-hero-main-desc-paragraph-arrow-main-ctn i{
     font-size: 4vw;
     color:#fff;
