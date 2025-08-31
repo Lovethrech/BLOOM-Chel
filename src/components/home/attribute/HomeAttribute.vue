@@ -21,14 +21,16 @@ import HomeAttributeBox from './HomeAttributeBox.vue';
 </template>
 
 <style scoped>
+.home-attribute-main-ctn, .home-attribute-mini-ctn{
+    display:flex;
+}
 .home-attribute-main-ctn{
     min-height: 70vh;
     padding:10vh 6vw;
+    place-items: center;
     text-align: center;
-    
 }
 .home-attribute-mini-ctn{
-    display: flex;
     flex-direction: row;
     justify-content: space-between;
     gap:3vw;
