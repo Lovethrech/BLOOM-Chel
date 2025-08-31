@@ -1,7 +1,18 @@
 <template>
     <div class="home-partner-title-main-ctn">
-        <p class="home-partner-title-main-ctn-name">
+        <h4 class="home-partner-title-main-ctn-name">
             our partners
-        </p>
+        </h4>
     </div>
 </template>
+
+<style scoped>
+.home-partner-title-main-ctn{
+    width: 100%;
+    text-align: center;
+}
+.home-partner-title-main-ctn-name{
+    font-size: 3vw;
+    text-transform: uppercase;
+}
+</style>
