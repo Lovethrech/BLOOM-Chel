@@ -9,7 +9,13 @@ import AuthRegisterDetailsFormInput from './AuthRegisterDetailsFormInput.vue';
         <div class="auth-register-details-ctn-mini-ctn">
             <AuthLoginAndRegisterHeader></AuthLoginAndRegisterHeader>
             <form action="" class="auth-register-details-ctn-mini-ctn-form">
-                <AuthRegisterDetailsFormInput></AuthRegisterDetailsFormInput>
+                <AuthRegisterDetailsFormInput
+                    :name="AuthRegisterDetails[0].name"
+                    :placeholder="AuthRegisterDetails[0].placeholder"
+                    :nameFor="AuthRegisterDetails[0].nameFor"
+                    :nameType="AuthRegisterDetails[0].nameType"
+                >
+                </AuthRegisterDetailsFormInput>
             </form>
         </div>
     </div>
