@@ -9,7 +9,9 @@ import FooterLinkMail from './FooterLinkMail.vue';
         <div class="footer-mini-ctn">
             <FooterLogo></FooterLogo>
             <FooterDesc></FooterDesc>
+            <br/>
             <FooterLinkMail></FooterLinkMail>
+            <br/>
         </div>
     </footer>
 </template>

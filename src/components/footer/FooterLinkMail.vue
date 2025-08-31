@@ -1,9 +1,9 @@
 <template>
-    <div class="home-contact-main-content-link-main-ctn">
-        <RouterLink to="" class="link">
-            <div class="home-contact-main-content-link-mini-ctn">
-                <p class="home-contact-main-content-link-mini-ctn-name">
-                    contact us
+    <div class="footer-link-mail-main-content-link-main-ctn">
+        <RouterLink to="/" class="link">
+            <div class="footer-link-mail-main-content-link-mini-ctn">
+                <p class="footer-link-mail-main-content-link-mini-ctn-name">
+                    Send us an email
                 </p>
                 <i class='bx  bx-arrow-up-right-stroke'  ></i> 
             </div>
@@ -12,50 +12,54 @@
 </template>
 
 <style scoped>
-.home-contact-main-content-link-main-ctn:hover{
+.footer-link-mail-main-content-link-main-ctn{
+    display:flex;
+    justify-content: center;
+}
+.footer-link-mail-main-content-link-main-ctn:hover{
     cursor:pointer;
     transform: scaleX(0.98);
     transition: all .8s;
 }
-.home-contact-main-content-link-mini-ctn{
+.footer-link-mail-main-content-link-mini-ctn{
     border-bottom: 2px solid #fff;
-    width: 7vw;
+    width: 10vw;
     display:flex;
     flex-direction: row;
 
 }
-.home-contact-main-content-link-mini-ctn-name, .home-contact-main-content-link-mini-ctn i{
+.footer-link-mail-main-content-link-mini-ctn-name, .footer-link-mail-main-content-link-mini-ctn i{
     color: #fff;
     font-size: 1vw;
     text-transform: capitalize;
 }
-..home-contact-main-content-link-mini-ctn i{
+..footer-link-mail-main-content-link-mini-ctn i{
     margin: auto 0;
 }
 
 @media screen and (max-width:950px) and (min-height: 1000px) {
-    .home-contact-main-content-link-main-ctn{
+    .footer-link-mail-main-content-link-main-ctn{
         width:100%;
         display: flex;
         justify-content: center;
     }
-    .home-contact-main-content-link-mini-ctn{
+    .footer-link-mail-main-content-link-mini-ctn{
         width:170px;
     }
-    .home-contact-main-content-link-mini-ctn-name{
+    .footer-link-mail-main-content-link-mini-ctn-name{
         font-size: 1.4vh;
     }
 }
 @media screen and (max-width: 850px) {
-    .home-contact-main-content-link-main-ctn{
+    .footer-link-mail-main-content-link-main-ctn{
         width:100%;
         display: flex;
         justify-content: center;
     }
-    .home-contact-main-content-link-mini-ctn{
+    .footer-link-mail-main-content-link-mini-ctn{
         width:80px;
     }
-    .home-contact-main-content-link-mini-ctn-name{
+    .footer-link-mail-main-content-link-mini-ctn-name{
         font-size: 14px;
     }
 }
