@@ -20,7 +20,7 @@ import PricingPackageBox from './PricingPackageBox.vue';
 
 <style scoped>
 .pricing-package-main-box-ctn-main-ctn{
-    margin-top: 4vh;
+    margin-top: 8vh;
     width: 100%;
     height: 50vh;
 }

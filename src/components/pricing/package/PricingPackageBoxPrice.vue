@@ -34,6 +34,8 @@ const {price}=defineProps(['price']);
     justify-content: center;
 }
 .pricing-package-box-price-main-ctn-name-sup, .pricing-package-box-price-main-ctn-name-sub{
+    font-size: 5vh;
+    font-weight: 800;
     
 }
 .pricing-package-box-price-main-ctn-name-sub{
