@@ -30,4 +30,8 @@ import PricingPackageBox from './PricingPackageBox.vue';
     justify-content: space-between;
     gap: 2vw;
 }
+
+@media screen and (max-width: 850px) {
+    
+}
 </style>
