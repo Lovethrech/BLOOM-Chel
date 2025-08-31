@@ -45,7 +45,11 @@ const bookDemo=()=>{
                     :vModel="password"
                 >
                 </AuthRegisterDetailsFormInput>
-                <br/>
+                <div class="auth-register-details-ctn-mini-ctn-form-forget-password-ctn">
+                    <p class="auth-register-details-ctn-mini-ctn-form-forget-password">
+                        forget password?
+                    </p>
+                </div>
                 <AuthLoginAndRegisterBookBtn 
                     @click="bookDemo"
                     :btnDesc="AuthBookAndSignDetails[1].name"
@@ -55,3 +59,15 @@ const bookDemo=()=>{
         </div>
     </div>
 </template>
+
+<style scoped>
+.auth-register-details-ctn-mini-ctn-form-forget-password-ctn{
+    width: 100%;
+}
+.auth-register-details-ctn-mini-ctn-form-forget-password{
+    text-transform: capitalize;
+    font-size: 1.2vh;
+    font-weight: 400;
+    color: #838383;
+}
+</style>
