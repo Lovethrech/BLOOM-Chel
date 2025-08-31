@@ -1,5 +1,8 @@
 <script setup>
+import { defineProps } from 'vue';
 import PricingPackageBoxList from './PricingPackageBoxList.vue';
+
+const  {plans}=defineProps(['plans']);
 </script>
 
 <template>
@@ -11,7 +14,13 @@ import PricingPackageBoxList from './PricingPackageBoxList.vue';
             <br/>
             <div class="pricing-package-box-list-main-mini-ctn-list-content">
                 <div class="pricing-package-box-list-main-mini-ctn-list-content-mini-ctn">
-                    <PricingPackageBoxList></PricingPackageBoxList>
+                    <PricingPackageBoxList
+                        v-for="plan in plans"
+                        :key="plan.id"
+                        :mark="plan.mark"
+                        :markName="plan.markName"
+                    >
+                    </PricingPackageBoxList>
                     <PricingPackageBoxList></PricingPackageBoxList>
                     <PricingPackageBoxList></PricingPackageBoxList>
                     <PricingPackageBoxList></PricingPackageBoxList>
