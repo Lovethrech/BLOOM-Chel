@@ -25,9 +25,9 @@ const {name, placeholder, nameFor, nameType, vModel, inputBoxBorder}=defineProps
     font-size: 1.4vh;
 }
 .auth-register-details-form-input-mini-ctn-input{
-    background-color: #f3f0f0;
-    padding:1.3vh 1vw;
-    font-size: 1.8vh;
-    border-radius: 2vh;
+    background-color: #f7f7f7;
+    padding:1.3vh 0.002vh 1.3vh 1.1vh;
+    font-size: 1.2vh;
+    border-radius: 1.2vh;
 }   
 </style>

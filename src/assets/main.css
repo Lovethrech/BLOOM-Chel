@@ -160,7 +160,7 @@ img{
     margin-top: 3vh;
     display:flex;
     flex-direction: column;
-    gap: 2vh;
+    gap: 0.9vh;
 }
 @media screen and (max-width:850px) {
   .auth-register-details-ctn-main-ctn{
