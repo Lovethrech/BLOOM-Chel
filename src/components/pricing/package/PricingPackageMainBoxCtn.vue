@@ -7,11 +7,10 @@ import PricingPackageBox from './PricingPackageBox.vue';
     <div class="pricing-package-main-box-ctn-main-ctn">
         <div class="pricing-package-main-box-ctn-mini-ctn">
             <PricingPackageBox
-
+                v-for="PricingPackageBoxListDetail in PricingPackageBoxListDetails"
+                :key="PricingPackageBoxListDetail.id"
             >
             </PricingPackageBox>
-            <PricingPackageBox></PricingPackageBox>
-            <PricingPackageBox></PricingPackageBox>
         </div>
     </div>
 </template>
