@@ -13,10 +13,6 @@ import HomeHeroMainDescParagraphArrow from '@/components/home/hero/HomeHeroMainD
 </template>
 
 <style scoped>
-.pricing-hero-main-desc-main-ctn, .pricing-hero-main-desc-mini-ctn{
-    width:100%;
-    display:flex;
-}
 .pricing-hero-main-desc-main-ctn{
     height:80vh;
     place-items: end;
