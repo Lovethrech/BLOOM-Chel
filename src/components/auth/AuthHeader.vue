@@ -1,7 +1,11 @@
 <script setup>
+import {ref} from "vue";
 import NavLogo from '../nav/NavLogo.vue';
 import AuthLoginBtn from './AuthLoginBtn.vue';
 import AuthRegisterBtn from './AuthRegisterBtn.vue';
+
+const displayLoginBtn=ref("block");
+const displayRegisterBtn=ref("none")
 </script>
 
 <template>
@@ -9,8 +13,14 @@ import AuthRegisterBtn from './AuthRegisterBtn.vue';
         <div class="auth-header-mini-ctn">
             <header class="auth-header-mini-ctn-header">
                 <NavLogo></NavLogo>
-                <AuthLoginBtn></AuthLoginBtn>
-                <AuthRegisterBtn></AuthRegisterBtn>
+                <AuthLoginBtn 
+                    :style="{display:displayLoginBtn}"
+                >
+                </AuthLoginBtn>
+                <AuthRegisterBtn 
+                    :style="{display: displayRegisterBtn}"
+                >
+                </AuthRegisterBtn>
             </header>
         </div>
     </div>
