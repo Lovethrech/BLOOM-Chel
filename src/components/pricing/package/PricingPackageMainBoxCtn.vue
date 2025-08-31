@@ -9,6 +9,7 @@ import PricingPackageBox from './PricingPackageBox.vue';
             <PricingPackageBox
                 v-for="PricingPackageBoxListDetail in PricingPackageBoxListDetails"
                 :key="PricingPackageBoxListDetail.id"
+                :name="PricingPackageBoxListDetail.name"
             >
             </PricingPackageBox>
         </div>
