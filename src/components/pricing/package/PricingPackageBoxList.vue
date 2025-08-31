@@ -1,21 +1,21 @@
-<script setup>
+<!-- <script setup>
 import { defineProps } from 'vue';
 
 
 const {plan}=defineProps(['plan']);
 console.log(plan);
-</script>
+</script> -->
 
 
 <template>
     <div class="pricing-package-box-list-main-ctn">
         <div class="pricing-package-box-list-mini-ctn">
             <div class="pricing-package-box-list-mini-ctn-mark-ctn">
-                {{ plan.mark }}
+                <!-- {{ plan.mark }} -->
             </div>
             <div class="pricing-package-box-list-mini-ctn-mark-name-ctn">
                 <p class="pricing-package-box-list-mini-ctn-mark-name">
-                    {{plan.markName}}
+                    <!-- {{plan.markName}} -->
                 </p>
             </div>
         </div>
