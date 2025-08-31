@@ -11,7 +11,9 @@ import PricingPackageBoxListMain from './PricingPackageBoxListMain.vue';
         <div class="pricing-package-box-mini-ctn">
             <PricingPackageBoxStatus></PricingPackageBoxStatus>
             <PricingPackageBoxStatusDesc></PricingPackageBoxStatusDesc>
+            <br/>
             <PricingPackageBoxPrice></PricingPackageBoxPrice>
+            <br/>
             <PricingPackageBoxBuyBtn></PricingPackageBoxBuyBtn>
             <PricingPackageBoxListMain></PricingPackageBoxListMain>
         </div>
