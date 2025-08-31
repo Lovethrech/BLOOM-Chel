@@ -28,5 +28,8 @@ import AuthLoginBtn from './AuthLoginBtn.vue';
 
 .auth-header-mini-ctn-header{
     padding: 3vh 4vw;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 </style>
