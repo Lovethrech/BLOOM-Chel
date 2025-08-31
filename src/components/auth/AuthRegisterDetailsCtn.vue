@@ -1,5 +1,7 @@
 <script setup>
+import AuthRegisterDetails from "@/data/auth-register-details.json";
 import AuthLoginAndRegisterHeader from './AuthLoginAndRegisterHeader.vue';
+import AuthRegisterDetailsFormInput from './AuthRegisterDetailsFormInput.vue';
 </script>
 
 <template>
@@ -7,7 +9,7 @@ import AuthLoginAndRegisterHeader from './AuthLoginAndRegisterHeader.vue';
         <div class="auth-register-details-ctn-mini-ctn">
             <AuthLoginAndRegisterHeader></AuthLoginAndRegisterHeader>
             <form action="" class="auth-register-details-ctn-mini-ctn-form">
-                
+                <AuthRegisterDetailsFormInput></AuthRegisterDetailsFormInput>
             </form>
         </div>
     </div>
