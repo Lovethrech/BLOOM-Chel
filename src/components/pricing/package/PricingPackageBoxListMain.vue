@@ -17,8 +17,7 @@ const  {plans}=defineProps(['plans']);
                     <PricingPackageBoxList
                         v-for="plan in plans"
                         :key="plan.id"
-                        :mark="plan.mark"
-                        :markName="plan.markName"
+                        :plan="plan"
                     >
                     </PricingPackageBoxList>
                     <PricingPackageBoxList></PricingPackageBoxList>
