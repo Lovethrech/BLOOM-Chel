@@ -7,10 +7,10 @@ import HomeAttributeBox from './HomeAttributeBox.vue';
     <section class="home-attribute-main-ctn">
         <div 
             class="home-attribute-mini-ctn"
-            v-for="HomeAttributeDetail in HomeAttributeDetails"
-            :key="HomeAttributeDetail.id"
         >
             <HomeAttributeBox
+                v-for="HomeAttributeDetail in HomeAttributeDetails"
+                :key="HomeAttributeDetail.id"
                 :name="HomeAttributeDetail.name"
                 :imgSrc="HomeAttributeDetail.imgSrc"
                 :description="HomeAttributeDetail.description"
@@ -22,22 +22,26 @@ import HomeAttributeBox from './HomeAttributeBox.vue';
 
 <style scoped>
 .home-attribute-main-ctn{
+    min-height: 70vh;
     padding:10vh 6vw;
+    text-align: center;
+    
+}
+.home-attribute-mini-ctn{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    text-align: center;
     gap:3vw;
 }
 
 @media screen and (max-width:950px) and (min-height: 1000px) {
-    .home-attribute-main-ctn{
+    .home-attribute-mini-ctn{
         flex-direction: column;
         gap:8vh;
     }
 }
 @media screen and (max-width: 850px) {
-    .home-attribute-main-ctn{
+    .home-attribute-mini-ctn{
         flex-direction: column;
         gap:8vh;
     }

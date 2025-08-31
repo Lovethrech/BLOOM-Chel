@@ -1,20 +1,24 @@
+<script setup>
+import { defineProps } from 'vue';
+
+const {imgSrc}=defineProps(['imgSrc']);
+</script>
+
 <template>
-    <div class="home-attribute-box-img-main-ctn">
-        <img src="" alt="">
+    <div class="home-attribute-box-img-main-ctn" v-html="imgSrc">
     </div>
 </template>
 
 <style scoped>
 .home-attribute-box-img-main-ctn{
-    width:6vw;
-    height:6vw;
-    margin: 0 auto;
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    place-items: center;
 }
-
-@media screen and (max-width: 850px) {
-    .home-attribute-box-img-main-ctn{
-        width: 90px;
-        height:90px;
-    }
+.home-attribute-box-img-main-ctn{
+    font-size: 12vh;
+    color:#A54dea;
 }
 </style>
