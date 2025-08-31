@@ -10,4 +10,11 @@
     width:20vw;
     height: 20vw;
 }
+
+@media screen and (max-width: 850px) {
+    .home-partner-logo-box-main-ctn{
+        width: 41.3vw;
+    }
+    
+}
 </style>
