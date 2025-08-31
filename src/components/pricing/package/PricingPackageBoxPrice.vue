@@ -11,3 +11,12 @@
         </p>
     </div>
 </template>
+
+<style scoped>
+.pricing-package-box-price-main-ctn{
+    text-align: center;
+}
+.pricing-package-box-price-main-ctn-name{
+    color: #614EDE;
+}
+</style>
