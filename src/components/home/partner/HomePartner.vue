@@ -1,11 +1,13 @@
 <script setup>
 import HomePartnerTitle from './HomePartnerTitle.vue';
+import hOmePartnerDesc from './hOmePartnerDesc.vue';
 </script>
 
 <template>
     <section class="home-partner-main-ctn">
         <div class="home-partner-mini-ctn">
             <HomePartnerTitle></HomePartnerTitle>
+            <hOmePartnerDesc></hOmePartnerDesc>
         </div>
     </section>
 </template>
