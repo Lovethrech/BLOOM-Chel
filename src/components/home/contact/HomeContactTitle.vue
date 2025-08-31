@@ -1,8 +1,8 @@
 <template>
     <div class="home-contact-title-main-ctn">
-        <h2 class="home-contact-title-main-ctn-name">
+        <h3 class="home-contact-title-main-ctn-name">
             what we offer
-        </h2>
+        </h3>
     </div>
 </template>
 
@@ -22,7 +22,7 @@
 }
 @media screen and (max-width:850px) {
     .home-contact-title-main-ctn-name{
-        font-size: 7vw;
+        font-size: 32px;
     }
 }
 </style>

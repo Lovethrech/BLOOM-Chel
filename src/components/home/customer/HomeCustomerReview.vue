@@ -6,9 +6,9 @@ import HomeCustomerReviewCtn from './HomeCustomerReviewCtn.vue';
 <template>
     <section class="home-customer-review-main-ctn">
         <div class="home-customer-review-mini-ctn">
-            <p class="home-customer-review-mini-ctn-name">
+            <h4 class="home-customer-review-mini-ctn-name">
                 customer reviews
-            </p>
+            </h4>
             <HomeCustomerReviewCtn></HomeCustomerReviewCtn>
         </div>
     </section>
@@ -18,14 +18,14 @@ import HomeCustomerReviewCtn from './HomeCustomerReviewCtn.vue';
 .home-customer-review-main-ctn{
     width:100%;
     min-height:50vh;
-    padding: 10vh 0;
+    padding: 16vh 0;
 }
 .home-customer-review-mini-ctn{
     width:100%;
 }
 .home-customer-review-mini-ctn-name{
     text-transform: uppercase;
-    font-size: 3.6vh;
+    font-size: 3vw;
     margin: 0 6vw;
 }
 
