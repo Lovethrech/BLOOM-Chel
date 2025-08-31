@@ -13,12 +13,8 @@ import HomeHeroMainDescParagraphMainCtn from './HomeHeroMainDescParagraphMainCtn
 </template>
 
 <style scoped>
-.home-hero-main-desc-main-ctn{
-    height:80vh;
-    place-items: end;
-}
+
 .home-hero-main-desc-mini-ctn{
     flex-direction: column;
-    margin-bottom: 40px;
 }
 </style>

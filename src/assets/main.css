@@ -105,6 +105,13 @@ img{
     width:100%;
     display:flex;
 }
+.home-hero-main-desc-main-ctn, .pricing-hero-main-desc-main-ctn{
+    height:80vh;
+    place-items: end;
+}
+.home-hero-main-desc-mini-ctn, .pricing-hero-main-desc-mini-ctn{
+    margin-bottom: 40px;
+}
 
 @media screen and (max-width:850px) {
     .pricing-hero-main-desc-title-text-main-ctn-name, .home-hero-main-desc-title-text-main-ctn-name{
