@@ -16,7 +16,7 @@
 
 @media screen and (max-width:850px) {
     .home-hero-main-desc-title-text-main-ctn-name{
-        font-size:41px;
+        font-size:40px;
     }
 }
 </style>
