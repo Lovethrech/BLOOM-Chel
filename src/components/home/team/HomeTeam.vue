@@ -22,4 +22,10 @@ import HomeTeamBoxTwo from './HomeTeamBoxTwo.vue';
 .home-team-main-ctn{
     padding: 10vh 4vw;
 }
+.home-team-box{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:2px;
+}
 </style>
