@@ -6,6 +6,8 @@ import PricingPackageBox from './PricingPackageBox.vue';
     <div class="pricing-package-main-box-ctn-main-ctn">
         <div class="pricing-package-main-box-ctn-mini-ctn">
             <PricingPackageBox></PricingPackageBox>
+            <PricingPackageBox></PricingPackageBox>
+            <PricingPackageBox></PricingPackageBox>
         </div>
     </div>
 </template>
@@ -16,5 +18,11 @@ import PricingPackageBox from './PricingPackageBox.vue';
     margin-top: 4vh;
     width: 100%;
     height: 50vh;
+}
+.pricing-package-main-box-ctn-mini-ctn{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2vw;
 }
 </style>
