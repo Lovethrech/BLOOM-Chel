@@ -1,6 +1,8 @@
 <script setup>
 import HomeTeamTitle from './HomeTeamTitle.vue';
 import HomeTeamDesc from './HomeTeamDesc.vue';
+import HomeTeamBoxOne from './HomeTeamBoxOne.vue';
+import HomeTeamBoxTwo from './HomeTeamBoxTwo.vue';
 </script>
 
 <template>
@@ -8,6 +10,10 @@ import HomeTeamDesc from './HomeTeamDesc.vue';
         <div class="home-team-mini-ctn">
             <HomeTeamTitle></HomeTeamTitle>
             <HomeTeamDesc></HomeTeamDesc>
+            <div class="home-team-box">
+                <HomeTeamBoxOne></HomeTeamBoxOne>
+                <HomeTeamBoxTwo></HomeTeamBoxTwo>
+            </div>
         </div>
     </section>
 </template>
