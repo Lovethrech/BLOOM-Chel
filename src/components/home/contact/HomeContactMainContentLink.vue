@@ -5,7 +5,7 @@
                 <p class="home-contact-main-content-link-mini-ctn-name">
                     contact us
                 </p>
-                <!-- ArrowUp Icon  -->
+                <i class='bx  bx-arrow-up-right-stroke'  ></i> 
             </div>
         </RouterLink>
     </div>
@@ -20,6 +20,9 @@
 .home-contact-main-content-link-mini-ctn{
     border-bottom: 2px solid #fff;
     width: 6vw;
+    display:flex;
+    flex-direction: row;
+    
 }
 .home-contact-main-content-link-mini-ctn-name{
     color: #fff;
