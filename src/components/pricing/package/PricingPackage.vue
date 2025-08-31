@@ -1,6 +1,7 @@
 <script setup>
 import PricingPackageTitle from './PricingPackageTitle.vue';
 import PricingPackageDesc from './PricingPackageDesc.vue';
+import PricingPackageMainBoxCtn from './PricingPackageMainBoxCtn.vue';
 </script>
 
 <template>
@@ -8,6 +9,7 @@ import PricingPackageDesc from './PricingPackageDesc.vue';
         <div class="pricing-package-mini-ctn">
             <PricingPackageTitle></PricingPackageTitle>
             <PricingPackageDesc></PricingPackageDesc>
+            <PricingPackageMainBoxCtn></PricingPackageMainBoxCtn>
         </div>
     </section>
 </template>
