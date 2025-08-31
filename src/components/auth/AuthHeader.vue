@@ -71,7 +71,6 @@ const openLoginDetails=()=>{
 }
 .auth-header-mini-ctn-auth-content-ctn{
     min-height:90vh;
-    background-color: rgba(0, 0, 255, 0.322);
     display:flex;
     justify-content: center;
 }

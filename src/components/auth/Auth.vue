@@ -12,6 +12,5 @@ import AuthHeader from './AuthHeader.vue';
 .auth-main-ctn{
     width: 100%;
     min-height: 100vh;
-    background-color: burlywood;
 }
 </style>
