@@ -1,6 +1,7 @@
 <script setup>
 import FooterLogo from './FooterLogo.vue';
 import FooterDesc from './FooterDesc.vue';
+import FooterLinkMail from './FooterLinkMail.vue';
 </script>
 
 <template>
@@ -8,6 +9,7 @@ import FooterDesc from './FooterDesc.vue';
         <div class="footer-mini-ctn">
             <FooterLogo></FooterLogo>
             <FooterDesc></FooterDesc>
+            <FooterLinkMail></FooterLinkMail>
         </div>
     </footer>
 </template>
