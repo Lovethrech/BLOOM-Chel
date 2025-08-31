@@ -10,6 +10,7 @@ import HomeTeamBoxTwo from './HomeTeamBoxTwo.vue';
         <div class="home-team-mini-ctn">
             <HomeTeamTitle></HomeTeamTitle>
             <HomeTeamDesc></HomeTeamDesc>
+            <br/>
             <div class="home-team-box">
                 <HomeTeamBoxOne></HomeTeamBoxOne>
                 <HomeTeamBoxTwo></HomeTeamBoxTwo>
