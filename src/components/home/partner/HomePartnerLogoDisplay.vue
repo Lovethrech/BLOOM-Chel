@@ -1,14 +1,18 @@
 <script setup>
+import HomePartnerLogoDetails from "@/data/home-partner-logo-details.json";
 import HomePartnerLogoBox from './HomePartnerLogoBox.vue';
 </script>
 
 <template>
     <div class="home-partner-logo-display-main-ctn">
         <div class="home-partner-logo-display-mini-ctn">
-            <HomePartnerLogoBox></HomePartnerLogoBox>
-            <HomePartnerLogoBox></HomePartnerLogoBox>
-            <HomePartnerLogoBox></HomePartnerLogoBox>
-            <HomePartnerLogoBox></HomePartnerLogoBox>
+            <HomePartnerLogoBox
+                v-for="HomePartnerLogoDetail in HomePartnerLogoDetails"
+                :key="HomePartnerLogoDetail.id"
+                :imgSrc="HomePartnerLogoDetail.imgSrc"
+                :imgName="HomePartnerLogoDetail.imgName"
+            >
+            </HomePartnerLogoBox>
         </div>
     </div>
 </template>
