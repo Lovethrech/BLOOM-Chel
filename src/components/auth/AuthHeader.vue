@@ -7,7 +7,24 @@ import AuthLoginDetailsCtn from "./AuthLoginDetailsCtn.vue";
 import AuthRegisterDetailsCtn from "./AuthRegisterDetailsCtn.vue";
 
 const displayLoginBtn=ref("block");
-const displayRegisterBtn=ref("none")
+const displayRegisterBtn=ref("none");
+const displayLoginBtnDetails=ref("block");
+const displayRegisterBtnDetails=ref("none");
+
+const openLoginDetails=()=>{
+    if(displayLoginBtn.value==="block"){
+        displayLoginBtn.value="none";
+        displayLoginBtnDetails.value="none";
+        displayRegisterBtn.value="block";
+        displayRegisterBtnDetails.value="block";
+    }
+    else{
+        displayLoginBtn.value="block";
+        displayLoginBtnDetails.value="block";
+        displayRegisterBtn.value="none";
+        displayRegisterBtnDetails.value="none";
+    }
+}
 </script>
 
 <template>
@@ -17,16 +34,18 @@ const displayRegisterBtn=ref("none")
                 <NavLogo></NavLogo>
                 <AuthLoginBtn 
                     :style="{display:displayLoginBtn}"
+                    @click="openLoginDetails"
                 >
                 </AuthLoginBtn>
                 <AuthRegisterBtn 
                     :style="{display: displayRegisterBtn}"
+                    @click="openLoginDetails"
                 >
                 </AuthRegisterBtn>
             </header>
             <div class="auth-header-mini-ctn-auth-content-ctn">
-                <AuthLoginDetailsCtn></AuthLoginDetailsCtn>
-                <AuthRegisterDetailsCtn></AuthRegisterDetailsCtn>
+                <AuthLoginDetailsCtn :style="{display:displayLoginBtnDetails}"></AuthLoginDetailsCtn>
+                <AuthRegisterDetailsCtn :style="{display:displayRegisterBtnDetails}"></AuthRegisterDetailsCtn>
             </div>
         </div>
     </div>
