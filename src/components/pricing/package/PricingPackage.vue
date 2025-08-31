@@ -21,4 +21,10 @@ import PricingPackageMainBoxCtn from './PricingPackageMainBoxCtn.vue';
     padding: 10vh 4vw;
     background-color: #ffffff;
 }
+
+@media screen and (max-width:850px) {
+    .pricing-package-main-ctn{
+        height: 100%;
+    }
+}
 </style>
