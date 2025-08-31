@@ -4,8 +4,8 @@ import PricingHeroMainDesc from './PricingHeroMainDesc.vue';
 </script>
 
 <template>
-    <section class="home-hero-main-ctn">
-        <div class="home-hero-mini-ctn">
+    <section class="pricing-hero-main-ctn">
+        <div class="pricing-hero-mini-ctn">
             <NavHeader></NavHeader>
             <PricingHeroMainDesc></PricingHeroMainDesc>
         </div>
@@ -13,13 +13,13 @@ import PricingHeroMainDesc from './PricingHeroMainDesc.vue';
 </template>
 
 <style scoped>
-.home-hero-main-ctn{
+.pricing-hero-main-ctn{
     width:100%;
     height:100vh;
     background: linear-gradient(to bottom, #A54dea, #594edc);
     padding: 2vh 6vw;
 }  
-.home-hero-mini-ctn{
+.pricing-hero-mini-ctn{
     width:inherit;
     display:flex;
     flex-direction: column;
@@ -27,7 +27,7 @@ import PricingHeroMainDesc from './PricingHeroMainDesc.vue';
 }
 
 @media screen and (max-width: 850px) {
-    .home-hero-main-ctn{
+    .pricing-hero-main-ctn{
         padding:3vh 6vw;
     }
 }
