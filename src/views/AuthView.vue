@@ -7,3 +7,10 @@ import Auth from '@/components/auth/Auth.vue';
         <Auth></Auth>
     </main>
 </template>
+
+<style scoped>
+main{
+    width: 100%;
+    height: 100vh;
+}
+</style>
