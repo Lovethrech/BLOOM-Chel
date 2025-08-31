@@ -19,8 +19,8 @@ const {btnDesc}=defineProps(['btnDesc']);
 .auth-login-and-register-book-btn-main-ctn{
     background: linear-gradient(to bottom, #A54dea, #594edc);
     color:#fff;
-    padding: 1vh 2vw;
-    border-radius: 20vh;
+    padding: 1.3vh;
+    border-radius: 1.2vh;
     text-align:center;
 }
 .auth-login-and-register-book-btn-main-ctn-name{
