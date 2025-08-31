@@ -48,7 +48,7 @@ const bookDemo=()=>{
                 <br/>
                 <AuthLoginAndRegisterBookBtn 
                     @click="bookDemo"
-                    :btnDesc="AuthBookAndSignDetails.name"
+                    :btnDesc="AuthBookAndSignDetails[1].name"
                 >
                 </AuthLoginAndRegisterBookBtn>
             </form>

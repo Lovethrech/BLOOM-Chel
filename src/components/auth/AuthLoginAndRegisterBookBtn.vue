@@ -1,3 +1,10 @@
+<script setup>
+import { defineProps } from 'vue';
+
+const {btnDesc}=defineProps(['btnDesc']);
+</script>
+
+
 <template>
     <RouterLink to="">
         <div class="auth-login-and-register-book-btn-main-ctn">
