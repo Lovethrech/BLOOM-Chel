@@ -7,7 +7,42 @@
             {
                 "id":"1",
                 "mark":"~",
-                "markName":""
+                "markName":"Manage Patients Records(1k patients)"
+            },
+            {
+                "id":"2",
+                "mark":"~",
+                "markName":"Inventory Management"
+            },
+            {
+                "id":"3",
+                "mark":"~",
+                "markName":"Record Purchase Transactions"
+            },
+            {
+                "id":"4",
+                "mark":"~",
+                "markName":"Record Expenses"
+            },
+            {
+                "id":"5",
+                "mark":"~",
+                "markName":"Manage Suppliers"
+            },
+            {
+                "id":"6",
+                "mark":"~",
+                "markName":"Generate HMO monthly bills"
+            },
+            {
+                "id":"7",
+                "mark":"~",
+                "markName":"Access report of business performance"
+            },
+            {
+                "id":"8",
+                "mark":"~",
+                "markName":"customization"
             }
         ]
     },
@@ -19,7 +54,42 @@
             {
                 "id":"1",
                 "mark":"~",
-                "markName":""
+                "markName":"Manage Patients Records(1k patients)"
+            },
+            {
+                "id":"2",
+                "mark":"~",
+                "markName":"Inventory Management"
+            },
+            {
+                "id":"3",
+                "mark":"~",
+                "markName":"Record Purchase Transactions"
+            },
+            {
+                "id":"4",
+                "mark":"~",
+                "markName":"Record Expenses"
+            },
+            {
+                "id":"5",
+                "mark":"~",
+                "markName":"Manage Suppliers"
+            },
+            {
+                "id":"6",
+                "mark":"~",
+                "markName":"Generate HMO monthly bills"
+            },
+            {
+                "id":"7",
+                "mark":"~",
+                "markName":"Access report of business performance"
+            },
+            {
+                "id":"8",
+                "mark":"~",
+                "markName":"customization"
             }
         ]
     },
@@ -31,7 +101,42 @@
             {
                 "id":"1",
                 "mark":"~",
-                "markName":""
+                "markName":"Manage Patients Records(1k patients)"
+            },
+            {
+                "id":"2",
+                "mark":"~",
+                "markName":"Inventory Management"
+            },
+            {
+                "id":"3",
+                "mark":"~",
+                "markName":"Record Purchase Transactions"
+            },
+            {
+                "id":"4",
+                "mark":"~",
+                "markName":"Record Expenses"
+            },
+            {
+                "id":"5",
+                "mark":"~",
+                "markName":"Manage Suppliers"
+            },
+            {
+                "id":"6",
+                "mark":"~",
+                "markName":"Generate HMO monthly bills"
+            },
+            {
+                "id":"7",
+                "mark":"~",
+                "markName":"Access report of business performance"
+            },
+            {
+                "id":"8",
+                "mark":"~",
+                "markName":"customization"
             }
         ]
     }
