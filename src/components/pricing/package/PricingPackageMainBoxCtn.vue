@@ -11,6 +11,7 @@ import PricingPackageBox from './PricingPackageBox.vue';
                 :key="PricingPackageBoxListDetail.id"
                 :name="PricingPackageBoxListDetail.name"
                 :price="PricingPackageBoxListDetail.price"
+                :plans="PricingPackageBoxListDetail.plans"
             >
             </PricingPackageBox>
         </div>
