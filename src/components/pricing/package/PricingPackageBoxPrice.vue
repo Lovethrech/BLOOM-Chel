@@ -1,10 +1,16 @@
+<script setup>
+import { defineProps } from 'vue';
+
+const {price}=defineProps(['price']);
+</script>
+
 <template>
     <div class="pricing-package-box-price-main-ctn">
         <p class="pricing-package-box-price-main-ctn-name">
             <sup class="pricing-package-box-price-main-ctn-name-sup">
                 #
             </sup>
-            0k
+            {{ price }}
             <sub class="pricing-package-box-price-main-ctn-name-sub">
                 /yr
             </sub>

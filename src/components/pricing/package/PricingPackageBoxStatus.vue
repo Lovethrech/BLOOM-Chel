@@ -7,7 +7,7 @@ const {name}=defineProps(['name']);
 <template>
     <div class="pricing-package-box-status-main-ctn">
         <p class="pricing-package-box-status-main-ctn-name">
-            free
+            {{name}}
         </p>
     </div>
 </template>

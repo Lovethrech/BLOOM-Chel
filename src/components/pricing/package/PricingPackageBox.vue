@@ -1,18 +1,27 @@
 <script setup>
+import { defineProps } from 'vue';
 import PricingPackageBoxStatus from './PricingPackageBoxStatus.vue';
 import PricingPackageBoxStatusDesc from './PricingPackageBoxStatusDesc.vue';
 import PricingPackageBoxPrice from './PricingPackageBoxPrice.vue';
 import PricingPackageBoxBuyBtn from './PricingPackageBoxBuyBtn.vue';
 import PricingPackageBoxListMain from './PricingPackageBoxListMain.vue';
+
+const {name, price}=defineProps(['name', 'price']);
 </script>
 
 <template>
     <div class="pricing-package-box-main-ctn">
         <div class="pricing-package-box-mini-ctn">
-            <PricingPackageBoxStatus></PricingPackageBoxStatus>
+            <PricingPackageBoxStatus
+                :name="name"
+            >
+            </PricingPackageBoxStatus>
             <PricingPackageBoxStatusDesc></PricingPackageBoxStatusDesc>
             <br/>
-            <PricingPackageBoxPrice></PricingPackageBoxPrice>
+            <PricingPackageBoxPrice
+                :price="price"
+            >
+            </PricingPackageBoxPrice>
             <br/>
             <PricingPackageBoxBuyBtn></PricingPackageBoxBuyBtn>
             <PricingPackageBoxListMain></PricingPackageBoxListMain>
