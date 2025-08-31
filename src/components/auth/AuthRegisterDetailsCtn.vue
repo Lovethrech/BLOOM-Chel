@@ -6,6 +6,9 @@ import AuthLoginAndRegisterHeader from './AuthLoginAndRegisterHeader.vue';
     <div class="auth-register-details-ctn-main-ctn">
         <div class="auth-register-details-ctn-mini-ctn">
             <AuthLoginAndRegisterHeader></AuthLoginAndRegisterHeader>
+            <form action="" class="auth-register-details-ctn-mini-ctn-form">
+                
+            </form>
         </div>
     </div>
 </template>

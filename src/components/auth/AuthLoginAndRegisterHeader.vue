@@ -13,3 +13,11 @@ import AuthRegisterDetailsGoogle from './AuthRegisterDetailsGoogle.vue';
         </div>
     </div>
 </template>
+
+<style scoped>
+.auth-login-and-register-header-mini-ctn{
+    display:flex;
+    flex-direction: column;
+    
+}
+</style>
