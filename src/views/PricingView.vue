@@ -1,5 +1,5 @@
 <script setup>
-import HomeHero from '@/components/home/hero/HomeHero.vue';
+import HomePricing from '@/components/home/hero/HomePricing.vue';
 import HomeAbout from '@/components/home/about/HomeAbout.vue';
 import HomeContact from '@/components/home/contact/HomeContact.vue';
 import HomeAttribute from '@/components/home/attribute/HomeAttribute.vue';
@@ -13,7 +13,7 @@ import Footer from '@/components/footer/Footer.vue';
 
 <template>
   <main>
-    <HomeHero></HomeHero>
+    <HomePricing></HomePricing>
     <HomeAbout></HomeAbout>
     <HomeContact></HomeContact>
     <HomeAttribute></HomeAttribute>
