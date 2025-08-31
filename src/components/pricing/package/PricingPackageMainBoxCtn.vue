@@ -32,6 +32,8 @@ import PricingPackageBox from './PricingPackageBox.vue';
 }
 
 @media screen and (max-width: 850px) {
-    
+    .pricing-package-main-box-ctn-mini-ctn{
+        flex-direction: column;
+    }
 }
 </style>
