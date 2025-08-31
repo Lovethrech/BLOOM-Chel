@@ -6,7 +6,7 @@ import PricingPackageBoxPrice from './PricingPackageBoxPrice.vue';
 import PricingPackageBoxBuyBtn from './PricingPackageBoxBuyBtn.vue';
 import PricingPackageBoxListMain from './PricingPackageBoxListMain.vue';
 
-const {name, price}=defineProps(['name', 'price']);
+const {name, price, plans}=defineProps(['name', 'price', 'plans']);
 </script>
 
 <template>
@@ -24,7 +24,10 @@ const {name, price}=defineProps(['name', 'price']);
             </PricingPackageBoxPrice>
             <br/>
             <PricingPackageBoxBuyBtn></PricingPackageBoxBuyBtn>
-            <PricingPackageBoxListMain></PricingPackageBoxListMain>
+            <PricingPackageBoxListMain
+                :plans="plans"
+            >
+            </PricingPackageBoxListMain>
         </div>
     </div>
 </template>
