@@ -5,3 +5,14 @@
         </p>
     </div>
 </template>
+
+<style scoped>
+.auth-login-and-register-header-desc-main-ctn{
+    width: 100%;
+    text-align: center;
+}
+.auth-login-and-register-header-desc-main-ctn-name{
+    color: #838080;
+    font-size: 1.5vh;
+}
+</style>

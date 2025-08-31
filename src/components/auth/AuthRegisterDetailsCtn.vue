@@ -14,7 +14,8 @@ import AuthLoginAndRegisterHeader from './AuthLoginAndRegisterHeader.vue';
 .auth-register-details-ctn-main-ctn{
     width: 40%;
     height: 60vh;
-    padding:4vh 3vw;  
+    padding:4vh 3vw;
+    background-color: rgb(255, 255, 255);
 }
 .auth-register-details-ctn-mini-ctn{
 }
