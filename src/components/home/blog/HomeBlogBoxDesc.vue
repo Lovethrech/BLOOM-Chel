@@ -30,7 +30,7 @@ const {boxDesc}=defineProps(['boxDesc']);
 
 @media screen and (max-width: 1130px){
     .home-blog-box-desc-main-ctn-name{
-        font-size: 1.4vh;
+        font-size: 1.7vh;
     }
 }
 @media screen and (max-width: 900px) {
