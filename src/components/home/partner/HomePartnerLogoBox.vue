@@ -12,7 +12,6 @@ const {imgSrc, imgName}=defineProps(['imgSrc', 'imgName']);
 
 <style scoped>
 .home-partner-logo-box-main-ctn{
-    background-color: yellow;
     width:20vw;
     height: 20vw;
 }
