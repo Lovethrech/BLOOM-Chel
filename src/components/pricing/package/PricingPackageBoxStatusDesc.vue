@@ -12,5 +12,10 @@
 </template>
 
 <style scoped>
-
+.pricing-package-box-status-desc-main-ctn{
+    text-align: center;
+}
+.pricing-package-box-status-desc-main-ctn-name{
+    font-size: 1.4vh;
+}
 </style>
