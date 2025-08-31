@@ -9,6 +9,7 @@
                 /yr
             </sub>
         </p>
+        
     </div>
 </template>
 
@@ -18,5 +19,15 @@
 }
 .pricing-package-box-price-main-ctn-name{
     color: #614EDE;
+    font-size: 8vh;
+    font-weight: 800;
+    display:flex;
+    flex-direction: row;
+}
+.pricing-package-box-price-main-ctn-name-sup, .pricing-package-box-price-main-ctn-name-sub{
+    
+}
+.pricing-package-box-price-main-ctn-name-sub{
+    margin-top:5vh;
 }
 </style>
