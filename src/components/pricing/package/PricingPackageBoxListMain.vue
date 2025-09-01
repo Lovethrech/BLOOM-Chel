@@ -3,7 +3,6 @@ import { defineProps } from 'vue';
 import PricingPackageBoxList from './PricingPackageBoxList.vue';
 
 const  {plans}=defineProps(['plans']);
-console.log(plans);
 </script>
 
 <template>
