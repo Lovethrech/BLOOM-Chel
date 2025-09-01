@@ -22,7 +22,7 @@ import PricingPackageBox from './PricingPackageBox.vue';
 .pricing-package-main-box-ctn-main-ctn{
     margin-top: 8vh;
     width: 100%;
-    height: 50vh;
+    height: 100%;
 }
 .pricing-package-main-box-ctn-mini-ctn{
     display:flex;
