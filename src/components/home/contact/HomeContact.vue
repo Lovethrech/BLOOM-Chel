@@ -14,13 +14,14 @@ import HomeContactTitle from './HomeContactTitle.vue';
 </template>
 
 <style scoped>
-.home-contact-main-ctn{
+.home-contact-main-ctn, .home-contact-mini-ctn{
     width:100%;
+}
+.home-contact-main-ctn{
     min-height:70vh;
     padding: 10vh 0;
 }
 .home-contact-mini-ctn{
-    width:100%;
     height: 100%;
 }
 @media screen and (max-width:850px){
