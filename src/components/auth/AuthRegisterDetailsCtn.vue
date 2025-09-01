@@ -28,7 +28,7 @@ const phoneNumber=ref("");
                     :placeholder="AuthRegisterDetails[1].placeholder"
                     :nameFor="AuthRegisterDetails[1].nameFor"
                     :nameType="AuthRegisterDetails[1].nameType"
-                    :vModel="name"
+                    :vModel="clientName"
                 >
                 </AuthRegisterDetailsFormInput>
                 <AuthRegisterDetailsFormInput
@@ -36,7 +36,7 @@ const phoneNumber=ref("");
                     :placeholder="AuthRegisterDetails[2].placeholder"
                     :nameFor="AuthRegisterDetails[2].nameFor"
                     :nameType="AuthRegisterDetails[2].nameType"
-                    :vModel="name"
+                    :vModel="email"
                 >
                 </AuthRegisterDetailsFormInput>
                 <AuthRegisterDetailsFormInput
@@ -44,7 +44,7 @@ const phoneNumber=ref("");
                     :placeholder="AuthRegisterDetails[3].placeholder"
                     :nameFor="AuthRegisterDetails[3].nameFor"
                     :nameType="AuthRegisterDetails[3].nameType"
-                    :vModel="name"
+                    :vModel="phoneNumber"
                 >
                 </AuthRegisterDetailsFormInput>
             </form>
