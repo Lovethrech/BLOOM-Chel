@@ -13,7 +13,7 @@
     text-transform: capitalize;
     font-size: 1.6vh;
     border: 2px solid #614EDE;
-    border-radius: 1vh;
+    border-radius: 1.3vh;
     width:100%;
     padding: 1.4vh 3vw;
 }
