@@ -1,7 +1,7 @@
 [
     {
         "id":"1",
-        "name":"emai",
+        "name":"email",
         "placeholder":"Enter email address",
         "nameFor":"email",
         "nameType":"email"

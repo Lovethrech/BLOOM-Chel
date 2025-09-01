@@ -8,13 +8,11 @@ import AuthLoginAndRegisterBookBtn from "./AuthLoginAndRegisterBookBtn.vue";
 
 const router=useRouter();
 const inputBoxBorder=ref("0");
-const name=ref("");
-const clientName=ref("");
 const email=ref("");
-const phoneNumber=ref("");
+const password=ref("");
 
 const bookDemo=()=>{
-    if (((name.value==="")&&(clientName.value==="")&&(email.value==="")&&(phoneNumber.value==="")) || ((name.value==="")||(clientName.value==="")||(email.value==="")||(phoneNumber.value===""))){
+    if (((email.value==="")&&(password.value==="")) || ((email.value==="")||(password.value===""))){
         inputBoxBorder.value="0.02vh solid red";
     }
     else{
@@ -34,7 +32,7 @@ const bookDemo=()=>{
                     :placeholder="AuthLoginDetails[0].placeholder"
                     :nameFor="AuthLoginDetails[0].nameFor"
                     :nameType="AuthLoginDetails[0].nameType"
-                    :vModel="name"
+                    :vModel="email"
                 >
                 </AuthRegisterDetailsFormInput>
                 <AuthRegisterDetailsFormInput
@@ -43,7 +41,7 @@ const bookDemo=()=>{
                     :placeholder="AuthLoginDetails[1].placeholder"
                     :nameFor="AuthLoginDetails[1].nameFor"
                     :nameType="AuthLoginDetails[1].nameType"
-                    :vModel="clientName"
+                    :vModel="password"
                 >
                 </AuthRegisterDetailsFormInput>
                 <br/>
@@ -56,7 +54,7 @@ const bookDemo=()=>{
 <style scoped>
 .auth-register-details-ctn-main-ctn{
     width: 40%;
-    min-height: 60vh;
+    min-height: 50vh;
     padding:4vh 3vw;
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 7px 10px 10px #cdcbcd4f;
