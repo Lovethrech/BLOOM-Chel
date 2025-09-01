@@ -14,7 +14,6 @@
 @media screen and (max-width: 900px) {
     .home-customer-review-text-ctn-title-main-ctn-name{
         font-size: 12px;
-        
     }
 }
 </style>

@@ -13,14 +13,15 @@ import HomeCustomerReviewTextCtnDetails from './HomeCustomerReviewTextCtnDetails
 </template>
 
 <style scoped>
-.home-customer-review-ctn-main-ctn{
+.home-customer-review-ctn-main-ctn, .home-customer-review-ctn-mini-ctn{
     width: 100%;
+}
+.home-customer-review-ctn-main-ctn{
     height:100%;
     background: linear-gradient(to bottom, #A54dea, #594edc);
     padding: 0 6vw;
 }
 .home-customer-review-ctn-mini-ctn{
-    width: 1005;
     display:flex;
     flex-direction: row-reverse;
     justify-content: space-between;
