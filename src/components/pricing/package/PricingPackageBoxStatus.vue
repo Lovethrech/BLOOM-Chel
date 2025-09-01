@@ -19,7 +19,8 @@ const {name}=defineProps(['name']);
 }
 .pricing-package-box-status-main-ctn-name{
     text-transform: uppercase;
-    font-size: 3vh;
-    font-weight: 600;
+    font-size: 3.7vh;
+    color: #1a1a1a;
+    font-weight: 500;
 }
 </style>

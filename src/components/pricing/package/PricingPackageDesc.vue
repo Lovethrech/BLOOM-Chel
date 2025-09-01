@@ -11,6 +11,7 @@
 <style scoped>
 .pricing-package-desc-main-ctn-name{
     font-size: 1.6vh;
+    color: #625f5f;
 }
 
 @media screen and (max-width:850px){

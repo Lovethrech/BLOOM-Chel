@@ -8,7 +8,6 @@ import PricingPackageMainBoxCtn from './PricingPackageMainBoxCtn.vue';
     <section id="package" class="pricing-package-main-ctn">
         <div class="pricing-package-mini-ctn">
             <PricingPackageTitle></PricingPackageTitle>
-            <br/>
             <PricingPackageDesc></PricingPackageDesc>
             <PricingPackageMainBoxCtn></PricingPackageMainBoxCtn>
         </div>
