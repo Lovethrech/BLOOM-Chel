@@ -18,7 +18,8 @@ console.log(plans);
                     <PricingPackageBoxList
                         v-for="plan in plans"
                         :key="plan.id"
-                        :plan="plan"
+                        :mark="plan.mark"
+                        :markName="plan.markName"
                     >
                     </PricingPackageBoxList>
                     <PricingPackageBoxList></PricingPackageBoxList>
