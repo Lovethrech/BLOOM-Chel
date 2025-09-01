@@ -21,12 +21,6 @@ const  {plans}=defineProps(['plans']);
                         :markName="plan.markName"
                     >
                     </PricingPackageBoxList>
-                    <PricingPackageBoxList></PricingPackageBoxList>
-                    <PricingPackageBoxList></PricingPackageBoxList>
-                    <PricingPackageBoxList></PricingPackageBoxList>
-                    <PricingPackageBoxList></PricingPackageBoxList>
-                    <PricingPackageBoxList></PricingPackageBoxList>
-                    <PricingPackageBoxList></PricingPackageBoxList>
                 </div>
             </div>
         </div>

@@ -31,7 +31,7 @@ import PricingPackageBox from './PricingPackageBox.vue';
     gap: 2vw;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 950px) {
     .pricing-package-main-box-ctn-main-ctn{
         height: 100%;
     }
