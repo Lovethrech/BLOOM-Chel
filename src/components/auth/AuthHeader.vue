@@ -52,26 +52,28 @@ const openLoginDetails=()=>{
 </template>
 
 <style scoped>
-.auth-header-main-ctn{
+.auth-header-main-ctn, .auth-header-mini-ctn{
     width:100%;
+}
+.auth-header-main-ctn{
     height: 50vh;
     background: linear-gradient(to bottom, #A54dea, #594edc);
 }
 .auth-header-mini-ctn{
-    width:100%;
     height:48vh;
     background:  url(@/assets/auth-pattern.svg) bottom/ 100% no-repeat;
 }
+.auth-header-mini-ctn-header, .auth-header-mini-ctn-auth-content-ctn{
+    display:flex;
+}
 .auth-header-mini-ctn-header{
     padding: 3vh 6vw;
-    display:flex;
     flex-direction: row;
     justify-content: space-between;
 }
 .auth-header-mini-ctn-auth-content-ctn{
     min-height:50vh;
     margin-top:15vh;
-    display:flex;
     justify-content: center;
 }
 </style>
