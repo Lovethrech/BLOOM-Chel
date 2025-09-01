@@ -26,6 +26,6 @@ import FooterLinkIcon from './FooterLinkIcon.vue';
 .footer-link-icon-ctn-mini-ctn{
     display:flex;
     flex-direction: row;
-    gap:3vw;
+    gap:1vw;
 }
 </style>
