@@ -18,4 +18,9 @@
     text-transform: capitalize;
     font-size: 2vh;
 }
+.auth-login-and-register-book-btn-main-ctn:hover{
+    cursor:pointer;
+    transform:scale(0.98);
+    transition: all .4s;
+}
 </style>
