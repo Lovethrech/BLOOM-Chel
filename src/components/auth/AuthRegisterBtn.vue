@@ -1,5 +1,7 @@
 <template>
     <div class="auth-login-ctn-main-ctn">
-        Register
+        <p class="auth-login-ctn-main-ctn-name">
+            Register
+        </p>
     </div>
 </template>

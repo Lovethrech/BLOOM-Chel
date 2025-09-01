@@ -1,5 +1,7 @@
 <template>
     <div class="auth-login-ctn-main-ctn">
-        login
+        <p class="auth-login-ctn-main-ctn-name">
+            login
+        </p>
     </div>
 </template>
