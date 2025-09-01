@@ -15,11 +15,11 @@
     border: 2px solid #614EDE;
     border-radius: 1vh;
     width:100%;
-    padding: 1vh 3vw;
+    padding: 1.4vh 3vw;
 }
 .pricing-package-box-buy-btn-main-ctn:hover{
     cursor: pointer;
-    background-color: #614EDE;
+    background:linear-gradient(to bottom, #A54dea, #594edc);
     color: #fff;
 }
 </style>

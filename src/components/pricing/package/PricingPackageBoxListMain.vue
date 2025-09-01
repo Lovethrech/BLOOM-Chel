@@ -32,8 +32,10 @@ const  {plans}=defineProps(['plans']);
     margin: 5vh 0;
 }
 .pricing-package-box-list-main-mini-ctn-title{
+    color: #535050; 
+    font-weight:400;
     text-transform: capitalize;
-    font-size: 1.8vh;
+    font-size: 1.6vh;
 }
 .pricing-package-box-list-main-mini-ctn-list-content-mini-ctn{
     display:flex;
