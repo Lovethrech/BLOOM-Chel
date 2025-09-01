@@ -22,10 +22,12 @@ const {name, placeholder, nameFor, nameType, vModel}=defineProps(['name', 'place
 }
 .auth-register-details-form-input-mini-ctn-label{
     text-transform: capitalize;
+    font-size: 1.4vh;
 }
 .auth-register-details-form-input-mini-ctn-input{
-    background-color: #e7e4e4;
+    background-color: #f3f0f0;
     padding:1.3vh 1vw;
     border:0;
-}
+    font-size: 1.8vh;
+}   
 </style>
