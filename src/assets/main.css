@@ -165,7 +165,7 @@ img{
 @media screen and (max-width:850px) {
   .auth-register-details-ctn-main-ctn{
     width:30.3vh;
-    padding: 4vh 6vw;
+    padding: 4vh 2.4vw;
     min-height: 40vh;
   }
 }

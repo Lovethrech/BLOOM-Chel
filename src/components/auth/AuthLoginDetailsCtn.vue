@@ -71,4 +71,11 @@ const bookDemo=()=>{
     font-weight: 400;
     color: #838383;
 }
+
+@media screen and (max-width: 850px) {
+    .auth-register-details-ctn-mini-ctn-form-forget-password{
+        font-size:;
+    }
+    
+}
 </style>
