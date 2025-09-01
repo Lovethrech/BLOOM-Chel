@@ -166,6 +166,7 @@ img{
   .auth-register-details-ctn-main-ctn{
     width:90%;
     padding: 4vh 6vw;
+    min-height: 40vh;
   }
 }
 
@@ -174,6 +175,7 @@ img{
     margin: auto 0;
     background-color: #fff;
     color: #000;
+    font-size: 1.4vh;
     padding: 1vh 2vw;
     text-transform: capitalize;
     border-radius: 2vh;
