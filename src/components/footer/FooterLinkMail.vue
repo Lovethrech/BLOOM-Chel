@@ -12,8 +12,10 @@
 </template>
 
 <style scoped>
-.footer-link-mail-main-content-link-main-ctn{
+.footer-link-mail-main-content-link-main-ctn, .footer-link-mail-main-content-link-mini-ctn{
     display:flex;
+}
+.footer-link-mail-main-content-link-main-ctn{
     justify-content: center;
 }
 
@@ -25,7 +27,6 @@
 .footer-link-mail-main-content-link-mini-ctn{
     border-bottom: 2px solid #fff;
     width: 21vw;
-    display:flex;
     flex-direction: row;
 }
 
@@ -33,8 +34,6 @@
     color: #fff;
     font-size: 4vh;
 }
-
-
 .footer-link-mail-main-content-link-mini-ctn i{
     margin: auto 0;
 }
