@@ -70,19 +70,3 @@ const bookDemo=()=>{
         </div>
     </div>
 </template>
-
-<style scoped>
-.auth-register-details-ctn-main-ctn{
-    width: 40%;
-    min-height: 60vh;
-    padding:4vh 3vw;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0px 7px 10px 10px #cdcbcd4f;
-}
-.auth-register-details-ctn-mini-ctn-form{
-    margin-top: 3vh;
-    display:flex;
-    flex-direction: column;
-    gap: 2vh;
-}
-</style>
