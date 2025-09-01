@@ -1,6 +1,6 @@
 <script setup>
 import {ref} from "vue";
-import NavLogo from '../nav/NavLogo.vue';
+import AuthLogo from './AuthLogo.vue';
 import AuthLoginBtn from './AuthLoginBtn.vue';
 import AuthRegisterBtn from './AuthRegisterBtn.vue';
 import AuthLoginDetailsCtn from "./AuthLoginDetailsCtn.vue";
@@ -31,7 +31,7 @@ const openLoginDetails=()=>{
     <div class="auth-header-main-ctn">
         <div class="auth-header-mini-ctn">
             <header class="auth-header-mini-ctn-header">
-                <NavLogo></NavLogo>
+                <AuthLogo></AuthLogo>
                 <AuthLoginBtn 
                     :style="{display:displayLoginBtn}"
                     @click="openLoginDetails"
