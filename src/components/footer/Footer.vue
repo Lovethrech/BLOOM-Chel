@@ -13,7 +13,6 @@ import FooterRight from './FooterRight.vue';
             <FooterDesc></FooterDesc>
             <br/>
             <FooterLinkMail></FooterLinkMail>
-            <br/>
             <FooterLinkIconCtn></FooterLinkIconCtn>
             <FooterRight></FooterRight>
         </div>
