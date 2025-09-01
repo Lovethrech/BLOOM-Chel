@@ -1,10 +1,10 @@
-<!-- <script setup>
+<script setup>
 import { defineProps } from 'vue';
 
 
-const {plan}=defineProps(['plan']);
+const {mark, markName}=defineProps(['mark', 'markName']);
 console.log(plan);
-</script> -->
+</script>
 
 
 <template>
