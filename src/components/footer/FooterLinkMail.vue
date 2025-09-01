@@ -5,7 +5,9 @@
                 <p class="footer-link-mail-main-content-link-mini-ctn-name">
                     Send us an email
                 </p>
-                <i class='bx  bx-arrow-up-right-stroke'  ></i> 
+                <div class="footer-link-mail-main-content-link-mini-ctn-arrow-ctn">
+                    <img src="@/assets/footer-mail.svg" alt="">
+                </div>
             </div>
         </RouterLink>
     </div>
@@ -26,15 +28,20 @@
 }
 .footer-link-mail-main-content-link-mini-ctn{
     border-bottom: 2px solid #fff;
-    width: 31vw;
+    width: 28vw;
     flex-direction: row;
+    gap:1vw;
 }
 
 .footer-link-mail-main-content-link-mini-ctn-name{
     color: #fff;
     font-size: 6.1vh;
+    font-weight: 400;
+    letter-spacing: -4px;
 }
-.footer-link-mail-main-content-link-mini-ctn i{
+.footer-link-mail-main-content-link-mini-ctn-arrow-ctn{
+    width: 3.2vh;
+    height: 4.5vh;
     margin: auto 0;
 }
 
@@ -59,10 +66,15 @@
         justify-content: center;
     }
     .footer-link-mail-main-content-link-mini-ctn{
-        width:310px;
+        width:270px;
     }
     .footer-link-mail-main-content-link-mini-ctn-name{
         font-size: 32px;
+        letter-spacing: -2px;
+    }
+    .footer-link-mail-main-content-link-mini-ctn-arrow-ctn{
+        width: 1.7vh;
+        height: 2.4vh;
     }
 }
 </style>
