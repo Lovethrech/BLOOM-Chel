@@ -32,9 +32,13 @@ if (mark==="<i class='bx bx-x' ></i>"){
     gap: 0.5vh;
 }
 .pricing-package-box-list-mini-ctn-mark-ctn{
-    font-size:3vh;
+    font-size:2.4vh;
 }
- .pricing-package-box-list-mini-ctn-mark-name-ctn{
+.pricing-package-box-list-mini-ctn-mark-ctn, .pricing-package-box-list-mini-ctn-mark-name-ctn{
     margin: auto 0;
+}
+.pricing-package-box-list-mini-ctn-mark-name-ctn{
+    font-size:1.6vh;
+    color: #8c8b8b;
 }
 </style>
