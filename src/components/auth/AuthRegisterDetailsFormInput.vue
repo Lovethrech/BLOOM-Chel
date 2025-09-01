@@ -28,5 +28,6 @@ const {name, placeholder, nameFor, nameType, vModel, inputBoxBorder}=defineProps
     background-color: #f3f0f0;
     padding:1.3vh 1vw;
     font-size: 1.8vh;
+    border-radius: 2vh;
 }   
 </style>
