@@ -27,6 +27,7 @@
     background-color: transparent;
     padding:0.6vh 1vw;
     border-radius: 2.7vh;
+    border: 1px solid #625f5f;
     flex-direction: row;
     gap:0.4vw;
 }

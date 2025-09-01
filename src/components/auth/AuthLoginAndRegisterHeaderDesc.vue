@@ -12,7 +12,7 @@
     text-align: center;
 }
 .auth-login-and-register-header-desc-main-ctn-name{
-    color: #838080;
-    font-size: 1.5vh;
+    color: #bfbfd4;
+    font-size: 1.6vh;
 }
 </style>
