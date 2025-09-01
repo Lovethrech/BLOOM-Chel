@@ -50,6 +50,7 @@ const bookDemo=()=>{
                         forget password?
                     </p>
                 </div>
+                <br/>
                 <AuthLoginAndRegisterBookBtn 
                     @click="bookDemo"
                     :btnDesc="AuthBookAndSignDetails[1].name"
