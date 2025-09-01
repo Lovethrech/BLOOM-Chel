@@ -16,11 +16,10 @@ import HomeCustomerReviewCtn from './HomeCustomerReviewCtn.vue';
 
 <style scoped>
 .home-customer-review-main-ctn{
-    width:100%;
     min-height:50vh;
     padding: 16vh 0;
 }
-.home-customer-review-mini-ctn{
+.home-customer-review-mini-ctn, .home-customer-review-main-ctn{
     width:100%;
 }
 .home-customer-review-mini-ctn-name{
