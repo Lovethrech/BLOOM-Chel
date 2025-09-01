@@ -5,8 +5,7 @@ const {imgSrc}=defineProps(['imgSrc']);
 </script>
 
 <template>
-    <div class="home-attribute-box-img-main-ctn" v-html="imgSrc">
-    </div>
+    <div class="home-attribute-box-img-main-ctn" v-html="imgSrc"></div>
 </template>
 
 <style scoped>
