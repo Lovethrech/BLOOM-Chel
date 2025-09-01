@@ -64,5 +64,8 @@ const phoneNumber=ref("");
 }
 .auth-register-details-ctn-mini-ctn-form{
     margin-top: 3vh;
+    display:flex;
+    flex-direction: column;
+    gap: 2vh;
 }
 </style>
