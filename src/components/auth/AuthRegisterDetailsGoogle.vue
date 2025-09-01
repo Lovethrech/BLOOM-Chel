@@ -12,10 +12,12 @@
 </template>
 
 <style scoped>
+.auth-register-details-google-main-ctn, .auth-register-details-google-main-ctn-button{
+    display:flex;
+}
 .auth-register-details-google-main-ctn{
     width: 100%;
     margin-top: 3vh;
-    display:flex;
     justify-content: center;
     place-items: center;
 }
@@ -23,7 +25,6 @@
     background-color: transparent;
     padding:0.6vh 1vw;
     border-radius: 20vw;
-    display:flex;
     flex-direction: row;
     gap:0.4vw;
 }
