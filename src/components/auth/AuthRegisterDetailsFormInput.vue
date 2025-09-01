@@ -1,7 +1,7 @@
 <script setup>
 import { defineProps } from 'vue';
 
-const {name, placeholder, nameFor, nameType, vModel}=defineProps(['name', 'placeholder', 'nameFor', 'nameType', 'vModel']);
+const {name, placeholder, nameFor, nameType, vModel, inputBoxBorder}=defineProps(['name', 'placeholder', 'nameFor', 'nameType', 'vModel', 'inputBoxBorder']);
 </script>
 
 <template>
@@ -10,7 +10,7 @@ const {name, placeholder, nameFor, nameType, vModel}=defineProps(['name', 'place
             <label :for="nameFor" class="auth-register-details-form-input-mini-ctn-label">
                 {{ name }}
             </label>
-            <input :v-model="vModel" :id="nameFor" :type="nameType" :placeholder="placeholder" class="auth-register-details-form-input-mini-ctn-input">
+            <input :v-model="vModel" :id="nameFor" :type="nameType" :placeholder="placeholder" :style="{border:inputBoxBorder}" class="auth-register-details-form-input-mini-ctn-input">
         </div>
     </div>
 </template>
@@ -27,7 +27,6 @@ const {name, placeholder, nameFor, nameType, vModel}=defineProps(['name', 'place
 .auth-register-details-form-input-mini-ctn-input{
     background-color: #f3f0f0;
     padding:1.3vh 1vw;
-    border:0;
     font-size: 1.8vh;
 }   
 </style>
