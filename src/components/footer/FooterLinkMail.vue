@@ -47,7 +47,7 @@
         justify-content: center;
     }
     .footer-link-mail-main-content-link-mini-ctn{
-        width:170px;
+        width:240px;
     }
     .footer-link-mail-main-content-link-mini-ctn-name{
         font-size: 1.4vh;
@@ -60,10 +60,10 @@
         justify-content: center;
     }
     .footer-link-mail-main-content-link-mini-ctn{
-        width:160px;
+        width:240px;
     }
     .footer-link-mail-main-content-link-mini-ctn-name{
-        font-size: 14px;
+        font-size: 24px;
     }
 }
 </style>
