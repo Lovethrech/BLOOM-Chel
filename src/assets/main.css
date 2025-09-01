@@ -15,9 +15,9 @@ img{
 
 /* TRY-FOR-FREE BUTTON  */
 .try-for-free-btn{  
-  font-size: 2.2vh;
-  padding:1vh 2vw;
-  border-radius: 2vw;
+  font-size: 1.8vh;
+  padding: 0.9vh 2.3vh;
+  border-radius: 2vh;
   border: 0;
 }
 .try-for-free-btn:hover{
