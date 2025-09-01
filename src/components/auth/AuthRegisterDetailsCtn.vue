@@ -3,6 +3,7 @@ import {ref} from "vue";
 import AuthRegisterDetails from "@/data/auth-register-details.json";
 import AuthLoginAndRegisterHeader from './AuthLoginAndRegisterHeader.vue';
 import AuthRegisterDetailsFormInput from './AuthRegisterDetailsFormInput.vue';
+import AuthLoginAndRegisterBookBtn from "./AuthLoginAndRegisterBookBtn.vue";
 
 const name=ref("");
 const clientName=ref("");
@@ -47,6 +48,8 @@ const phoneNumber=ref("");
                     :vModel="phoneNumber"
                 >
                 </AuthRegisterDetailsFormInput>
+                <br/>
+                <AuthLoginAndRegisterBookBtn></AuthLoginAndRegisterBookBtn>
             </form>
         </div>
     </div>
@@ -55,7 +58,7 @@ const phoneNumber=ref("");
 <style scoped>
 .auth-register-details-ctn-main-ctn{
     width: 40%;
-    height: 60vh;
+    min-height: 60vh;
     padding:4vh 3vw;
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 7px 10px 10px #cdcbcd4f;

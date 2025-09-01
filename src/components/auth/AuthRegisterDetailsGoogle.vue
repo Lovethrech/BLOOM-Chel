@@ -27,4 +27,7 @@
 .auth-register-details-google-main-ctn-button:hover{
     cursor: pointer;
 }
+.auth-register-details-google-main-ctn-button-name{
+    font-size: 1.4vh;
+}
 </style>
