@@ -141,10 +141,15 @@
             {
                 "id":"7",
                 "mark":"<i class='bx bx-check' ></i>",
-                "markName":"Access report of business performance"
+                "markName":"Record and Track HMo monthly bills"
             },
             {
                 "id":"8",
+                "mark":"<i class='bx bx-check' ></i>",
+                "markName":"Access report of business performance"
+            },
+            {
+                "id":"9",
                 "mark":"<i class='bx bx-check' ></i>",
                 "markName":"customization"
             }
