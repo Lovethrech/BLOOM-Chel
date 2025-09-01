@@ -58,7 +58,7 @@ const phoneNumber=ref("");
     height: 60vh;
     padding:4vh 3vw;
     background-color: rgb(255, 255, 255);
-    border: 2px solid orange;
+    box-shadow: 0px 7px 10px 10px #cdcbcd4f;
 }
 .auth-register-details-ctn-mini-ctn{
 }
