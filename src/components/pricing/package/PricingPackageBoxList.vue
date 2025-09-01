@@ -32,4 +32,10 @@ if (mark==="~"){
     flex-direction: row;
     gap: 0.5vh;
 }
+.pricing-package-box-list-mini-ctn-mark-ctn{
+    font-size:3vh;
+}
+ .pricing-package-box-list-mini-ctn-mark-name-ctn{
+    margin: auto 0;
+}
 </style>
