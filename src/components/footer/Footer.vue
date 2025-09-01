@@ -3,6 +3,7 @@ import FooterLogo from './FooterLogo.vue';
 import FooterDesc from './FooterDesc.vue';
 import FooterLinkMail from './FooterLinkMail.vue';
 import FooterLinkIconCtn from './FooterLinkIconCtn.vue';
+import FooterRight from './FooterRight.vue';
 </script>
 
 <template>
@@ -14,6 +15,7 @@ import FooterLinkIconCtn from './FooterLinkIconCtn.vue';
             <FooterLinkMail></FooterLinkMail>
             <br/>
             <FooterLinkIconCtn></FooterLinkIconCtn>
+            <FooterRight></FooterRight>
         </div>
     </footer>
 </template>
