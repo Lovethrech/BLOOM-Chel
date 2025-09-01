@@ -2,11 +2,11 @@
 import { ref,defineProps } from 'vue';
 
 const nameTextDecoration=ref("none");
-const positiveColor=ref("");
-const negativeColor=ref("red");
+const listIconColor=ref("#614EDE");
 const {mark, markName}=defineProps(['mark', 'markName']);
 if (mark==="~"){
     nameTextDecoration.value="line-through";
+    listIconColor.value="red";
 }
 </script>
 
@@ -14,7 +14,7 @@ if (mark==="~"){
 <template>
     <div class="pricing-package-box-list-main-ctn">
         <div class="pricing-package-box-list-mini-ctn">
-            <div class="pricing-package-box-list-mini-ctn-mark-ctn">
+            <div class="pricing-package-box-list-mini-ctn-mark-ctn" :style="{color:listIconColor}">
                 {{ mark }}
             </div>
             <div class="pricing-package-box-list-mini-ctn-mark-name-ctn">
