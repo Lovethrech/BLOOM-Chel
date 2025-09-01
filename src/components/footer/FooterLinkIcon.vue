@@ -10,5 +10,8 @@ const {name}=defineProps(['name']);
 </template>
 
 <style scoped>
-
+.footer-link-icon-main-ctn{
+    font-size: 4vh;
+    color: #fff;
+}
 </style>
