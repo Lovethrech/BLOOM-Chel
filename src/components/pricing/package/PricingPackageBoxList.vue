@@ -1,9 +1,11 @@
 <script setup>
-import { defineProps } from 'vue';
+import { ref,defineProps } from 'vue';
 
-
+const nameTextDecoration=ref("line-through")
 const {mark, markName}=defineProps(['mark', 'markName']);
-console.log(mark);
+if (mark.value==="~"){
+
+}
 </script>
 
 
@@ -27,5 +29,8 @@ console.log(mark);
     display:flex;
     flex-direction: row;
     gap: 0.5vh;
+}
+.pricing-package-box-list-mini-ctn-mark-name{
+    text-decoration: line-through;
 }
 </style>
