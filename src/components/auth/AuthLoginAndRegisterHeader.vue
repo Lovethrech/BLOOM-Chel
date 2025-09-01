@@ -18,6 +18,5 @@ import AuthRegisterDetailsGoogle from './AuthRegisterDetailsGoogle.vue';
 .auth-login-and-register-header-mini-ctn{
     display:flex;
     flex-direction: column;
-    
 }
 </style>
