@@ -1,18 +1,18 @@
 [
     {
         "id":1,
-        "name":""
+        "name":"<i class='bx bxl-instagram'></i>"
     },
     {
         "id":2,
-        "name":""
+        "name":"<i class='bx bxl-twitter' ></i>"
     },
     {
         "id":3,
-        "name":""
+        "name":"<i class='bx bxl-twitter' ></i> "
     },
     {
         "id":4,
-        "name":""
+        "name":"<i class='bx bxl-whatsapp' ></i>"
     }
 ]
