@@ -162,6 +162,11 @@ img{
     flex-direction: column;
     gap: 2vh;
 }
+@media screen and (max-width:850px) {
+  .auth-register-details-ctn-main-ctn{
+    width:90%;
+  }
+}
 
 /* AUTH LOGIN BTN AND REGISTER BTN  */
 .auth-login-ctn-main-ctn{
