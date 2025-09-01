@@ -29,9 +29,6 @@ import HomeBlogVisitBtn from './HomeBlogVisitBtn.vue';
     justify-content: center;
     place-items: center;
 }
-.home-blog-mini-ctn{
-}
-
 
 @media screen and (max-width:900px) {
     .home-blog-main-ctn{
