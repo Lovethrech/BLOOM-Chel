@@ -1,12 +1,13 @@
 <script setup>
 import {ref} from "vue";
+import { useRouter } from "vue-router";
 import AuthRegisterDetails from "@/data/auth-register-details.json";
 import AuthLoginAndRegisterHeader from './AuthLoginAndRegisterHeader.vue';
 import AuthRegisterDetailsFormInput from './AuthRegisterDetailsFormInput.vue';
 import AuthLoginAndRegisterBookBtn from "./AuthLoginAndRegisterBookBtn.vue";
 
+const router=useRouter();
 const inputBoxBorder=ref("0");
-// 0.02vh solid red
 const name=ref("");
 const clientName=ref("");
 const email=ref("");
@@ -15,6 +16,9 @@ const phoneNumber=ref("");
 const bookDemo=()=>{
     if (((name.value==="")&&(clientName.value==="")&&(email.value==="")&&(phoneNumber.value==="")) || ((name.value==="")||(clientName.value==="")||(email.value==="")||(phoneNumber.value===""))){
         inputBoxBorder.value="0.02vh solid red";
+    }
+    else{
+        router.push("/");
     }
 }
 </script>
