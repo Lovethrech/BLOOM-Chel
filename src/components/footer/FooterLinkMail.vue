@@ -24,7 +24,7 @@
 }
 .footer-link-mail-main-content-link-mini-ctn{
     border-bottom: 2px solid #fff;
-    width: 20vw;
+    width: 21vw;
     display:flex;
     flex-direction: row;
 }
@@ -60,7 +60,7 @@
         justify-content: center;
     }
     .footer-link-mail-main-content-link-mini-ctn{
-        width:240px;
+        width:160px;
     }
     .footer-link-mail-main-content-link-mini-ctn-name{
         font-size: 14px;
