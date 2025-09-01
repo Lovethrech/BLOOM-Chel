@@ -13,6 +13,7 @@
 }
 .footer-desc-main-ctn-name{
     color:#fff;
-    font-size: 1.4vh;
+    font-size: 2vh;
+    font-weight: 400;
 }
 </style>

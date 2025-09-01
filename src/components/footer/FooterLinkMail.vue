@@ -26,13 +26,13 @@
 }
 .footer-link-mail-main-content-link-mini-ctn{
     border-bottom: 2px solid #fff;
-    width: 21vw;
+    width: 31vw;
     flex-direction: row;
 }
 
-.footer-link-mail-main-content-link-mini-ctn-name, .footer-link-mail-main-content-link-mini-ctn i{
+.footer-link-mail-main-content-link-mini-ctn-name{
     color: #fff;
-    font-size: 4vh;
+    font-size: 6.1vh;
 }
 .footer-link-mail-main-content-link-mini-ctn i{
     margin: auto 0;
@@ -59,10 +59,10 @@
         justify-content: center;
     }
     .footer-link-mail-main-content-link-mini-ctn{
-        width:240px;
+        width:310px;
     }
     .footer-link-mail-main-content-link-mini-ctn-name{
-        font-size: 24px;
+        font-size: 32px;
     }
 }
 </style>
