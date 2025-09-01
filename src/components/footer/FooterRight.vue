@@ -14,5 +14,6 @@
 .footer-right-main-ctn-name{
     color:#fff;
     font-size:1.8vh;
+    font-weight: 400;
 }
 </style>
