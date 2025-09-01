@@ -3,7 +3,7 @@ import { defineProps } from 'vue';
 
 
 const {mark, markName}=defineProps(['mark', 'markName']);
-console.log(plan);
+console.log(mark);
 </script>
 
 
@@ -11,11 +11,11 @@ console.log(plan);
     <div class="pricing-package-box-list-main-ctn">
         <div class="pricing-package-box-list-mini-ctn">
             <div class="pricing-package-box-list-mini-ctn-mark-ctn">
-                <!-- {{ plan.mark }} -->
+                {{ mark }}
             </div>
             <div class="pricing-package-box-list-mini-ctn-mark-name-ctn">
                 <p class="pricing-package-box-list-mini-ctn-mark-name">
-                    <!-- {{plan.markName}} -->
+                    {{markName}}
                 </p>
             </div>
         </div>
