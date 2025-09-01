@@ -6,7 +6,7 @@
 
 <style scoped>
 .footer-logo-main-ctn{
-    width:10vh;
+    width:18.5vh;
     margin:0 auto;
 }
 </style>

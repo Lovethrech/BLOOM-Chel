@@ -27,4 +27,9 @@ import FooterRight from './FooterRight.vue';
     height:100%;
     padding: 10vh 6vw 3vh;
 }
+.footer-mini-ctn{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vh;
+}
 </style>
