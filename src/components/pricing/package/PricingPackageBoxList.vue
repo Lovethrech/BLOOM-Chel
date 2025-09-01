@@ -2,8 +2,10 @@
 import { ref,defineProps } from 'vue';
 
 const nameTextDecoration=ref("none");
+const positiveColor=ref("");
+const negativeColor=ref("red");
 const {mark, markName}=defineProps(['mark', 'markName']);
-if (mark.value==="~"){
+if (mark==="~"){
     nameTextDecoration.value="line-through";
 }
 </script>
