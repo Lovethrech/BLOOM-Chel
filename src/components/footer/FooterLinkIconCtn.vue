@@ -1,4 +1,5 @@
 <script setup>
+import FooterLinkIconDetails from "@/data/footer-link-icon-details.json"
 import FooterLinkIcon from './FooterLinkIcon.vue';
 </script>
 
