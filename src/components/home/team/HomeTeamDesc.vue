@@ -19,6 +19,5 @@
     .home-team-desc-main-ctn-name{
         font-size:16px;
     }
-    
 }
 </style>

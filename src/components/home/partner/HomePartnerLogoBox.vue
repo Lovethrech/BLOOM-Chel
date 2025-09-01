@@ -20,6 +20,5 @@ const {imgSrc, imgName}=defineProps(['imgSrc', 'imgName']);
     .home-partner-logo-box-main-ctn{
         width: 41.3vw;
     }
-    
 }
 </style>
