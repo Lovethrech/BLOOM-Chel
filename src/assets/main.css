@@ -178,3 +178,10 @@ img{
     text-transform: capitalize;
     border-radius: 2vh;
 }
+@media screen and (max-width:850px) {
+  .auth-login-ctn-main-ctn{
+    padding: 1vh 4vw;
+    font-size:12px;
+    border-radius: 14px;
+  }
+}
