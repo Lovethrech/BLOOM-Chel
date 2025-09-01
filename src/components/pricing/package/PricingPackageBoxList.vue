@@ -1,7 +1,7 @@
 <script setup>
 import { ref,defineProps } from 'vue';
 
-const nameTextDecoration=ref("line-through")
+const nameTextDecoration=ref("none");
 const {mark, markName}=defineProps(['mark', 'markName']);
 if (mark.value==="~"){
 
@@ -16,7 +16,7 @@ if (mark.value==="~"){
                 {{ mark }}
             </div>
             <div class="pricing-package-box-list-mini-ctn-mark-name-ctn">
-                <p class="pricing-package-box-list-mini-ctn-mark-name">
+                <p class="pricing-package-box-list-mini-ctn-mark-name" :style="{textDecoration:nameTextDecoration}">
                     {{markName}}
                 </p>
             </div>
@@ -29,8 +29,5 @@ if (mark.value==="~"){
     display:flex;
     flex-direction: row;
     gap: 0.5vh;
-}
-.pricing-package-box-list-mini-ctn-mark-name{
-    text-decoration: line-through;
 }
 </style>
