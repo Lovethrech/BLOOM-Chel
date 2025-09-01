@@ -39,15 +39,16 @@ const tryFreeBtnColor=ref("#ffffff");
 .home-about-main-ctn, .home-about-mini-ctn{
     width:100%;
 }
+.home-about-main-ctn, .home-about-mini-ctn, .home-about-mini-ctn-desktop-view{
+    display:flex;
+}
 .home-about-main-ctn{
     height: 100vh;
     padding:4vh 6vw;
-    display:flex;
     justify-content: center;
     place-items: center;
 }
 .home-about-mini-ctn{
-    display:flex;
     flex-direction: row;
     gap:10vw;
     height: 100%;
@@ -55,7 +56,6 @@ const tryFreeBtnColor=ref("#ffffff");
 .home-about-mini-ctn-desktop-view{
     width:50%;
     margin: auto 0;
-    display: flex;
     flex-direction: column;
     gap: 1vw;
 }
@@ -109,14 +109,15 @@ const tryFreeBtnColor=ref("#ffffff");
     }
 }
 @media screen and (max-width: 900px) {
+    .home-about-main-ctn, .home-about-mini-ctn{
+        height:100%;
+    }
     .home-about-main-ctn{
         padding-top: 10vh;
         padding-bottom: 10vh;
-        height:100%;
     }
     .home-about-mini-ctn{
         display:grid;
-        height: 100%;
         gap:2vh;
     }
     .home-about-mini-ctn-desktop-view{
