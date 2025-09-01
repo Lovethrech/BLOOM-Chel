@@ -79,8 +79,6 @@ const bookDemo=()=>{
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 7px 10px 10px #cdcbcd4f;
 }
-.auth-register-details-ctn-mini-ctn{
-}
 .auth-register-details-ctn-mini-ctn-form{
     margin-top: 3vh;
     display:flex;
