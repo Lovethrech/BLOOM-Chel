@@ -10,7 +10,6 @@
 .footer-desc-main-ctn{
     width: 100%;
     text-align:center;
-
 }
 .footer-desc-main-ctn-name{
     color:#fff;

@@ -17,14 +17,15 @@ import FooterLinkIcon from './FooterLinkIcon.vue';
 </template>
 
 <style scoped>
+.footer-link-icon-ctn-main-ctn, .footer-link-icon-ctn-mini-ctn{
+    display:flex;
+}
 .footer-link-icon-ctn-main-ctn{
     width: 100%;
-    display:flex;
     justify-content: center;
     place-items: center;
 }
 .footer-link-icon-ctn-mini-ctn{
-    display:flex;
     flex-direction: row;
     gap:1vw;
 }
