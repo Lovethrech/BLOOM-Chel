@@ -23,6 +23,7 @@ import PricingPackageBox from './PricingPackageBox.vue';
     margin-top: 8vh;
     width: 100%;
     height: 100%;
+    box-shadow: 0px 0.5vh 5.18vh 0 hsl(0, 0%, 28%, 25%);
 }
 .pricing-package-main-box-ctn-mini-ctn{
     display:flex;
