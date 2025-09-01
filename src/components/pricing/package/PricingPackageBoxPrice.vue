@@ -26,17 +26,19 @@ const {price}=defineProps(['price']);
 }
 .pricing-package-box-price-main-ctn-name{
     margin: 0 auto;
-    color: #614EDE;
+    background: linear-gradient(to bottom, #A54dea, #594edc);
+    background-clip:text;
+    color:transparent;
     font-size: 8vh;
-    font-weight: 800;
+    font-weight: 700;
+    letter-spacing: -4%;
     display:flex;
     flex-direction: row;
     justify-content: center;
 }
 .pricing-package-box-price-main-ctn-name-sup, .pricing-package-box-price-main-ctn-name-sub{
     font-size: 5vh;
-    font-weight: 800;
-    
+    font-weight: 700;
 }
 .pricing-package-box-price-main-ctn-name-sub{
     margin-top:5vh;
