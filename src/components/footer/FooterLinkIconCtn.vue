@@ -1,12 +1,17 @@
 <script setup>
-import FooterLinkIconDetails from "@/data/footer-link-icon-details.json"
+import FooterLinkIcons from "@/data/footer-link-icons.json"
 import FooterLinkIcon from './FooterLinkIcon.vue';
 </script>
 
 <template>
     <div class="footer-link-icon-ctn-main-ctn">
         <div class="footer-link-icon-ctn-mini-ctn">
-            <FooterLinkIcon></FooterLinkIcon>
+            <FooterLinkIcon
+                v-for="FooterLinkIcon in FooterLinkIcons"
+                :key="FooterLinkIcon.id"
+                :name="FooterLinkIcon.name"
+            >
+            </FooterLinkIcon>
         </div>
     </div>
 </template>
