@@ -6,6 +6,7 @@
 
 <style scoped>
 .auth-login-ctn-main-ctn{
+    margin: auto 0;
     background-color: #fff;
     color: #000;
     padding: 1vh 2vw;
