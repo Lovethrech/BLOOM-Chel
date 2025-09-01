@@ -14,4 +14,7 @@ const {name}=defineProps(['name']);
     font-size: 4vh;
     color: #fff;
 }
+.footer-link-icon-main-ctn:hover{
+    cursor: pointer;
+}
 </style>
