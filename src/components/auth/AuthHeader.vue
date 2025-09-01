@@ -70,7 +70,7 @@ const openLoginDetails=()=>{
 }
 .auth-header-mini-ctn-auth-content-ctn{
     min-height:50vh;
-    margin-top:20vh;
+    margin-top:15vh;
     display:flex;
     justify-content: center;
 }
