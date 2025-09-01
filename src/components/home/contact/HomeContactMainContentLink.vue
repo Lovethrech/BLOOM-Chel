@@ -29,7 +29,7 @@
     font-size: 1vw;
     text-transform: capitalize;
 }
-..home-contact-main-content-link-mini-ctn i{
+.home-contact-main-content-link-mini-ctn i{
     margin: auto 0;
 }
 
