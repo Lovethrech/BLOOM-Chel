@@ -12,15 +12,15 @@ const navLinkFontSize=ref("1.8vh");
 const tryFreeBtnBgColor=ref("#ffffff");
 const tryFreeBtnColor=ref("#A54dea");
 const displayNavMenuMobileListCtn=ref("none");
-const navMenuActiveIcon=ref("<i class='fi fi-tc-menu-burger'></i>");
+const navMenuActiveIcon=ref("<i class='ri-menu-4-line'></i>");
 
 const navMenuDisplayMenu=()=>{
-    if (navMenuActiveIcon.value==="<i class='fi fi-tc-menu-burger'></i>"){
+    if (navMenuActiveIcon.value==="<i class='ri-menu-4-line'></i>"){
         navMenuActiveIcon.value="<i class='fi fi-br-cross-small'></i>";
         displayNavMenuMobileListCtn.value="block";
     }
     else{
-        navMenuActiveIcon.value="<i class='fi fi-tc-menu-burger'></i>";
+        navMenuActiveIcon.value="<i class='ri-menu-4-line'></i>";
         displayNavMenuMobileListCtn.value="none";
     }
 }
