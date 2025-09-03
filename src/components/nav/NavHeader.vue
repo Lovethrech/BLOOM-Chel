@@ -16,7 +16,7 @@ const navMenuActiveIcon=ref("<i class='ri-menu-4-line'></i>");
 
 const navMenuDisplayMenu=()=>{
     if (navMenuActiveIcon.value==="<i class='ri-menu-4-line'></i>"){
-        navMenuActiveIcon.value="<i class='fi fi-br-cross-small'></i>";
+        navMenuActiveIcon.value="<i class='ri-close-large-line'></i>";
         displayNavMenuMobileListCtn.value="block";
     }
     else{
