@@ -7,6 +7,7 @@
 
 <style scoped>
 .home-team-box-two-main-ctn{
-    background: url(@/assets/team-member-two.svg) no-repeat;
+    background: url(@/assets/team-member-two.svg) top/100%  no-repeat;
 }
+
 </style>
