@@ -76,6 +76,9 @@ img{
   width:13vw;
   height: 30vh;
 }
+.home-team-box-img-main-ctn img{
+  width:fill;
+}
 .home-team-box-mini-ctn, .home-team-box-img-main-ctn{
   width:inherit;
   height: inherit;
