@@ -73,8 +73,8 @@ img{
 /* HOME-TEAM-BOX-ONE AND TWO  */
 .home-team-box-main-ctn{
   background-color: green;
-  width:20vw;
-  height:40vh;
+  width:13vw;
+  height: 30vh;
 }
 .home-team-box-mini-ctn, .home-team-box-img-main-ctn{
   width:inherit;

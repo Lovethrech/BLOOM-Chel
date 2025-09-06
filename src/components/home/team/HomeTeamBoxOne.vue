@@ -1,6 +1,5 @@
 <script setup>
 import HomeTeamBoxOneImg from './HomeTeamBoxOneImg.vue';
-import HomeTeamBoxOneImg from './HomeTeamBoxOneImg.vue';
 </script>
 
 <template>
