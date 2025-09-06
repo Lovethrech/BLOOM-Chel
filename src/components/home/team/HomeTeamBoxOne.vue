@@ -1,11 +1,12 @@
-<script setup>
-import HomeTeamBoxOneImg from './HomeTeamBoxOneImg.vue';
-</script>
-
 <template>
-    <div class="home-team-box-main-ctn">
+    <div class="home-team-box-one-main-ctn">
         <div class="home-team-box-mini-ctn">
-            <HomeTeamBoxOneImg></HomeTeamBoxOneImg>
         </div>
     </div>
 </template>
+
+<style scoped>
+.home-team-box-one-main-ctn{
+    background: url(@/assets/team-member-one.jpg) no-repeat;
+}
+</style>

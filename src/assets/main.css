@@ -71,10 +71,11 @@ img{
 }
 
 /* HOME-TEAM-BOX-ONE AND TWO  */
-.home-team-box-main-ctn{
+.home-team-box-one-main-ctn, .home-team-box-two-main-ctn{
   background-color: green;
   width:13vw;
   height: 30vh;
+  background-size: cover;
 }
 .home-team-box-img-main-ctn img{
   width:fill;
